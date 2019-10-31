@@ -1,1 +1,1 @@
-# learning-artificial-intelligence-reasoners-deep-machine-learning-and-robotics
+# learning-artificial-intelligence-reasoners-machine-learning-game-theory-agents-and-robotics
