@@ -1,3 +1,11 @@
+.icon-30 {
+  color: #bbbbbb;
+  fill: #bbbbbb;
+}
+.icon-30:hover {
+  background: #bbbbbb;
+}
+
 @media only screen and (orientation: landscape) {
 
   /* Defining each sectino background and styles
