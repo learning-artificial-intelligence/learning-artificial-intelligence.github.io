@@ -39,12 +39,12 @@ twitter_username: rubenbarreiro92
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : https://rubenandrebarreiro.github.io/learning-artificial-intelligence-reasoners-machine-learning-game-theory-agents-and-robotics/
+production_url: https://rubenandrebarreiro.github.io/learning-artificial-intelligence-reasoners-machine-learning-game-theory-agents-and-robotics/
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
-JB :
-  version : 0.3.0
+JB:
+  version: 0.3.0
 
   # All links will be namespaced by BASE_PATH if defined.
   # Links in your website should always be prefixed with {{BASE_PATH}}
@@ -68,7 +68,7 @@ JB :
   #   - Only the following values are falsy: ["", null, false]
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
-  BASE_PATH : https://rubenandrebarreiro.github.io/learning-artificial-intelligence-reasoners-machine-learning-game-theory-agents-and-robotics/
+  BASE_PATH: https://rubenandrebarreiro.github.io/learning-artificial-intelligence-reasoners-machine-learning-game-theory-agents-and-robotics/
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
@@ -78,25 +78,25 @@ JB :
   #   http://s3.amazonaws.com/yoursite/themes/watermelon
   #   /assets
   #
-  ASSET_PATH : https://fullit.github.io/assets/themes/bootstrap
+  ASSET_PATH: https://fullit.github.io/assets/themes/bootstrap
 
   # These paths are to the main pages Jekyll-Bootstrap ships with.
   # Some JB helpers refer to these paths; change them here if needed.
   #
   archive_path: /archive.html
-  categories_path : /categories.html
-  tags_path : /tags.html
-  atom_path : /atom.xml
-  rss_path : /rss.xml
+  categories_path: /categories.html
+  tags_path: /tags.html
+  atom_path: /atom.xml
+  rss_path: /rss.xml
 
   # Settings for comments helper
   # Set 'provider' to the comment provider you want to use.
   # Set 'provider' to false to turn commenting off globally.
   #
-  comments :
-    provider : disqus
-    disqus :
-      short_name : jeky-new-age
+  comments:
+    provider: disqus
+    disqus:
+      short_name: jeky-new-age
     #livefyre :
     #  site_id :
     #intensedebate :
@@ -111,10 +111,10 @@ JB :
   # Set 'provider' to the analytics provider you want to use.
   # Set 'provider' to false to turn analytics off globally.
   #
-  analytics :
-    provider : google
-    google :
-        tracking_id : 'UA-94080000-1'
+  analytics:
+    provider: google
+    google:
+        tracking_id: 'UA-94080000-1'
    # getclicky :
    #   site_id :
    # mixpanel :
@@ -128,8 +128,8 @@ JB :
   # Set 'provider' to the sharing provider you want to use.
   # Set 'provider' to false to turn sharing off globally.
   #
-  sharing :
-    provider : false
+  sharing:
+    provider: false
 
   # Settings for all other include helpers can be defined by creating
   # a hash with key named for the given helper. ex:
