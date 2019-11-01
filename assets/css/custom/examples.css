@@ -375,8 +375,8 @@ p{
 
 /* Defining each sectino background and styles added into mediaquery.css
 * --------------------------------------- */
-/* #section0{
-  background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/paint.jpg);
+#section0{
+  background-image: url(./assets/img/big/1.jpg);
   padding: 6% 0 0 0;
 }
 
