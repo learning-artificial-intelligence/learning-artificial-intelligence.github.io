@@ -344,20 +344,10 @@ p{
 }
 
 .icon-30 {
-  color: #d92626;
-  fill: #d92626;
-}
-.icon-30:hover {
-  background: #d92626;
-}
-
-
-
-.icon-31 {
   color: #bbbbbb;
   fill: #bbbbbb;
 }
-.icon-31:hover {
+.icon-30:hover {
   background: #bbbbbb;
 }
 
