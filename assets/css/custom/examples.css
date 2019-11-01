@@ -364,40 +364,48 @@ p{
 
 /* Backgrounds will cover all the section
 * --------------------------------------- */
-#section0,
 #section1,
 #section2,
 #section3,
-#section4{
+#section4,
+#section5,
+#section6{
   background-size: cover;
   background-attachment: fixed;
 }
 
 /* Defining each sectino background and styles added into mediaquery.css
 * --------------------------------------- */
-#section0{
-  background-image: url(../assets/img/big/1.jpg);
-  padding: 6% 0 0 0;
-}
-
-
 #section1{
-  background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/conceria.jpg);
+  background-image: url(https://rubenandrebarreiro.github.io/learning-artificial-intelligence-reasoners-machine-learning-game-theory-agents-and-robotics/assets/imgs/artificial-intelligence-background-1.jpg);
   padding: 6% 0 0 0;
 }
+
 
 #section2{
-  background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/stampa.jpg);
+  background-image: url(https://rubenandrebarreiro.github.io/learning-artificial-intelligence-reasoners-machine-learning-game-theory-agents-and-robotics/assets/imgs/reasoners-background-1.jpg);
   padding: 6% 0 0 0;
 }
+
 #section3{
-  background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/spiga.jpg);
+  background-image: url(https://rubenandrebarreiro.github.io/learning-artificial-intelligence-reasoners-machine-learning-game-theory-agents-and-robotics/assets/imgs/machine-learning-background-1.jpg);
   padding: 6% 0 0 0;
 }
+
 #section4{
-  background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/creta.jpg);
+  background-image: url(https://rubenandrebarreiro.github.io/learning-artificial-intelligence-reasoners-machine-learning-game-theory-agents-and-robotics/assets/imgs/agents-background-1.jpg);
   padding: 6% 0 0 0;
-}*/
+}
+
+#section5{
+  background-image: url(https://rubenandrebarreiro.github.io/learning-artificial-intelligence-reasoners-machine-learning-game-theory-agents-and-robotics/assets/imgs/game-theory-background-1.jpg);
+  padding: 6% 0 0 0;
+}
+
+#section6{
+  background-image: url(https://rubenandrebarreiro.github.io/learning-artificial-intelligence-reasoners-machine-learning-game-theory-agents-and-robotics/assets/imgs/robotics-background-1.jpg);
+  padding: 6% 0 0 0;
+}
 
 
 /*Hightlight colors*/
