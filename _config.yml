@@ -21,14 +21,14 @@ google_ad_client: ca-pub-9204963049240271
 post_limit: 10
 
 
-title : Learning Artificial Intelligence, Reasoners, Machine Learning, Game Theory, Agents and Robotics
+title: Learning Artificial Intelligence, Reasoners, Machine Learning, Game Theory, Agents and Robotics
 tagline: Computing Machines starting to think by themselves!!!
-author : Rúben André Barreiro
-  name : Learning Artificial Intelligence, Reasoners, Machine Learning, Game Theory, Agents and Robotics
-  email : ruben.barreiro.92@gmail.com
-  github : rubenandrebarreiro
-  twitter : rubenbarreiro92
-  feedburner : fullit
+author: Rúben André Barreiro
+  name: Learning Artificial Intelligence, Reasoners, Machine Learning, Game Theory, Agents and Robotics
+  email: ruben.barreiro.92@gmail.com
+  github: rubenandrebarreiro
+  twitter: rubenbarreiro92
+  feedburner: fullit
 
 twitter_username: rubenbarreiro92
 # The production_url is only used when full-domain names are needed
