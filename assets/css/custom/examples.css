@@ -364,44 +364,44 @@ p{
 
 /* Backgrounds will cover all the section
 * --------------------------------------- */
-#artificialintelligence1,
-#reasoners2,
-#machinelearning3,
-#mas4,
-#gametheory5,
-#robotics6{
+#artificialintelligence,
+#reasoners,
+#machinelearning,
+#mas,
+#gametheory,
+#robotics{
   background-size: cover;
   background-attachment: fixed;
 }
 
 /* Defining each sectino background and styles added into mediaquery.css
 * --------------------------------------- */
-#artificialintelligence1{
+#artificialintelligence{
   background-image: url(https://rubenandrebarreiro.github.io/learning-artificial-intelligence-reasoners-machine-learning-mas-game-theory-and-robotics/assets/imgs/artificial-intelligence-background-1.jpg);
   padding: 6% 0 0 0;
 }
 
-#reasoners2{
+#reasoners{
   background-image: url(https://rubenandrebarreiro.github.io/learning-artificial-intelligence-reasoners-machine-learning-mas-game-theory-and-robotics/assets/imgs/reasoners-background-1.jpg);
   padding: 6% 0 0 0;
 }
 
-#machinelearning3{
+#machinelearning{
   background-image: url(https://rubenandrebarreiro.github.io/learning-artificial-intelligence-reasoners-machine-learning-mas-game-theory-and-robotics/assets/imgs/machine-learning-background-1.jpg);
   padding: 6% 0 0 0;
 }
 
-#mas4{
+#mas{
   background-image: url(https://rubenandrebarreiro.github.io/learning-artificial-intelligence-reasoners-machine-learning-mas-game-theory-and-robotics/assets/imgs/agents-background-1.jpg);
   padding: 6% 0 0 0;
 }
 
-#gametheory5{
+#gametheory{
   background-image: url(https://rubenandrebarreiro.github.io/learning-artificial-intelligence-reasoners-machine-learning-mas-game-theory-and-robotics/assets/imgs/game-theory-background-1.jpg);
   padding: 6% 0 0 0;
 }
 
-#robotics6{
+#robotics{
   background-image: url(https://rubenandrebarreiro.github.io/learning-artificial-intelligence-reasoners-machine-learning-mas-game-theory-and-robotics/assets/imgs/robotics-background-1.jpg);
   padding: 6% 0 0 0;
 }
