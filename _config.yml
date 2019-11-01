@@ -7,24 +7,21 @@ pygments: false
 markdown: kramdown
 extensions: [fenced_code_blocks]
 excerpt_separator: "<!--more-->"
-url: https://rubenandrebarreiro.github.io/learning-artificial-intelligence-reasoners-machine-learning-game-theory-agents-and-robotics/
-baseurl: "https://rubenandrebarreiro.github.io/learning-artificial-intelligence-reasoners-machine-learning-game-theory-agents-and-robotics/"
+url: https://rubenandrebarreiro.github.io/learning-artificial-intelligence-reasoners-machine-learning-mas-game-theory-and-robotics/
+baseurl: "https://rubenandrebarreiro.github.io/learning-artificial-intelligence-reasoners-machine-learning-mas-game-theory-and-robotics/"
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
 
-#Google Ad Words Data from scripts code (using Google responsive options) and ad client
-data-ad-slot: 2973388149
-data-ad-client: ca-pub-9204963049240271
-google_ad_client: ca-pub-9204963049240271
+
 
 post_limit: 10
 
 
-title: Learning Artificial Intelligence, Reasoners, Machine Learning, Agents, Game Theory and Robotics
+title: Learning Artificial Intelligence, Reasoners, Machine Learning, Multi-Agents Systems, Game Theory and Robotics
 tagline: Computing Machines starting to observer, think and act by themselves!!!
 author: Rúben André Barreiro
-name: Learning Artificial Intelligence, Reasoners, Machine Learning, Agents, Game Theory and Robotics
+name: Learning Artificial Intelligence, Reasoners, Machine Learning, Multi-Agents Systems, Game Theory and Robotics
 email: ruben.barreiro.92@gmail.com
 github: rubenandrebarreiro
 twitter: rubenbarreiro92
@@ -39,7 +36,7 @@ twitter_username: rubenbarreiro92
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url: https://rubenandrebarreiro.github.io/learning-artificial-intelligence-reasoners-machine-learning-game-theory-agents-and-robotics/
+production_url: https://rubenandrebarreiro.github.io/learning-artificial-intelligence-reasoners-machine-learning-mas-game-theory-and-robotics/
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -68,7 +65,7 @@ JB:
   #   - Only the following values are falsy: ["", null, false]
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
-  BASE_PATH: https://rubenandrebarreiro.github.io/learning-artificial-intelligence-reasoners-machine-learning-game-theory-agents-and-robotics/
+  BASE_PATH: https://rubenandrebarreiro.github.io/learning-artificial-intelligence-reasoners-machine-learning-mas-game-theory-and-robotics/
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]

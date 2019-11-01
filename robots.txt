@@ -6,4 +6,4 @@ Disallow: /_config.yml
 Disallow: /_layouts/
 Disallow: /_plugins/
 
-Sitemap: https://rubenandrebarreiro.github.io/learning-artificial-intelligence-reasoners-machine-learning-game-theory-agents-and-robotics/sitemap.txt
+Sitemap: https://rubenandrebarreiro.github.io/learning-artificial-intelligence-reasoners-machine-learning-mas-game-theory-and-robotics/sitemap.txt
