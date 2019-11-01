@@ -364,12 +364,12 @@ p{
 
 /* Backgrounds will cover all the section
 * --------------------------------------- */
-#section1,
-#section2,
-#section3,
-#section4,
-#section5,
-#section6{
+#artificialintelligence1,
+#reasoners2,
+#machinelearning3,
+#mas4,
+#gametheory5,
+#robotics6{
   background-size: cover;
   background-attachment: fixed;
 }
