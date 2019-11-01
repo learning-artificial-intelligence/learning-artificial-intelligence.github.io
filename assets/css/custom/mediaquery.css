@@ -4,14 +4,14 @@
     * --------------------------------------- */
 
     .jumbotronic h1{
-  
+
       font-family: 'Alfa Slab One', cursive;
       font-size: 3em;
       padding: 1rem 1rem;
       color: #ffffff;
     }
     .jumbotronic a{
-  
+
       color: #ffffff;
     }
 
@@ -38,7 +38,7 @@
     }
     h3{
       font-size: 0.6em;
-      font-family: 'Gentium Book Basic', cursive;
+      font-family: 'Alfa Slab One', cursive;
       color: #fff;
       margin:0;
       padding:0;
@@ -65,7 +65,7 @@
       font-size: 44px;
       -webkit-transform: translateY(-50%);
       transform: translateY(-50%);
-    }    
+    }
 
 
 
@@ -79,7 +79,7 @@
 
     .sidebar{width: 262px; left: 70%; top: 0px; position: fixed;}
     .jumbotronic h1{
-      
+
       font-family: 'Alfa Slab One', cursive;
       font-size: 4em;
       padding: 1rem 1rem;
@@ -91,11 +91,11 @@
       font-size: 2em;
       padding: 1.5rem 1.5rem;
       color: #ffffff;
-    }  
+    }
     .jumbotronic a{
-  
+
       color: #ffffff;
-    }  
+    }
     h1{
       font-size: 5em;
       font-family: 'Alfa Slab One', cursive;
@@ -270,21 +270,21 @@
 }
 @media only screen and (min-width: 600px) {
     /* For tablets: */
-    
+
     /* Style for our header texts
     * --------------------------------------- */
 
     .jumbotronic h1{
-  
+
       font-family: 'Alfa Slab One', cursive;
       font-size: 4em;
       padding: 1rem 1rem;
       color: #ffffff;
     }
     .jumbotronic a{
-  
+
       color: #ffffff;
-    }    
+    }
 
     .jumbotronic h2{
       font-family: 'Gentium Book Basic', cursive;
@@ -472,11 +472,11 @@
 
 
       .sidebar{width: 272px; left: 60%; top: 20%; position: fixed;}
-      
+
       /*SCROLL DOWN ICON
       ------------------------------------------------------------------------*/
       .jumbotronic h1{
-        
+
         font-family: 'Alfa Slab One', cursive;
         font-size: 3em;
         padding: 1rem 1rem;
@@ -490,9 +490,9 @@
         color: #ffffff;
       }
     .jumbotronic a{
-  
+
       color: #ffffff;
-    }      
+    }
 
       .sidebar{visibility: hidden;}
       /*.intro-scroll-down {
