@@ -407,6 +407,16 @@ p{
 }
 
 
+
+.heart {
+	color: #e25555;
+}
+
+.at-host {
+	color: #e6b800;
+}
+
+
 /*Hightlight colors*/
 ::selection {
   background: #000; /* WebKit/Blink Browsers */
@@ -500,7 +510,6 @@ overflow: hidden;
 height: 40px;
 padding: 0 40px;
 }
-
 
 .content__container:before {
 content: '[';
@@ -737,13 +746,6 @@ margin: 0;
 	}
 }
 
-
-/*CUSTOM FORM SIGN IN STYLES*/
-
-/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
-
-
-
 label {
 	display: block;
 	padding: 40px 5px 5px 2px;
@@ -872,11 +874,8 @@ input.cbp-mc-submit:hover {
 }
 
 .post p {
-
 	font-size: 1.2em;
 	line-height: 1.2;
-
-
 }
 
 /*
