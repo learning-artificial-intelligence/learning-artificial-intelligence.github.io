@@ -7,8 +7,8 @@ pygments: false
 markdown: kramdown
 extensions: [fenced_code_blocks]
 excerpt_separator: "<!--more-->"
-url: https://fullit.github.io
-baseurl: "/fullit.github.io"
+url: https://rubenandrebarreiro.github.io/learning-artificial-intelligence-reasoners-machine-learning-game-theory-agents-and-robotics/
+baseurl: "https://rubenandrebarreiro.github.io/learning-artificial-intelligence-reasoners-machine-learning-game-theory-agents-and-robotics/"
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
@@ -18,19 +18,19 @@ data-ad-slot: 2973388149
 data-ad-client: ca-pub-9204963049240271
 google_ad_client: ca-pub-9204963049240271
 
-post_limit: 5
+post_limit: 10
 
 
-title : fullit
-tagline: A responsive templeate built for jekyll3
-author :
-  name : fullit
-  email : lantoniotrento@gmail.com
-  github : antoniotrento
-  twitter : lantoniotrento
+title : Learning Artificial Intelligence, Reasoners, Machine Learning, Game Theory, Agents and Robotics
+tagline: Computing Machines starting to think by themselves!!!
+author : Rúben André Barreiro
+  name :
+  email : ruben.barreiro.92@gmail.com
+  github : rubenandrebarreiro
+  twitter : rubenbarreiro92
   feedburner : fullit
 
-twitter_username: lantoniotrento
+twitter_username: rubenbarreiro92
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt
 # Most places will/should use BASE_PATH to make the urls
@@ -95,12 +95,12 @@ JB :
   #
   comments :
     provider : disqus
-    disqus : 
+    disqus :
       short_name : jeky-new-age
     #livefyre :
-    #  site_id : 
+    #  site_id :
     #intensedebate :
-    #  account : 
+    #  account :
     #facebook :
     #  appid :
       num_posts: 5
