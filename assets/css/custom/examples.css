@@ -377,7 +377,8 @@ p{
 #machinelearning3,
 #mas4,
 #gametheory5,
-#robotics6{
+#robotics6,
+#aboutme7{
   background-size: cover;
   background-attachment: fixed;
 }
@@ -414,6 +415,10 @@ p{
   padding: 6% 0 0 0;
 }
 
+#aboutme7{
+  background-image: url(https://rubenandrebarreiro.github.io/learning-artificial-intelligence-reasoners-machine-learning-mas-game-theory-and-robotics/assets/imgs/about-me-background-1.jpg);
+  padding: 6% 0 0 0;
+}
 
 
 .heart {
