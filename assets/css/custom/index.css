@@ -2,7 +2,7 @@
 
   /* Defining each sectino background and styles
   * --------------------------------------- */
-  #section-0-artificial-intelligence{
+  #section-0-introduction-artificial-intelligence{
     background-image: url(/assets/img/big/universe1.jpg);
     padding: 6% 0 0 0;
   }
@@ -35,7 +35,7 @@
 
       /* Defining each section background and styles on portrait orientation
       * --------------------------------------- */
-      #section-0-artificial-intelligence{
+      #section-0-introduction-artificial-intelligence{
         background-image: url(/assets/img/tablet/universe1.jpg);
         padding: 6% 0 0 0;
       }
