@@ -293,28 +293,13 @@ p{
 }
 
 #copyrights-menu{
-	position:fixed;
+	position: fixed;
 	left: 50%;
 	bottom: 10px;
 	transform: translate(-50%, -50%);
   	margin: 0 auto;
 	z-index: 999;
  }
- 
-.copyrights-paragraph {
-	display: block;
-	font-size: 14px;
-	color: white;
-	list-style: none;
-	margin: 0;
-	padding: 0px;
-	text-align: center;
-}
-.copyrights-paragraph p {
-	margin: 5px;
-	margin: 0.5rem;
-	font-size: 14px;
-}
 
 .heart {
 	color: #e25555;
