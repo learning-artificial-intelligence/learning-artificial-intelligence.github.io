@@ -113,13 +113,13 @@ p{
   list-style: none;
   margin: 0;
   padding: 0px;
-  right: 10px;
+  left: 50%;
   text-align: center;
 }
 .copyrights-paragraph p {
   margin: 5px;
   margin: 0.5rem;
-  right: 10px;
+  left: 50%;
   font-size: 14px;
 }
 
