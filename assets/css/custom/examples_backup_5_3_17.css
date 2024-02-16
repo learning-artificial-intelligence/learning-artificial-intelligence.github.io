@@ -295,7 +295,7 @@ p{
 #copyrights-menu{
 	position:fixed;
 	bottom: 10px;
-	left: 50%;
+	right: 10px;
 	z-index: 999;
  }
  
@@ -309,8 +309,8 @@ p{
   text-align: center;
 }
 .copyrights-paragraph p {
-  margin: 0px;
-  margin: 0em;
+  margin: 5px;
+  margin: 0.5rem;
   font-size: 14px;
 }
 
