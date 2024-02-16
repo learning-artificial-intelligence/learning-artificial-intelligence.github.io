@@ -104,9 +104,21 @@ p{
 	left: 50%;
 	bottom: 10px;
 	transform: translate(-50%, -50%);
-  	margin: 0 auto;
 	z-index: 999;
  }
+ 
+.copyrights-paragraph {
+	font-size: 14px;
+	color: white;
+	text-align: center;
+}
+.copyrights-paragraph p {
+	margin: 5px;
+	margin: 0.5rem;
+	font-size: 14px;
+	color: white;
+	text-align: center;
+}
 
 .heart {
 	color: #e25555;
