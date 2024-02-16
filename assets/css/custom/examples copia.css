@@ -293,7 +293,9 @@ p{
 }
 
 #copyrights-menu{
+	text-align: center;
 	position: fixed;
+	left: 50%;
 	bottom: 10px;
 	color: #ffffff;
   	margin: 0 0;
