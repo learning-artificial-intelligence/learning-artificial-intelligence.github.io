@@ -108,7 +108,7 @@ p{
  
 .copyrights-paragraph {
   display: block;
-  font-size: 10px;
+  font-size: 20px;
   color: white;
   list-style: none;
   margin: 0;
@@ -118,7 +118,7 @@ p{
 .copyrights-paragraph p {
   margin: 5px;
   margin: 0.5rem;
-  font-size: 10px;
+  font-size: 20px;
 }
 
 
