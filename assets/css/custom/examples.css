@@ -54,14 +54,14 @@ p{
 	top: 9px;
 }
 
-#socialMenu{
+#social-menu{
 	position:fixed;
 	bottom: 10px;
 	left:10px;
 	z-index: 999;
  }
 
- .soc {
+ .social-list {
   display: block;
   font-size: 0;
   list-style: none;
@@ -69,26 +69,26 @@ p{
   padding: 0px;
   text-align: center;
 }
-.soc li {
+.social-list li {
   display: inline-block;
   margin: 5px;
   margin: 0.5rem;
 }
-.soc a, .soc svg {
+.social-list a, .social-list svg {
   display: block;
 }
-.soc a {
+.social-list a {
   position: relative;
   height: 26px;
   height: 2.6rem;
   width: 26px;
   width: 2.6rem;
 }
-.soc svg {
+.social-list svg {
   height: 100%;
   width: 100%;
 }
-.soc em {
+.social-list em {
   font-size: 4px;
   line-height: 0.5;
   margin-top: -0.75em;
@@ -98,6 +98,14 @@ p{
   bottom: 0;
   left: 0;
 }
+
+#copyrights-menu{
+	position:fixed;
+	bottom: 10px;
+	right:10px;
+	z-index: 999;
+ }
+
 
 .icon-1:hover, .icon-2:hover, .icon-3:hover, .icon-4:hover, .icon-5:hover, .icon-6:hover, .icon-7:hover, .icon-8:hover, .icon-9:hover, .icon-10:hover, .icon-11:hover, .icon-12:hover, .icon-13:hover, .icon-14:hover, .icon-15:hover, .icon-16:hover, .icon-17:hover, .icon-18:hover, .icon-19:hover, .icon-20:hover, .icon-21:hover, .icon-22:hover, .icon-23:hover, .icon-24:hover, .icon-25:hover, .icon-26:hover, .icon-27:hover, .icon-28:hover, .icon-29:hover, .icon-30:hover {
   border-radius: 100%;
