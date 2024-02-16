@@ -296,6 +296,7 @@ p{
 	position: fixed;
 	left: 50%;
 	bottom: 10px;
+	color: #ffffff;
 	transform: translate(-50%, -50%);
 	z-index: 999;
  }
