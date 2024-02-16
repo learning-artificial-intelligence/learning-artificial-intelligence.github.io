@@ -250,7 +250,7 @@ p{
 #social-menu{
 	position:fixed;
 	bottom: 10px;
-	left:10px;
+	left: 10px;
 	z-index: 999;
  }
 
@@ -295,13 +295,13 @@ p{
 #copyrights-menu{
 	position:fixed;
 	bottom: 10px;
-	right:10px;
+	right: 10px;
 	z-index: 999;
  }
  
 .copyrights-paragraph {
   display: block;
-  font-size: 16px;
+  font-size: 12px;
   color: white;
   list-style: none;
   margin: 0;
@@ -311,7 +311,7 @@ p{
 .copyrights-paragraph p {
   margin: 5px;
   margin: 0.5rem;
-  font-size: 16px;
+  font-size: 12px;
 }
 .icon-1:hover, .icon-2:hover, .icon-3:hover, .icon-4:hover, .icon-5:hover, .icon-6:hover, .icon-7:hover, .icon-8:hover, .icon-9:hover, .icon-10:hover, .icon-11:hover, .icon-12:hover, .icon-13:hover, .icon-14:hover, .icon-15:hover, .icon-16:hover, .icon-17:hover, .icon-18:hover, .icon-19:hover, .icon-20:hover, .icon-21:hover, .icon-22:hover, .icon-23:hover, .icon-24:hover, .icon-25:hover, .icon-26:hover, .icon-27:hover, .icon-28:hover, .icon-29:hover, .icon-30:hover {
   border-radius: 100%;
