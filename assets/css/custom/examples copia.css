@@ -72,7 +72,7 @@ p{
 	margin: 0 auto;
 	font-size: 1.5em;
 }
-.section{
+.module{
 	text-align:center;
 }
 #menu li {
@@ -580,101 +580,101 @@ p{
 ----------------------------------------- */
 
 
-/* Centered texts in each section
+/* Centered texts in each module
 * --------------------------------------- */
-.section{
+.module{
   text-align:center;
 }
 
 
-/* Backgrounds will cover all the section
+/* Backgrounds will cover all the module
 * --------------------------------------- */
-#section-1-introduction-artificial-intelligence,
-#section-2-logical-reasoners,
-#section-3-classical-machine-learning,
-#section-4-quantum-machine-learning,
-#section-5-classical-deep-learning,
-#section-6-quantum-deep-learning,
-#section-7-classical-game-theory,
-#section-8-quantum-game-theory,
-#section-9-classical-natural-language-processing,
-#section-10-quantum-natural-language-processing,
-#section-11-multi-agent-systems,
-#section-12-robotics,
-#section-13-classical-mathematical-optimization,
-#section-14-quantum-mathematical-optimization {
+#module-1-introduction-artificial-intelligence,
+#module-2-logical-reasoners,
+#module-3-classical-machine-learning,
+#module-4-quantum-machine-learning,
+#module-5-classical-deep-learning,
+#module-6-quantum-deep-learning,
+#module-7-classical-game-theory,
+#module-8-quantum-game-theory,
+#module-9-classical-natural-language-processing,
+#module-10-quantum-natural-language-processing,
+#module-11-multi-agent-systems,
+#module-12-robotics,
+#module-13-classical-mathematical-optimization,
+#module-14-quantum-mathematical-optimization {
   background-size: cover;
   background-attachment: fixed;
 }
 
-/* Defining each sectino background and styles added into mediaquery.css
+/* Defining each module background and styles added into mediaquery.css
 * --------------------------------------- */
-/* #section-1-introduction-artificial-intelligence {
+/* #module-1-introduction-artificial-intelligence {
   background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/paint.jpg);
   padding: 6% 0 0 0;
 }
 
-#section-2-logical-reasoners {
+#module-2-logical-reasoners {
   background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/conceria.jpg);
   padding: 6% 0 0 0;
 }
 
-#section-3-classical-machine-learning {
+#module-3-classical-machine-learning {
   background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/stampa.jpg);
   padding: 6% 0 0 0;
 }
 
-#section-4-quantum-machine-learning {
+#module-4-quantum-machine-learning {
   background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/spiga.jpg);
   padding: 6% 0 0 0;
 }
 
-#section-5-classical-deep-learning {
+#module-5-classical-deep-learning {
   background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/creta.jpg);
   padding: 6% 0 0 0;
 }
 
-#section-6-quantum-deep-learning {
+#module-6-quantum-deep-learning {
   background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/creta.jpg);
   padding: 6% 0 0 0;
 }
 
-#section-7-classical-game-theory {
+#module-7-classical-game-theory {
   background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/creta.jpg);
   padding: 6% 0 0 0;
 }
 
-#section-8-quantum-game-theory {
+#module-8-quantum-game-theory {
   background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/creta.jpg);
   padding: 6% 0 0 0;
 }
 
-#section-9-classical-natural-language-processing {
+#module-9-classical-natural-language-processing {
   background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/creta.jpg);
   padding: 6% 0 0 0;
 }
 
-#section-10-quantum-natural-language-processing {
+#module-10-quantum-natural-language-processing {
   background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/creta.jpg);
   padding: 6% 0 0 0;
 }
 
-#section-11-multi-agent-systems {
+#module-11-multi-agent-systems {
   background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/creta.jpg);
   padding: 6% 0 0 0;
 }
 
-#section-12-robotics {
+#module-12-robotics {
   background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/creta.jpg);
   padding: 6% 0 0 0;
 }
 
-#section-13-classical-mathematical-optimization {
+#module-13-classical-mathematical-optimization {
   background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/creta.jpg);
   padding: 6% 0 0 0;
 }
 
-#section-14-quantum-mathematical-optimization {
+#module-14-quantum-mathematical-optimization {
   background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/creta.jpg);
   padding: 6% 0 0 0;
 }*/

@@ -2,72 +2,72 @@
 
   /* Defining each sectino background and styles
   * --------------------------------------- */
-  #section-1-introduction-artificial-intelligence {
+  #module-1-introduction-artificial-intelligence {
     background-image: url(/assets/img/big/universe1.jpg);
     padding: 6% 0 0 0;
   }
 
-  #section-2-logical-reasoners {
+  #module-2-logical-reasoners {
     background-image: url(/assets/img/big/universe2.jpg);
     padding: 6% 0 0 0;
   }
 
-  #section-3-classical-machine-learning {
+  #module-3-classical-machine-learning {
     background-image: url(/assets/img/big/universe3.jpg);
     padding: 6% 0 0 0;
   }
 
-  #section-4-quantum-machine-learning {
+  #module-4-quantum-machine-learning {
     background-image: url(/assets/img/big/universe4.jpg);
     padding: 6% 0 0 0;
   }
   
-  #section-5-classical-deep-learning {
+  #module-5-classical-deep-learning {
     background-image: url(/assets/img/big/universe5.jpg);
     padding: 6% 0 0 0;
   }
   
-  #section-6-quantum-deep-learning {
+  #module-6-quantum-deep-learning {
     background-image: url(/assets/img/big/universe5.jpg);
     padding: 6% 0 0 0;
   }
   
-  #section-7-classical-game-theory {
+  #module-7-classical-game-theory {
     background-image: url(/assets/img/big/universe5.jpg);
     padding: 6% 0 0 0;
   }
   
-  #section-8-quantum-game-theory {
+  #module-8-quantum-game-theory {
     background-image: url(/assets/img/big/universe5.jpg);
     padding: 6% 0 0 0;
   }
   
-  #section-9-classical-natural-language-processing {
+  #module-9-classical-natural-language-processing {
     background-image: url(/assets/img/big/universe5.jpg);
     padding: 6% 0 0 0;
   }
   
-  #section-10-quantum-natural-language-processing {
+  #module-10-quantum-natural-language-processing {
     background-image: url(/assets/img/big/universe5.jpg);
     padding: 6% 0 0 0;
   }
   
-  #section-11-multi-agent-systems {
+  #module-11-multi-agent-systems {
     background-image: url(/assets/img/big/universe5.jpg);
     padding: 6% 0 0 0;
   }
   
-  #section-12-robotics {
+  #module-12-robotics {
     background-image: url(/assets/img/big/universe5.jpg);
     padding: 6% 0 0 0;
   }
   
-  #section-13-classical-mathematical-optimization {
+  #module-13-classical-mathematical-optimization {
     background-image: url(/assets/img/big/universe5.jpg);
     padding: 6% 0 0 0;
   }
   
-  #section-14-quantum-mathematical-optimization {
+  #module-14-quantum-mathematical-optimization {
     background-image: url(/assets/img/big/universe5.jpg);
     padding: 6% 0 0 0;
   }
@@ -76,74 +76,74 @@
 
 @media only screen and (orientation: portrait) {
 
-    /* Defining each section background and styles on portrait orientation
+    /* Defining each module background and styles on portrait orientation
     * --------------------------------------- */
-    #section-1-introduction-artificial-intelligence {
+    #module-1-introduction-artificial-intelligence {
       background-image: url(/assets/img/tablet/universe1.jpg);
       padding: 6% 0 0 0;
     }
 
-    #section-2-logical-reasoners {
+    #module-2-logical-reasoners {
       background-image: url(/assets/img/tablet/universe2.jpg);
       padding: 6% 0 0 0;
     }
 
-    #section-3-classical-machine-learning {
+    #module-3-classical-machine-learning {
       background-image: url(/assets/img/tablet/universe3.jpg);
       padding: 6% 0 0 0;
     }
 
-    #section-4-quantum-machine-learning {
+    #module-4-quantum-machine-learning {
       background-image: url(/assets/img/tablet/universe4.jpg);
       padding: 6% 0 0 0;
     }
 
-    #section-5-classical-deep-learning {
+    #module-5-classical-deep-learning {
       background-image: url(/assets/img/tablet/universe5.jpg);
       padding: 6% 0 0 0;
     }
 
-    #section-6-quantum-deep-learning {
+    #module-6-quantum-deep-learning {
       background-image: url(/assets/img/tablet/universe5.jpg);
       padding: 6% 0 0 0;
     }
 
-    #section-7-classical-game-theory {
+    #module-7-classical-game-theory {
       background-image: url(/assets/img/tablet/universe5.jpg);
       padding: 6% 0 0 0;
     }
 
-    #section-8-quantum-game-theory {
+    #module-8-quantum-game-theory {
       background-image: url(/assets/img/tablet/universe5.jpg);
       padding: 6% 0 0 0;
     }
 
-    #section-9-classical-natural-language-processing {
+    #module-9-classical-natural-language-processing {
       background-image: url(/assets/img/tablet/universe5.jpg);
       padding: 6% 0 0 0;
     }
 
-    #section-10-quantum-natural-language-processing {
+    #module-10-quantum-natural-language-processing {
       background-image: url(/assets/img/tablet/universe5.jpg);
       padding: 6% 0 0 0;
     }
 
-    #section-11-multi-agent-systems {
+    #module-11-multi-agent-systems {
       background-image: url(/assets/img/tablet/universe5.jpg);
       padding: 6% 0 0 0;
     }
 
-    #section-12-robotics {
+    #module-12-robotics {
       background-image: url(/assets/img/tablet/universe5.jpg);
       padding: 6% 0 0 0;
     }
 
-    #section-13-classical-mathematical-optimization {
+    #module-13-classical-mathematical-optimization {
       background-image: url(/assets/img/tablet/universe5.jpg);
       padding: 6% 0 0 0;
     }
 
-    #section-14-quantum-mathematical-optimization {
+    #module-14-quantum-mathematical-optimization {
       background-image: url(/assets/img/tablet/universe5.jpg);
       padding: 6% 0 0 0;
     }
