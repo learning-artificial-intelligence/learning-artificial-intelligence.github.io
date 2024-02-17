@@ -72,7 +72,7 @@ p{
 	margin: 0 auto;
 	font-size: 1.5em;
 }
-.module{
+.section{
 	text-align:center;
 }
 #menu li {
@@ -580,14 +580,14 @@ p{
 ----------------------------------------- */
 
 
-/* Centered texts in each module
+/* Centered texts in each section
 * --------------------------------------- */
-.module{
+.section{
   text-align:center;
 }
 
 
-/* Backgrounds will cover all the module
+/* Backgrounds will cover all the section
 * --------------------------------------- */
 #module-1-introduction-artificial-intelligence,
 #module-2-logical-reasoners,
@@ -607,7 +607,7 @@ p{
   background-attachment: fixed;
 }
 
-/* Defining each module background and styles added into mediaquery.css
+/* Defining each section background and styles added into mediaquery.css
 * --------------------------------------- */
 /* #module-1-introduction-artificial-intelligence {
   background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/paint.jpg);
