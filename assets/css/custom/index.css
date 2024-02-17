@@ -42,22 +42,32 @@
     padding: 6% 0 0 0;
   }
   
-  #section-9-natural-language-processing {
+  #section-9-classical-natural-language-processing {
     background-image: url(/assets/img/big/universe5.jpg);
     padding: 6% 0 0 0;
   }
   
-  #section-10-multi-agent-systems {
+  #section-10-quantum-natural-language-processing {
     background-image: url(/assets/img/big/universe5.jpg);
     padding: 6% 0 0 0;
   }
   
-  #section-11-robotics {
+  #section-11-multi-agent-systems {
     background-image: url(/assets/img/big/universe5.jpg);
     padding: 6% 0 0 0;
   }
   
-  #section-12-mathematical-optimization {
+  #section-12-robotics {
+    background-image: url(/assets/img/big/universe5.jpg);
+    padding: 6% 0 0 0;
+  }
+  
+  #section-13-classical-mathematical-optimization {
+    background-image: url(/assets/img/big/universe5.jpg);
+    padding: 6% 0 0 0;
+  }
+  
+  #section-14-quantum-mathematical-optimization {
     background-image: url(/assets/img/big/universe5.jpg);
     padding: 6% 0 0 0;
   }
@@ -108,22 +118,32 @@
       padding: 6% 0 0 0;
     }
 
-    #section-9-natural-language-processing {
+    #section-9-classical-natural-language-processing {
       background-image: url(/assets/img/tablet/universe5.jpg);
       padding: 6% 0 0 0;
     }
 
-    #section-10-multi-agent-systems {
+    #section-10-quantum-natural-language-processing {
       background-image: url(/assets/img/tablet/universe5.jpg);
       padding: 6% 0 0 0;
     }
 
-    #section-11-robotics {
+    #section-11-multi-agent-systems {
       background-image: url(/assets/img/tablet/universe5.jpg);
       padding: 6% 0 0 0;
     }
 
-    #section-12-mathematical-optimization {
+    #section-12-robotics {
+      background-image: url(/assets/img/tablet/universe5.jpg);
+      padding: 6% 0 0 0;
+    }
+
+    #section-13-classical-mathematical-optimization {
+      background-image: url(/assets/img/tablet/universe5.jpg);
+      padding: 6% 0 0 0;
+    }
+
+    #section-14-quantum-mathematical-optimization {
       background-image: url(/assets/img/tablet/universe5.jpg);
       padding: 6% 0 0 0;
     }
