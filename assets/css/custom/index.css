@@ -42,12 +42,22 @@
     padding: 6% 0 0 0;
   }
   
-  #section-9-multi-agent-systems {
+  #section-9-natural-language-processing {
     background-image: url(/assets/img/big/universe5.jpg);
     padding: 6% 0 0 0;
   }
   
-  #section-10-robotics {
+  #section-10-multi-agent-systems {
+    background-image: url(/assets/img/big/universe5.jpg);
+    padding: 6% 0 0 0;
+  }
+  
+  #section-11-robotics {
+    background-image: url(/assets/img/big/universe5.jpg);
+    padding: 6% 0 0 0;
+  }
+  
+  #section-12-mathematical-optimization {
     background-image: url(/assets/img/big/universe5.jpg);
     padding: 6% 0 0 0;
   }
@@ -98,12 +108,22 @@
       padding: 6% 0 0 0;
     }
 
-    #section-9-multi-agent-systems {
+    #section-9-natural-language-processing {
       background-image: url(/assets/img/tablet/universe5.jpg);
       padding: 6% 0 0 0;
     }
 
-    #section-10-robotics {
+    #section-10-multi-agent-systems {
+      background-image: url(/assets/img/tablet/universe5.jpg);
+      padding: 6% 0 0 0;
+    }
+
+    #section-11-robotics {
+      background-image: url(/assets/img/tablet/universe5.jpg);
+      padding: 6% 0 0 0;
+    }
+
+    #section-12-mathematical-optimization {
       background-image: url(/assets/img/tablet/universe5.jpg);
       padding: 6% 0 0 0;
     }
