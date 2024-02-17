@@ -590,37 +590,68 @@ p{
 
 /* Backgrounds will cover all the section
 * --------------------------------------- */
-#section0,
-#section1,
-#section2,
-#section3,
-#section4{
+#section-1-introduction-artificial-intelligence,
+#section-2-logical-reasoners,
+#section-3-classical-machine-learning,
+#section-4-quantum-machine-learning,
+#section-5-classical-deep-learning,
+#section-6-quantum-deep-learning,
+#section-7-classical-game-theory,
+#section-8-quantum-game-theory,
+#section-9-multi-agent-systems,
+#section-10-robotics {
   background-size: cover;
   background-attachment: fixed;
 }
 
 /* Defining each sectino background and styles added into mediaquery.css
 * --------------------------------------- */
-/* #section0{
+/* #section-1-introduction-artificial-intelligence {
   background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/paint.jpg);
   padding: 6% 0 0 0;
 }
 
-
-#section1{
+#section-2-logical-reasoners {
   background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/conceria.jpg);
   padding: 6% 0 0 0;
 }
 
-#section2{
+#section-3-classical-machine-learning {
   background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/stampa.jpg);
   padding: 6% 0 0 0;
 }
-#section3{
+
+#section-4-quantum-machine-learning {
   background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/spiga.jpg);
   padding: 6% 0 0 0;
 }
-#section4{
+
+#section-5-classical-deep-learning {
+  background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/creta.jpg);
+  padding: 6% 0 0 0;
+}
+
+#section-6-quantum-deep-learning {
+  background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/creta.jpg);
+  padding: 6% 0 0 0;
+}
+
+#section-7-classical-game-theory {
+  background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/creta.jpg);
+  padding: 6% 0 0 0;
+}
+
+#section-8-quantum-game-theory {
+  background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/creta.jpg);
+  padding: 6% 0 0 0;
+}
+
+#section-9-multi-agent-systems {
+  background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/creta.jpg);
+  padding: 6% 0 0 0;
+}
+
+#section-10-robotics {
   background-image: url(https://mestieri.github.io/mestieri-squeeze/img/big/creta.jpg);
   padding: 6% 0 0 0;
 }*/
