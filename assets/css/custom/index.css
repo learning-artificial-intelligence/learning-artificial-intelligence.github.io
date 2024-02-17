@@ -2,30 +2,55 @@
 
   /* Defining each sectino background and styles
   * --------------------------------------- */
-  #section-0-introduction-artificial-intelligence{
+  #section-1-introduction-artificial-intelligence {
     background-image: url(/assets/img/big/universe1.jpg);
     padding: 6% 0 0 0;
   }
 
-  #section1{
+  #section-2-logical-reasoners {
     background-image: url(/assets/img/big/universe2.jpg);
     padding: 6% 0 0 0;
   }
 
-  #section2{
+  #section-3-classical-machine-learning {
     background-image: url(/assets/img/big/universe3.jpg);
     padding: 6% 0 0 0;
   }
-  #section3{
+
+  #section-4-quantum-machine-learning {
     background-image: url(/assets/img/big/universe4.jpg);
     padding: 6% 0 0 0;
   }
-  #section4{
+  
+  #section-5-classical-deep-learning {
     background-image: url(/assets/img/big/universe5.jpg);
     padding: 6% 0 0 0;
   }
-
-
+  
+  #section-6-quantum-deep-learning {
+    background-image: url(/assets/img/big/universe5.jpg);
+    padding: 6% 0 0 0;
+  }
+  
+  #section-7-classical-game-theory {
+    background-image: url(/assets/img/big/universe5.jpg);
+    padding: 6% 0 0 0;
+  }
+  
+  #section-8-quantum-game-theory {
+    background-image: url(/assets/img/big/universe5.jpg);
+    padding: 6% 0 0 0;
+  }
+  
+  #section-9-multi-agent-systems {
+    background-image: url(/assets/img/big/universe5.jpg);
+    padding: 6% 0 0 0;
+  }
+  
+  #section-10-robotics {
+    background-image: url(/assets/img/big/universe5.jpg);
+    padding: 6% 0 0 0;
+  }
 
 }
 
@@ -33,25 +58,52 @@
 
     /* Defining each section background and styles on portrait orientation
     * --------------------------------------- */
-    #section-0-introduction-artificial-intelligence{
+    #section-1-introduction-artificial-intelligence {
       background-image: url(/assets/img/tablet/universe1.jpg);
       padding: 6% 0 0 0;
     }
 
-    #section1{
+    #section-2-logical-reasoners {
       background-image: url(/assets/img/tablet/universe2.jpg);
       padding: 6% 0 0 0;
     }
 
-    #section2{
+    #section-3-classical-machine-learning {
       background-image: url(/assets/img/tablet/universe3.jpg);
       padding: 6% 0 0 0;
     }
-    #section3{
+
+    #section-4-quantum-machine-learning {
       background-image: url(/assets/img/tablet/universe4.jpg);
       padding: 6% 0 0 0;
     }
-    #section4{
+
+    #section-5-classical-deep-learning {
+      background-image: url(/assets/img/tablet/universe5.jpg);
+      padding: 6% 0 0 0;
+    }
+
+    #section-6-quantum-deep-learning {
+      background-image: url(/assets/img/tablet/universe5.jpg);
+      padding: 6% 0 0 0;
+    }
+
+    #section-7-classical-game-theory {
+      background-image: url(/assets/img/tablet/universe5.jpg);
+      padding: 6% 0 0 0;
+    }
+
+    #section-8-quantum-game-theory {
+      background-image: url(/assets/img/tablet/universe5.jpg);
+      padding: 6% 0 0 0;
+    }
+
+    #section-9-multi-agent-systems {
+      background-image: url(/assets/img/tablet/universe5.jpg);
+      padding: 6% 0 0 0;
+    }
+
+    #section-10-robotics {
       background-image: url(/assets/img/tablet/universe5.jpg);
       padding: 6% 0 0 0;
     }
