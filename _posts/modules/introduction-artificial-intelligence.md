@@ -1,6 +1,6 @@
 ---
 layout: post
-category : modules
+category: modules
 tagline: "Introduction to Artificial Intelligence"
 tags : [introduction-artificial-intelligence, introduction, intro, beginner, artificial-intelligence, ai, module]
 img : 3.jpg
