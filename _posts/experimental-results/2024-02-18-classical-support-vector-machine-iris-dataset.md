@@ -1,5 +1,5 @@
 ---
-layout: experimental-results
+layout: results
 category: experimental-results
 title: "Experimental Results - (Classical) Support Vector Machine (SVM) on IRIS Dataset"
 tagline: "Classification results obtained from tuning several hyperparameters of (Classical) Support Vector Machine (SVM) on IRIS Dataset..."
