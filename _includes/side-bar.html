@@ -1,13 +1,16 @@
 <div class="side-bar sticky-top">
   <br/>
   <hr>
-  <div>
-    {% unless page.categories == empty %}
-          <h4 class="lead">
-                Categories | {{page.categories | array_to_sentence_string}}
-          </p>
-    {% endunless %}
-  </div>
+  {% unless page.categories == empty %}
+    <div>
+      <div class="post">
+        <h4>Categories</h4>
+      </div>
+      <h5>
+        {{page.categories | array_to_sentence_string}}
+      </h5>
+    </div>
+  {% endunless %}
   <hr>
   <div>
     <div class="post">
@@ -18,7 +21,14 @@
   <hr>
   <div>
     <div class="post">
-      <h4>Contact/Follow Me</h4>
+      <h4>Contact Me</h4>
+    </div>
+    {% include social-block.html %}
+  </div>
+  <hr>
+  <div>
+    <div class="post">
+      <h4>Follow Me</h4>
     </div>
     {% include social-block.html %}
   </div>
