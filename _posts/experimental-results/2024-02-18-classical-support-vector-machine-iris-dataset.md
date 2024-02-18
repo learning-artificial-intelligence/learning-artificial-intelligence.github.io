@@ -1,7 +1,7 @@
 ---
 layout: results
 category: experimental-results
-title: "Experimental Results - (Classical) Support Vector Machine (SVM) on IRIS Dataset"
+title: "Experimental Results for (Classical) Support Vector Machine (SVM) on IRIS Dataset"
 tagline: "Classification results obtained from tuning several hyperparameters of (Classical) Support Vector Machine (SVM) on IRIS Dataset..."
 author: Rúben André Barreiro
 tags: [artificial-intelligence, computer-science, classical-support-vector-machine, support-vector-machine, classical-machine-learning, machine-learning, supervised-learning, training, classification, iris-dataset, intermediate]
@@ -15,7 +15,7 @@ js:
 
 ***
 
-# Experimental Results - (Classical) Support Vector Machine (SVM) on IRIS Dataset
+# Experimental Results for (Classical) Support Vector Machine (SVM) on IRIS Dataset
 
 ***
 
