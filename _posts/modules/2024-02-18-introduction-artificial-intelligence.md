@@ -1,14 +1,15 @@
 ---
 layout: module
 category: modules
-tagline: "Introduction to Artificial Intelligence"
-tags : [artificial-intelligence, computer-science, introduction, beginner]
+title: "Introduction to Artificial Intelligence"
+tagline: "Can computational machines and systems think like the human-beings??!"
 author: Rúben André Barreiro
+tags: [artificial-intelligence, computer-science, introduction, beginner]
+keywords: introduction to artificial intelligence, introduction, intro, beginner, artificial intelligence, ai
 bgcolor: ff5a71
+canonical: https://learning-artificial-intelligence.github.io/
 css: 
 js: 
-keywords: introduction to artificial intelligence, introduction, intro, beginner, artificial intelligence, ai, 
-canonical: https://learning-artificial-intelligence.github.io/
 ---
 {% include JB/setup %}
 
