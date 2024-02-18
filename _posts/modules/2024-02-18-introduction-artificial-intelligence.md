@@ -1,15 +1,11 @@
 ---
-layout: post
+layout: module
 category: modules
-tagline: "Introduction to Artificial Intelligence"
-tags : [introduction-artificial-intelligence, introduction, intro, beginner, artificial-intelligence, ai, module]
-img : 3.jpg
-img-mobile : 3-mobile.jpg
-img2 : 2.jpg
-img3 : 3.jpg
-author : Antonio Trento
-title2 : New FullIt Theme
-title3 : Created for jekyll
+title: "Introduction to Artificial Intelligence"
+tagline: "In this module, we are going through a historical review, background, and basics of Artificial Intelligence..."
+tags: [introduction-artificial-intelligence, introduction, intro, beginner, artificial-intelligence, ai, module]
+img: 3.jpg
+author: "Rúben André Barreiro"
 bgcolor: ff5a71
 css: 
 js: 
