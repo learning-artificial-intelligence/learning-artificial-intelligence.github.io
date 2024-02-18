@@ -16,6 +16,10 @@ canonical: https://learning-artificial-intelligence.github.io/
 
 # 1. Introduction to Artificial Intelligence
 
+***
+
+## Preface
+
 In this module...
 
 ***
