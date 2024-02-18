@@ -1,30 +1,21 @@
 <div class="side-bar sticky-top">
-  <br />
+  <br/>
   <hr>
-  <div>
-    <div class="post">
-      {% unless page.categories == empty %}
-      <h4 class="lead">
-        Categories
-      </h4>
-      <br />
-      <h5>
-        {{page.categories | array_to_sentence_string}}
-      </h5>
-      {% endunless %}
-  </div>
-  <div>
-    <div class="post">
-      <h4>Share</h4>
-    </div>
-    {% include social-share.html %}
-  </div>
-  <hr>
-  <div>
-    <div class="post">
-      <h4>Contact/Follow Me</h4>
-    </div>
+  <div><!--
+  	<div class="post">
+    <h4>Follow Me Buddy!</h4>
+    </div>-->
+    
     {% include social-block.html %}
+
+  </div>
+  <hr>
+  <div>
+
+    {% include ads-block.html %}
+   
+    
   </div>
   <hr>
 </div>
+              
