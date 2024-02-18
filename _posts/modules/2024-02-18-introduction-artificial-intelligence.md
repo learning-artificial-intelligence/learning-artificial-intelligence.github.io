@@ -23,3 +23,5 @@ In this module...
 ## License
 
 [MIT](http://www.opensource.org/licenses/MIT)
+
+***
