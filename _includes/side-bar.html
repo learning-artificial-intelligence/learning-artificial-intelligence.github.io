@@ -2,6 +2,14 @@
   <br/>
   <hr>
   <div>
+    {% unless page.categories == empty %}
+          <h4 class="lead">
+                Categories | {{page.categories | array_to_sentence_string}}
+          </p>
+    {% endunless %}
+  </div>
+  <hr>
+  <div>
     <div class="post">
       <h4>Share</h4>
     </div>
