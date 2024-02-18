@@ -1,53 +1,18 @@
 {% include themes/bootstrap/nav-bar.html %}
 <br />
-<br />
-
 <div class="container">
-
-<div class="row">
-
-<div class="col-sm-8 blog-main post">
-
-{% include ads-block.html %}
-<br />
-{{ content }}
-<br />
-{% include ads-block.html %}
-<br />
-<div class="row">
-
-<div class="col-sm-6">
-
-   {% include social-share.html %} 
-
-</div>
-<div class="col-sm-6">
-{% unless page.categories == empty %}
-      <h4 class="lead">
-            Categories | {{page.categories | array_to_sentence_string}}
-      </h4>
-{% endunless %}
-</div>
-
-
-
-</div>
-<hr>
-
-
-
-
-</div>
-
-<div class="col-sm-3 offset-sm-1 blog-sidebar affix">
-{% include side-bar.html %}
-</div>          
-</div>
-
-<div class="row">          
-<div class="col-sm-6"  style="text-align: center;">
-
-
-</div>
-
+  <div class="row">
+    <div class="col-sm-8 blog-main post">
+      {% include ads-block.html %}
+      <br />
+      {{ content }}
+      <br />
+      {% include ads-block.html %}
+      <br />
+      <hr>
+    </div>
+    <div class="col-sm-3 offset-sm-1 blog-sidebar affix">
+      {% include side-bar.html %}
+    </div>          
+  </div>
 </div>
