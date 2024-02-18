@@ -18,7 +18,7 @@ canonical: https://learning-artificial-intelligence.github.io/
 ---
 {% include JB/setup %}
 
-# 1. Introduction to Artificial Intelligence
+# **1. Introduction to <br>&nbsp;&nbsp;&nbsp;Artificial Intelligence**
 
 In this module...
 
