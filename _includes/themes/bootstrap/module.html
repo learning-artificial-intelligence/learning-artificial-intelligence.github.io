@@ -24,10 +24,10 @@
   {% endunless %}
 </div>
 <div class="col-sm-6">
-  {% unless page.categories == empty %}
-      <h4 class="lead">Categories:</h4>
+  {% unless page.tags == empty %}
+      <h4 class="lead">Tags:</h4>
       <h5>
-        {{page.categories | array_to_sentence_string}}
+        {{page.tags | array_to_sentence_string}}
       </h5>
   {% endunless %}
 </div>
