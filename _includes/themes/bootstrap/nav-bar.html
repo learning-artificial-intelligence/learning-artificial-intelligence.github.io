@@ -5,11 +5,12 @@
   <a class="navbar-brand" href="{{ BASE_PATH }}">
     Learning Artificial Intelligence | <h4 style="font-weight: normal;"> by R &uacute;ben Andr&eacute; Barreiro</h4>
   </a>
+
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-          {% assign pages_list = site.pages %}
-          {% assign group = 'navigation' %}
-          {% include JB/pages_list %}
+      {% assign pages_list = site.pages %}
+      {% assign group = 'navigation' %}
+      {% include JB/pages_list %}
     </ul>
   </div>
 </nav>
