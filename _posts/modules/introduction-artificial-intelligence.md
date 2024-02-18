@@ -1,8 +1,6 @@
 ---
 layout: post
-category : modules
-title: "Introduction to Artificial Intelligence"
-tagline: "Introduction to Artificial Intelligence"
+category: modules
 tags : [introduction-artificial-intelligence, introduction, intro, beginner, artificial-intelligence, ai, module]
 author : Rúben André Barreiro
 img : 3.jpg
