@@ -2,10 +2,8 @@
 layout: module
 category: modules
 tagline: "Introduction to Artificial Intelligence"
-tags : [introduction-artificial-intelligence, introduction, intro, beginner, artificial-intelligence, ai, module]
-img: 3.jpg
-img-mobile: 3-mobile.jpg
-author: Antonio Trento
+tags : [artificial-intelligence, computer-science, introduction, beginner]
+author: Rúben André Barreiro
 bgcolor: ff5a71
 css: 
 js: 
