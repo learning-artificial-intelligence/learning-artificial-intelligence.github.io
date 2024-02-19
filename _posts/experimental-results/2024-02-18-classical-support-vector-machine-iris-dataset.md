@@ -57,11 +57,11 @@ s<style type="text/css">
 </thead>
 <tbody>
   <tr>
-    <td rowspan="1176"><b>C <br /> (Regularization <br /> Factor)</b></td>
+    <td rowspan="1176"><b>C</b><sup>&sect;</sup></td>
     <td rowspan="84">1</td>
-    <td rowspan="1176"><b>degree <br /> (Polynomial <br /> Degree)</b></td>
+    <td rowspan="1176"><b>degree</b><sup>&dagger;</sup></td>
     <td rowspan="14">1</td>
-    <td rowspan="1176"><b> &gamma; <br /> (Kernel <br /> Coefficient)</b></td>
+    <td rowspan="1176"><b>&gamma;</b><sup>&Dagger;</sup></td>
     <td>1</td>
     <td></td>
     <td></td>
