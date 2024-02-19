@@ -26,21 +26,25 @@ js:
 
 {% include JB/setup %}
 
-***
+<hr>
 
-# Experimental Results for (Classical) Support Vector Machine (SVM) on IRIS Dataset
+<h1> Experimental Results for (Classical) Support Vector Machine (SVM) on IRIS Dataset </h1>
 
-***
+<hr>
 
-## Preface
+<h2> Preface </h2>
 
-* In this page...
+<ul>
+  <li> In this page... </li>
+</ul>
 
-***
+<hr>
 
-## Experimental Results
+<h2> Experimental Results </h2>
 
-* The results...
+<ul>
+  <li> The results... </li>
+</ul>
 
 <table class="tg">
 <thead>
@@ -3632,10 +3636,12 @@ js:
 </tbody>
 </table>
 
-***
+<hr>
 
-## License
+<h2> License </h2>
 
-* [MIT](http://www.opensource.org/licenses/MIT)
+<ul>
+  <li> <a href="http://www.opensource.org/licenses/MIT"><b> MIT </b></a> </li>
+</ul>
 
-***
+<hr>
