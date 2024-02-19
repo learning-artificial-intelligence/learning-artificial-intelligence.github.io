@@ -8383,6 +8383,13 @@ js:
     </tr>
   </tbody>
 </table>
+<b> Note(s): </b>
+<ul>
+  <li> For these results, was used the <b>Support Vector Classifier</b> from <a href="https://scikit-learn.org/"><b>SciKit-Learn</b></a> library. For more information, see the link: <a href="https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html">https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html</a>.</li>
+  <li> &sec; - This hyperparameter denotes the <b>Regularization Factor/Parameter</b>. </li>
+  <li> &dagger; - This hyperparameter denotes the <b>Polynomial Degree</b> for '<b>poly</b>' kernel. </li>
+  <li> &Dagger; - This hyperparameter denotes the <b>Kernel Coefficient</b> for '<b>rbf</b>', '<b>poly</b>', and '<b>sigmoid</b>' kernels. This hyperparameter is also denoted by the Greek letter &gamma;. </li>
+</ul>
 
 <hr>
 
