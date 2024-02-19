@@ -12,7 +12,7 @@ css:
 js:
 ---
 
-s<style type="text/css">
+<style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;text-align:center}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   overflow:hidden;padding:10px 5px;word-break:normal;text-align:center}
@@ -26,25 +26,21 @@ s<style type="text/css">
 
 {% include JB/setup %}
 
-<hr>
+***
 
-<h1> Experimental Results for (Classical) Support Vector Machine (SVM) on IRIS Dataset </h1>
+# Experimental Results for (Classical) Support Vector Machine (SVM) on IRIS Dataset
 
-<hr>
+***
 
-<h2> Preface </h2>
+## Preface
 
-<ul>
-  <li>In this page...</li>
-</ul>
+* In this page...
 
-<hr>
+***
 
-<h2> Experimental Results </h2>
+## Experimental Results
 
-<ul>
-  <li>The results...</li>
-</ul>
+* The results...
 
 <table class="tg">
 <thead>
@@ -3636,12 +3632,10 @@ s<style type="text/css">
 </tbody>
 </table>
 
-<hr>
+***
 
-<h2> License </h2>
+## License
 
-<ul>
-  <li> [MIT](http://www.opensource.org/licenses/MIT) </li>
-</ul>
+* [MIT](http://www.opensource.org/licenses/MIT)
 
-<hr>
+***
