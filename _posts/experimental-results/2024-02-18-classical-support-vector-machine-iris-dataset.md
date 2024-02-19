@@ -11,19 +11,6 @@ canonical: https://learning-artificial-intelligence.github.io/
 css:
 js:
 ---
-
-<style type="text/css">
-.tg  {border-collapse:collapse;border-spacing:0;text-align:center}
-.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  overflow:hidden;padding:10px 5px;word-break:normal;text-align:center}
-.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
-  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;text-align:center}
-.tg .tg-baqh{text-align:center;vertical-align:top}
-.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
-.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}
-.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
-</style>
-
 {% include JB/setup %}
 
 <hr>
@@ -62,9 +49,9 @@ js:
 <tbody>
   <tr>
     <td rowspan="1176"><b>C</b><sup>&sect;</sup></td>
-    <td rowspan="84">1</td>
+    <td rowspan="84"><b>1</b></td>
     <td rowspan="1176"><b>degree</b><sup>&dagger;</sup></td>
-    <td rowspan="14">1</td>
+    <td rowspan="14"><b>1</b></td>
     <td rowspan="1176"><b>&gamma;</b><sup>&Dagger;</sup></td>
     <td><b>1</b></td>
     <td></td>
@@ -94,77 +81,77 @@ js:
     <td></td>
   </tr>
   <tr>
-    <td>5</td>
+    <td><b>5</b></td>
     <td></td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td>6</td>
+    <td><b>6</b></td>
     <td></td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td>7</td>
+    <td><b>7</b></td>
     <td></td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td>8</td>
+    <td><b>8</b></td>
     <td></td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td>9</td>
+    <td><b>9</b></td>
     <td></td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td>10</td>
+    <td><b>10</b></td>
     <td></td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td>11</td>
+    <td><b>11</b></td>
     <td></td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td>12</td>
+    <td><b>12</b></td>
     <td></td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td>13</td>
+    <td><b>13</b></td>
     <td></td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td>14</td>
+    <td><b>14</b></td>
     <td></td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td rowspan="14">2</td>
+    <td rowspan="14"><b>2</b></td>
     <td>1</td>
     <td></td>
     <td></td>

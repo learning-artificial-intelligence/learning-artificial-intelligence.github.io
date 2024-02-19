@@ -25,6 +25,16 @@ h1,h2,h3,h4,h5,h6 {
     color:#fff;
 }
 
+.tg  {border-collapse:collapse;border-spacing:0;text-align:center}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  overflow:hidden;padding:10px 5px;word-break:normal;text-align:center}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
+  font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;text-align:center}
+.tg .tg-baqh{text-align:center;vertical-align:top}
+.tg .tg-c3ow{border-color:inherit;text-align:center;vertical-align:top}
+.tg .tg-7btt{border-color:inherit;font-weight:bold;text-align:center;vertical-align:top}
+.tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
+
 .highlight-container a {
   color: black !important;
   text-decoration: underline !important;
@@ -110,7 +120,7 @@ p{
 	padding: 0px;
 	margin-left: -136px;
  }
- 
+
 .copyrights-paragraph {
 	font-size: 14px;
 	color: #ffffff;
@@ -965,7 +975,7 @@ input.cbp-mc-submit:hover {
 }
 
 /*
-.post a { 
+.post a {
   text-decoration: none;
   color: black;
   box-sizing: border-box;
@@ -987,7 +997,7 @@ p > code, p > a > code
 border-radius: 4px;
 -webkit-border-radius: 4px;
 -moz-border-radius: 4px;
-color: #C7254E; 
+color: #C7254E;
 color: white
 box-shadow: inset 0 -30px 0 #d2acad;
 font-family: Menlo, Consolas, "Courier New", Courier, "Liberation Mono", monospace;
@@ -1029,4 +1039,3 @@ color: #95be7d;
 	width:100%;
 	height:100%;
 }
-
