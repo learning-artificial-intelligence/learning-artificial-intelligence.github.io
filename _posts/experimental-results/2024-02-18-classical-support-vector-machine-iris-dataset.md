@@ -37,7 +37,7 @@ js:
 <table class="tg">
   <thead>
     <tr>
-      <th colspan="6" rowspan="2"></th>
+      <th colspan="6" rowspan="2"><b>Hyperparameters</b></th>
       <th colspan="4"><b>kernel</b></th>
     </tr>
     <tr>
