@@ -11,6 +11,7 @@ canonical: https://learning-artificial-intelligence.github.io/
 css:
 js:
 ---
+
 {% include JB/setup %}
 
 <hr>
