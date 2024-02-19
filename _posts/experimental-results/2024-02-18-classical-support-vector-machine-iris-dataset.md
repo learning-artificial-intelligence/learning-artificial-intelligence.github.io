@@ -38,7 +38,7 @@ js:
   <thead>
     <tr>
       <th colspan="6" rowspan="2"></th>
-      <th colspan="4"><b>Kernels</b></th>
+      <th colspan="4"><b>kernel</b></th>
     </tr>
     <tr>
       <th><b>linear</b></th>
