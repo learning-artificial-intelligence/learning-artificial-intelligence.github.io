@@ -26,21 +26,25 @@ s<style type="text/css">
 
 {% include JB/setup %}
 
-***
+<hr>
 
-# Experimental Results for (Classical) Support Vector Machine (SVM) on IRIS Dataset
+<h1> Experimental Results for (Classical) Support Vector Machine (SVM) on IRIS Dataset </h1>
 
-***
+<hr>
 
-## Preface
+<h2> Preface </h2>
 
-* In this page...
+<ul>
+  <li>In this page...</li>
+</ul>
 
-***
+<hr>
 
-## Experimental Results
+<h2> Experimental Results </h2>
 
-* The results...
+<ul>
+  <li>The results...</li>
+</ul>
 
 <table class="tg">
 <thead>
@@ -62,28 +66,28 @@ s<style type="text/css">
     <td rowspan="1176"><b>degree</b><sup>&dagger;</sup></td>
     <td rowspan="14">1</td>
     <td rowspan="1176"><b>&gamma;</b><sup>&Dagger;</sup></td>
-    <td>1</td>
+    <td><b>1</b></td>
     <td></td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td>2</td>
+    <td><b>2</b></td>
     <td></td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td>3</td>
+    <td><b>3</b></td>
     <td></td>
     <td></td>
     <td></td>
     <td></td>
   </tr>
   <tr>
-    <td>4</td>
+    <td><b>4</b></td>
     <td></td>
     <td></td>
     <td></td>
@@ -3632,10 +3636,12 @@ s<style type="text/css">
 </tbody>
 </table>
 
-***
+<hr>
 
-## License
+<h2> License </h2>
 
-* [MIT](http://www.opensource.org/licenses/MIT)
+<ul>
+  <li> [MIT](http://www.opensource.org/licenses/MIT) </li>
+</ul>
 
-***
+<hr>
