@@ -11,7 +11,8 @@ canonical: https://learning-artificial-intelligence.github.io/
 css:
 js:
 ---
-<style type="text/css">
+
+s<style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;text-align:center}
 .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;
   overflow:hidden;padding:10px 5px;word-break:normal;text-align:center}
@@ -45,22 +46,22 @@ js:
 <thead>
   <tr>
     <th colspan="6" rowspan="2"></th>
-    <th colspan="4">Kernels</th>
+    <th colspan="4"><b>Kernels</b></th>
   </tr>
   <tr>
-    <th>linear</th>
-    <th>poly</th>
-    <th>rbf</th>
-    <th>sigmoid</th>
+    <th><b>linear</b></th>
+    <th><b>poly</b></th>
+    <th><b>rbf</b></th>
+    <th><b>sigmoid</b></th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td rowspan="1176">C</td>
+    <td rowspan="1176"><b>C <br /> (Regularization <br /> Factor)</td>
     <td rowspan="84">1</td>
-    <td rowspan="1176">D</td>
+    <td rowspan="1176"><b>degree <br /> (Polynomial <br /> Degree)</td>
     <td rowspan="14">1</td>
-    <td rowspan="1176">G</td>
+    <td rowspan="1176"><b> &gamma; <br /> (Kernel <br /> Coefficient)</td>
     <td>1</td>
     <td></td>
     <td></td>
