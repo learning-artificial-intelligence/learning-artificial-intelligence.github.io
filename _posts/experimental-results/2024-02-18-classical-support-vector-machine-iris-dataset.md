@@ -8390,6 +8390,10 @@ js:
   <ul>
     <li> <a href="https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html">https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html</a> </li>
   </ul>
+</ul>
+<br />
+<b> Footnote(s): </b>
+<ul>
   <li> &sect; - This hyperparameter denotes the <b>Regularization Factor/Parameter</b>. </li>
   <li> &dagger; - This hyperparameter denotes the <b>Polynomial Degree</b> for '<b>poly</b>' kernel. </li>
   <li> &Dagger; - This hyperparameter denotes the <b>Kernel Coefficient</b> for '<b>rbf</b>', '<b>poly</b>', and '<b>sigmoid</b>' kernels. This hyperparameter is also denoted by the Greek letter &gamma;. </li>
