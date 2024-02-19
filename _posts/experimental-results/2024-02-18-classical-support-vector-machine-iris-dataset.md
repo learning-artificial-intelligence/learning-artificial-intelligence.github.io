@@ -53,7 +53,7 @@ js:
       <td rowspan="84"><b>1</b></td>
       <td rowspan="1176"><b>degree</b><sup>&dagger;</sup></td>
       <td rowspan="14"><b>1</b></td>
-      <td rowspan="1176"><b>&gamma;</b><sup>&Dagger;</sup></td>
+      <td rowspan="1176"><b>gamma</b><sup>&Dagger;</sup></td>
       <td><b>1</b></td>
       <td></td>
       <td></td>
