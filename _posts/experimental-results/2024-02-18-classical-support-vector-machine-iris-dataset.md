@@ -8394,7 +8394,7 @@ js:
 <br />
 <b> Footnote(s): </b>
 <ul>
-  <li> &yen; - The '<b>rbf</b>' kernel stands for <b>Radial Basis Function (RBF)</b> kernel.
+  <li> &yen; - The '<b>rbf</b>' kernel stands for <b>Radial Basis Function (RBF)</b> kernel. </li>
   <li> &sect; - This hyperparameter denotes the <b>Regularization Factor/Parameter</b>. </li>
   <li> &dagger; - This hyperparameter denotes the <b>Polynomial Degree</b> for '<b>poly</b>' kernel. </li>
   <li> &Dagger; - This hyperparameter denotes the <b>Kernel Coefficient</b> for '<b>rbf</b>', '<b>poly</b>', and '<b>sigmoid</b>' kernels. This hyperparameter is also denoted by the Greek letter &gamma;. </li>
