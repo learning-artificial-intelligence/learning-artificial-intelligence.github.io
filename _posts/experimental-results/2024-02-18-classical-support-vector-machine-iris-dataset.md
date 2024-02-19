@@ -8386,7 +8386,7 @@ js:
 <br />
 <b> Note(s): </b>
 <ul>
-  <li> For these results, was used the <b>Support Vector Classifier</b> from <a href="https://scikit-learn.org/"><b>SciKit-Learn</b></a> library. For more information, see the following link:</li>
+  <li> For these results, was used the <b>Support Vector Classifier (SVC)</b> from <a href="https://scikit-learn.org/"><b>SciKit-Learn</b></a> library. For more information, see the following link:</li>
   <ul>
     <li> <a href="https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html">https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html</a> </li>
   </ul>
