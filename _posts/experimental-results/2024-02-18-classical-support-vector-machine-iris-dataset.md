@@ -34,9577 +34,12737 @@ js:
   <li> The results... </li>
 </ul>
 
-<table class="tg">
+<table border="1" class="dataframe">
   <thead>
-    <tr>
-      <th colspan="6" rowspan="2"><b>Hyperparameters</b></th>
-      <th colspan="4"><b>kernel</b></th>
-    </tr>
-    <tr>
-      <th><b>linear</b></th>
-      <th><b>poly</b></th>
-      <th><b>rbf</b><sup>&yen;</sup></th>
-      <th><b>sigmoid</b></th>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Kernel</th>
+      <th>C</th>
+      <th>degree</th>
+      <th>gamma</th>
+      <th>Accuracy</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td rowspan="1350"><b>C</b><sup>&sect;</sup></td>
-      <td rowspan="90"><b>1 &times; 10<sup>-5</b></td>
-      <td rowspan="1350"><b>degree</b><sup>&dagger;</sup></td>
-      <td rowspan="15"><b>1</b></td>
-      <td rowspan="1350"><b>gamma</b><sup>&Dagger;</sup></td>
-      <td><b>1 &times; 10<sup>-5</sup></b></td>
-      <td></td>
-      <td>0.28889</td>
-      <td></td>
-      <td></td>
+      <th>0</th>
+      <td>linear</td>
+      <td>1e-05</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>linear</td>
+      <td>5.1794746792312125e-05</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>linear</td>
+      <td>0.0002682695795279727</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>linear</td>
+      <td>0.0013894954943731374</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>linear</td>
+      <td>0.0071968567300115215</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>0.6888888888888889</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>linear</td>
+      <td>0.037275937203149416</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>0.9333333333333333</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>linear</td>
+      <td>0.19306977288832497</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>0.9555555555555556</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>linear</td>
+      <td>1.0</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>0.9777777777777777</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>linear</td>
+      <td>5.1794746792312125</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>0.9555555555555556</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>linear</td>
+      <td>26.826957952797272</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>0.9333333333333333</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>linear</td>
+      <td>138.9495494373139</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>0.9333333333333333</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>linear</td>
+      <td>719.6856730011528</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>0.9333333333333333</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>linear</td>
+      <td>3727.593720314938</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>5.17947468 &times; 10<sup>-5</sup></b></td>
-      <td></td>
-      <td>0.28889</td>
-      <td></td>
-      <td></td>
+      <th>13</th>
+      <td>linear</td>
+      <td>19306.977288832535</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>2.6826958 &times; 10<sup>-4</sup></b></td>
-      <td></td>
-      <td>0.28889</td>
-      <td></td>
-      <td></td>
+      <th>14</th>
+      <td>linear</td>
+      <td>100000.0</td>
+      <td>N/A</td>
+      <td>N/A</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>1.38949549 &times; 10<sup>-3</sup></b></td>
-      <td></td>
-      <td>0.28889</td>
-      <td></td>
-      <td></td>
+      <th>15</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>1</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7.19685673 &times; 10<sup>-3</sup></b></td>
-      <td></td>
-      <td>0.28889</td>
-      <td></td>
-      <td></td>
+      <th>16</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>1</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>3.72759372 &times; 10<sup>-2</sup></b></td>
-      <td></td>
-      <td>0.28889</td>
-      <td></td>
-      <td></td>
+      <th>17</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>1</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>1.93069773 &times; 10<sup>-1</sup></b></td>
-      <td></td>
-      <td>0.28889</td>
-      <td></td>
-      <td></td>
+      <th>18</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>1</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>1</b></td>
-      <td></td>
-      <td>0.28889</td>
-      <td></td>
-      <td></td>
+      <th>19</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>1</td>
+      <td>0.0071968567300115215</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5.17947468</b></td>
-      <td></td>
-      <td>0.28889</td>
-      <td></td>
-      <td></td>
+      <th>20</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>1</td>
+      <td>0.037275937203149416</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>2.6826958 &times; 10</b></td>
-      <td></td>
-      <td>0.28889</td>
-      <td></td>
-      <td></td>
+      <th>21</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>1</td>
+      <td>0.19306977288832497</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>1.38949549 &times; 10<sup>2</sup></b></td>
-      <td></td>
-      <td>0.28889</td>
-      <td></td>
-      <td></td>
+      <th>22</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7.19685673 &times; 10<sup>2</sup></b></td>
-      <td></td>
-      <td>0.68889</td>
-      <td></td>
-      <td></td>
+      <th>23</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>1</td>
+      <td>5.1794746792312125</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>3.72759372 &times; 10<sup>3</sup></b></td>
-      <td></td>
-      <td>0.93333</td>
-      <td></td>
-      <td></td>
+      <th>24</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>1</td>
+      <td>26.826957952797272</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>1.93069773 &times; 10<sup>4</sup></b></td>
-      <td></td>
-      <td>0.95556</td>
-      <td></td>
-      <td></td>
+      <th>25</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>1</td>
+      <td>138.9495494373139</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>1 &times; 10<sup>5</sup></b></td>
-      <td></td>
-      <td>0.97778</td>
-      <td></td>
-      <td></td>
+      <th>26</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>1</td>
+      <td>719.6856730011528</td>
+      <td>0.6888888888888889</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>2</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>27</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>1</td>
+      <td>3727.593720314938</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>28</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>1</td>
+      <td>19306.977288832535</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>29</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>1</td>
+      <td>100000.0</td>
+      <td>0.9777777777777777</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>30</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>2</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>31</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>2</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>32</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>2</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>33</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>2</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>34</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>2</td>
+      <td>0.0071968567300115215</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>35</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>2</td>
+      <td>0.037275937203149416</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>36</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>2</td>
+      <td>0.19306977288832497</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>37</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>2</td>
+      <td>1.0</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>38</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>2</td>
+      <td>5.1794746792312125</td>
+      <td>0.8666666666666667</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>39</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>2</td>
+      <td>26.826957952797272</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>40</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>2</td>
+      <td>138.9495494373139</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>41</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>2</td>
+      <td>719.6856730011528</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>3</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>42</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>2</td>
+      <td>3727.593720314938</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>43</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>2</td>
+      <td>19306.977288832535</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>44</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>2</td>
+      <td>100000.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>45</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>3</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>46</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>3</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>47</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>3</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>48</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>3</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>49</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>3</td>
+      <td>0.0071968567300115215</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>50</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>3</td>
+      <td>0.037275937203149416</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>51</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>3</td>
+      <td>0.19306977288832497</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>52</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>3</td>
+      <td>1.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>53</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>3</td>
+      <td>5.1794746792312125</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>54</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>3</td>
+      <td>26.826957952797272</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>55</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>3</td>
+      <td>138.9495494373139</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>56</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>3</td>
+      <td>719.6856730011528</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>4</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>57</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>3</td>
+      <td>3727.593720314938</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>58</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>3</td>
+      <td>19306.977288832535</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>59</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>3</td>
+      <td>100000.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>60</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>4</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>61</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>4</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>62</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>4</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>63</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>4</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>64</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>4</td>
+      <td>0.0071968567300115215</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>65</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>4</td>
+      <td>0.037275937203149416</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>66</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>4</td>
+      <td>0.19306977288832497</td>
+      <td>0.8444444444444444</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>67</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>4</td>
+      <td>1.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>68</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>4</td>
+      <td>5.1794746792312125</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>69</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>4</td>
+      <td>26.826957952797272</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>70</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>4</td>
+      <td>138.9495494373139</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>71</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>4</td>
+      <td>719.6856730011528</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>5</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>72</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>4</td>
+      <td>3727.593720314938</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>73</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>4</td>
+      <td>19306.977288832535</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>74</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>4</td>
+      <td>100000.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>75</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>5</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>76</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>5</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>77</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>5</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>78</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>5</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>79</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>5</td>
+      <td>0.0071968567300115215</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>80</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>5</td>
+      <td>0.037275937203149416</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>81</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>5</td>
+      <td>0.19306977288832497</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>82</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>5</td>
+      <td>1.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>83</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>5</td>
+      <td>5.1794746792312125</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>84</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>5</td>
+      <td>26.826957952797272</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>85</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>5</td>
+      <td>138.9495494373139</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>86</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>5</td>
+      <td>719.6856730011528</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>6</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>87</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>5</td>
+      <td>3727.593720314938</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>88</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>5</td>
+      <td>19306.977288832535</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>89</th>
+      <td>poly</td>
+      <td>1e-05</td>
+      <td>5</td>
+      <td>100000.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>90</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>1</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>91</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>1</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>92</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>1</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>93</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>1</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>94</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>1</td>
+      <td>0.0071968567300115215</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>95</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>1</td>
+      <td>0.037275937203149416</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>96</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>1</td>
+      <td>0.19306977288832497</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>97</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>98</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>1</td>
+      <td>5.1794746792312125</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>99</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>1</td>
+      <td>26.826957952797272</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>100</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>1</td>
+      <td>138.9495494373139</td>
+      <td>0.6888888888888889</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>101</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>1</td>
+      <td>719.6856730011528</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td rowspan="90"><b>2</b></td>
-      <td rowspan="15"><b>1</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>102</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>1</td>
+      <td>3727.593720314938</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>103</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>1</td>
+      <td>19306.977288832535</td>
+      <td>0.9777777777777777</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>104</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>1</td>
+      <td>100000.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>105</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>2</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>106</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>2</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>107</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>2</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>108</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>2</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>109</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>2</td>
+      <td>0.0071968567300115215</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>110</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>2</td>
+      <td>0.037275937203149416</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>111</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>2</td>
+      <td>0.19306977288832497</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>112</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>2</td>
+      <td>1.0</td>
+      <td>0.8222222222222222</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>113</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>2</td>
+      <td>5.1794746792312125</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>114</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>2</td>
+      <td>26.826957952797272</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>115</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>2</td>
+      <td>138.9495494373139</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>116</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>2</td>
+      <td>719.6856730011528</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>2</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>117</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>2</td>
+      <td>3727.593720314938</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>118</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>2</td>
+      <td>19306.977288832535</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>119</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>2</td>
+      <td>100000.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>120</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>3</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>121</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>3</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>122</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>3</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>123</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>3</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>124</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>3</td>
+      <td>0.0071968567300115215</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>125</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>3</td>
+      <td>0.037275937203149416</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>126</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>3</td>
+      <td>0.19306977288832497</td>
+      <td>0.8</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>127</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>3</td>
+      <td>1.0</td>
+      <td>0.9777777777777777</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>128</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>3</td>
+      <td>5.1794746792312125</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>129</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>3</td>
+      <td>26.826957952797272</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>130</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>3</td>
+      <td>138.9495494373139</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>131</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>3</td>
+      <td>719.6856730011528</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>3</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>132</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>3</td>
+      <td>3727.593720314938</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>133</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>3</td>
+      <td>19306.977288832535</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>134</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>3</td>
+      <td>100000.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>135</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>4</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>136</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>4</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>137</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>4</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>138</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>4</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>139</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>4</td>
+      <td>0.0071968567300115215</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>140</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>4</td>
+      <td>0.037275937203149416</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>141</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>4</td>
+      <td>0.19306977288832497</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>142</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>4</td>
+      <td>1.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>143</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>4</td>
+      <td>5.1794746792312125</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>144</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>4</td>
+      <td>26.826957952797272</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>145</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>4</td>
+      <td>138.9495494373139</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>146</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>4</td>
+      <td>719.6856730011528</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>4</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>147</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>4</td>
+      <td>3727.593720314938</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>148</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>4</td>
+      <td>19306.977288832535</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>149</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>4</td>
+      <td>100000.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>150</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>5</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>151</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>5</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>152</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>5</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>153</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>5</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>154</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>5</td>
+      <td>0.0071968567300115215</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>155</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>5</td>
+      <td>0.037275937203149416</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>156</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>5</td>
+      <td>0.19306977288832497</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>157</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>5</td>
+      <td>1.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>158</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>5</td>
+      <td>5.1794746792312125</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>159</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>5</td>
+      <td>26.826957952797272</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>160</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>5</td>
+      <td>138.9495494373139</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>161</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>5</td>
+      <td>719.6856730011528</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>5</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>162</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>5</td>
+      <td>3727.593720314938</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>163</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>5</td>
+      <td>19306.977288832535</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>164</th>
+      <td>poly</td>
+      <td>5.1794746792312125e-05</td>
+      <td>5</td>
+      <td>100000.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>165</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>1</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>166</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>1</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>167</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>1</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>168</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>1</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>169</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>1</td>
+      <td>0.0071968567300115215</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>170</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>1</td>
+      <td>0.037275937203149416</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>171</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>1</td>
+      <td>0.19306977288832497</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>172</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>173</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>1</td>
+      <td>5.1794746792312125</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>174</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>1</td>
+      <td>26.826957952797272</td>
+      <td>0.6888888888888889</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>175</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>1</td>
+      <td>138.9495494373139</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>176</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>1</td>
+      <td>719.6856730011528</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>6</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>177</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>1</td>
+      <td>3727.593720314938</td>
+      <td>0.9777777777777777</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>178</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>1</td>
+      <td>19306.977288832535</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>179</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>1</td>
+      <td>100000.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>180</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>2</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>181</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>2</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>182</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>2</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>183</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>2</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>184</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>2</td>
+      <td>0.0071968567300115215</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>185</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>2</td>
+      <td>0.037275937203149416</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>186</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>2</td>
+      <td>0.19306977288832497</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>187</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>2</td>
+      <td>1.0</td>
+      <td>0.8666666666666667</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>188</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>2</td>
+      <td>5.1794746792312125</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>189</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>2</td>
+      <td>26.826957952797272</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>190</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>2</td>
+      <td>138.9495494373139</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>191</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>2</td>
+      <td>719.6856730011528</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td rowspan="90"><b>3</b></td>
-      <td rowspan="15"><b>1</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>192</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>2</td>
+      <td>3727.593720314938</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>193</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>2</td>
+      <td>19306.977288832535</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>194</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>2</td>
+      <td>100000.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>195</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>3</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>196</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>3</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>197</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>3</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>198</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>3</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>199</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>3</td>
+      <td>0.0071968567300115215</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>200</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>3</td>
+      <td>0.037275937203149416</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>201</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>3</td>
+      <td>0.19306977288832497</td>
+      <td>0.8666666666666667</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>202</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>3</td>
+      <td>1.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>203</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>3</td>
+      <td>5.1794746792312125</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>204</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>3</td>
+      <td>26.826957952797272</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>205</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>3</td>
+      <td>138.9495494373139</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>206</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>3</td>
+      <td>719.6856730011528</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>2</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>207</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>3</td>
+      <td>3727.593720314938</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>208</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>3</td>
+      <td>19306.977288832535</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>209</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>3</td>
+      <td>100000.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>210</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>4</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>211</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>4</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>212</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>4</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>213</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>4</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>214</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>4</td>
+      <td>0.0071968567300115215</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>215</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>4</td>
+      <td>0.037275937203149416</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>216</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>4</td>
+      <td>0.19306977288832497</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>217</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>4</td>
+      <td>1.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>218</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>4</td>
+      <td>5.1794746792312125</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>219</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>4</td>
+      <td>26.826957952797272</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>220</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>4</td>
+      <td>138.9495494373139</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>221</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>4</td>
+      <td>719.6856730011528</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>3</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>222</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>4</td>
+      <td>3727.593720314938</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>223</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>4</td>
+      <td>19306.977288832535</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>224</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>4</td>
+      <td>100000.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>225</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>5</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>226</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>5</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>227</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>5</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>228</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>5</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>229</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>5</td>
+      <td>0.0071968567300115215</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>230</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>5</td>
+      <td>0.037275937203149416</td>
+      <td>0.6444444444444445</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>231</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>5</td>
+      <td>0.19306977288832497</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>232</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>5</td>
+      <td>1.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>233</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>5</td>
+      <td>5.1794746792312125</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>234</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>5</td>
+      <td>26.826957952797272</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>235</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>5</td>
+      <td>138.9495494373139</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>236</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>5</td>
+      <td>719.6856730011528</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>4</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>237</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>5</td>
+      <td>3727.593720314938</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>238</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>5</td>
+      <td>19306.977288832535</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>239</th>
+      <td>poly</td>
+      <td>0.0002682695795279727</td>
+      <td>5</td>
+      <td>100000.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>240</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>1</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>241</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>1</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>242</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>1</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>243</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>1</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>244</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>1</td>
+      <td>0.0071968567300115215</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>245</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>1</td>
+      <td>0.037275937203149416</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>246</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>1</td>
+      <td>0.19306977288832497</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>247</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>248</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>1</td>
+      <td>5.1794746792312125</td>
+      <td>0.6888888888888889</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>249</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>1</td>
+      <td>26.826957952797272</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>250</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>1</td>
+      <td>138.9495494373139</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>251</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>1</td>
+      <td>719.6856730011528</td>
+      <td>0.9777777777777777</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>5</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>252</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>1</td>
+      <td>3727.593720314938</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>253</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>1</td>
+      <td>19306.977288832535</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>254</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>1</td>
+      <td>100000.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>255</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>2</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>256</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>2</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>257</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>2</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>258</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>2</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>259</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>2</td>
+      <td>0.0071968567300115215</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>260</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>2</td>
+      <td>0.037275937203149416</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>261</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>2</td>
+      <td>0.19306977288832497</td>
+      <td>0.8222222222222222</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>262</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>2</td>
+      <td>1.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>263</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>2</td>
+      <td>5.1794746792312125</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>264</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>2</td>
+      <td>26.826957952797272</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>265</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>2</td>
+      <td>138.9495494373139</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>266</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>2</td>
+      <td>719.6856730011528</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>6</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>267</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>2</td>
+      <td>3727.593720314938</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>268</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>2</td>
+      <td>19306.977288832535</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>269</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>2</td>
+      <td>100000.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>270</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>3</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>271</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>3</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>272</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>3</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>273</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>3</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>274</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>3</td>
+      <td>0.0071968567300115215</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>275</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>3</td>
+      <td>0.037275937203149416</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>276</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>3</td>
+      <td>0.19306977288832497</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>277</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>3</td>
+      <td>1.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>278</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>3</td>
+      <td>5.1794746792312125</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>279</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>3</td>
+      <td>26.826957952797272</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>280</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>3</td>
+      <td>138.9495494373139</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>281</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>3</td>
+      <td>719.6856730011528</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td rowspan="90"><b>4</b></td>
-      <td rowspan="15"><b>1</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>282</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>3</td>
+      <td>3727.593720314938</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>283</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>3</td>
+      <td>19306.977288832535</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>284</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>3</td>
+      <td>100000.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>285</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>4</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>286</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>4</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>287</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>4</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>288</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>4</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>289</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>4</td>
+      <td>0.0071968567300115215</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>290</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>4</td>
+      <td>0.037275937203149416</td>
+      <td>0.7777777777777778</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>291</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>4</td>
+      <td>0.19306977288832497</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>292</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>4</td>
+      <td>1.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>293</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>4</td>
+      <td>5.1794746792312125</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>294</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>4</td>
+      <td>26.826957952797272</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>295</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>4</td>
+      <td>138.9495494373139</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>296</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>4</td>
+      <td>719.6856730011528</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>2</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>297</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>4</td>
+      <td>3727.593720314938</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>298</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>4</td>
+      <td>19306.977288832535</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>299</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>4</td>
+      <td>100000.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>300</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>5</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>301</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>5</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>302</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>5</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>303</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>5</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>304</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>5</td>
+      <td>0.0071968567300115215</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>305</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>5</td>
+      <td>0.037275937203149416</td>
+      <td>0.8222222222222222</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>306</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>5</td>
+      <td>0.19306977288832497</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>307</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>5</td>
+      <td>1.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>308</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>5</td>
+      <td>5.1794746792312125</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>309</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>5</td>
+      <td>26.826957952797272</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>310</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>5</td>
+      <td>138.9495494373139</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>311</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>5</td>
+      <td>719.6856730011528</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>3</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>312</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>5</td>
+      <td>3727.593720314938</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>313</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>5</td>
+      <td>19306.977288832535</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>314</th>
+      <td>poly</td>
+      <td>0.0013894954943731374</td>
+      <td>5</td>
+      <td>100000.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>315</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>1</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>316</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>1</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>317</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>1</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>318</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>1</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>319</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>1</td>
+      <td>0.0071968567300115215</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>320</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>1</td>
+      <td>0.037275937203149416</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>321</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>1</td>
+      <td>0.19306977288832497</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>322</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>0.6888888888888889</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>323</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>1</td>
+      <td>5.1794746792312125</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>324</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>1</td>
+      <td>26.826957952797272</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>325</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>1</td>
+      <td>138.9495494373139</td>
+      <td>0.9777777777777777</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>326</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>1</td>
+      <td>719.6856730011528</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>4</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>327</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>1</td>
+      <td>3727.593720314938</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>328</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>1</td>
+      <td>19306.977288832535</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>329</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>1</td>
+      <td>100000.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>330</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>2</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>331</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>2</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>332</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>2</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>333</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>2</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>334</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>2</td>
+      <td>0.0071968567300115215</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>335</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>2</td>
+      <td>0.037275937203149416</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>336</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>2</td>
+      <td>0.19306977288832497</td>
+      <td>0.8666666666666667</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>337</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>2</td>
+      <td>1.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>338</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>2</td>
+      <td>5.1794746792312125</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>339</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>2</td>
+      <td>26.826957952797272</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>340</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>2</td>
+      <td>138.9495494373139</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>341</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>2</td>
+      <td>719.6856730011528</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>5</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>342</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>2</td>
+      <td>3727.593720314938</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>343</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>2</td>
+      <td>19306.977288832535</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>344</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>2</td>
+      <td>100000.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>345</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>3</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>346</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>3</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>347</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>3</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>348</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>3</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>349</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>3</td>
+      <td>0.0071968567300115215</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>350</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>3</td>
+      <td>0.037275937203149416</td>
+      <td>0.8</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>351</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>3</td>
+      <td>0.19306977288832497</td>
+      <td>0.9777777777777777</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>352</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>3</td>
+      <td>1.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>353</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>3</td>
+      <td>5.1794746792312125</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>354</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>3</td>
+      <td>26.826957952797272</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>355</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>3</td>
+      <td>138.9495494373139</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>356</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>3</td>
+      <td>719.6856730011528</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>6</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>357</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>3</td>
+      <td>3727.593720314938</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>358</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>3</td>
+      <td>19306.977288832535</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>359</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>3</td>
+      <td>100000.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>360</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>4</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>361</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>4</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>362</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>4</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>363</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>4</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>364</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>4</td>
+      <td>0.0071968567300115215</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>365</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>4</td>
+      <td>0.037275937203149416</td>
+      <td>0.8444444444444444</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>366</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>4</td>
+      <td>0.19306977288832497</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>367</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>4</td>
+      <td>1.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>368</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>4</td>
+      <td>5.1794746792312125</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>369</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>4</td>
+      <td>26.826957952797272</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>370</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>4</td>
+      <td>138.9495494373139</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>371</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>4</td>
+      <td>719.6856730011528</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td rowspan="90"><b>5</b></td>
-      <td rowspan="15"><b>1</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>372</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>4</td>
+      <td>3727.593720314938</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>373</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>4</td>
+      <td>19306.977288832535</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>374</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>4</td>
+      <td>100000.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>375</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>5</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>376</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>5</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>377</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>5</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>378</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>5</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>379</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>5</td>
+      <td>0.0071968567300115215</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>380</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>5</td>
+      <td>0.037275937203149416</td>
+      <td>0.8444444444444444</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>381</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>5</td>
+      <td>0.19306977288832497</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>382</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>5</td>
+      <td>1.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>383</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>5</td>
+      <td>5.1794746792312125</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>384</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>5</td>
+      <td>26.826957952797272</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>385</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>5</td>
+      <td>138.9495494373139</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>386</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>5</td>
+      <td>719.6856730011528</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>2</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>387</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>5</td>
+      <td>3727.593720314938</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>388</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>5</td>
+      <td>19306.977288832535</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>389</th>
+      <td>poly</td>
+      <td>0.0071968567300115215</td>
+      <td>5</td>
+      <td>100000.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>390</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>1</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>391</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>1</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>392</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>1</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>393</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>1</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>394</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>1</td>
+      <td>0.0071968567300115215</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>395</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>1</td>
+      <td>0.037275937203149416</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>396</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>1</td>
+      <td>0.19306977288832497</td>
+      <td>0.6888888888888889</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>397</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>398</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>1</td>
+      <td>5.1794746792312125</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>399</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>1</td>
+      <td>26.826957952797272</td>
+      <td>0.9777777777777777</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>400</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>1</td>
+      <td>138.9495494373139</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>401</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>1</td>
+      <td>719.6856730011528</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>3</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>402</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>1</td>
+      <td>3727.593720314938</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>403</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>1</td>
+      <td>19306.977288832535</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>404</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>1</td>
+      <td>100000.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>405</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>2</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>406</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>2</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>407</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>2</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>408</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>2</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>409</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>2</td>
+      <td>0.0071968567300115215</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>410</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>2</td>
+      <td>0.037275937203149416</td>
+      <td>0.8222222222222222</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>411</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>2</td>
+      <td>0.19306977288832497</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>412</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>2</td>
+      <td>1.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>413</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>2</td>
+      <td>5.1794746792312125</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>414</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>2</td>
+      <td>26.826957952797272</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>415</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>2</td>
+      <td>138.9495494373139</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>416</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>2</td>
+      <td>719.6856730011528</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>4</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>417</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>2</td>
+      <td>3727.593720314938</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>418</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>2</td>
+      <td>19306.977288832535</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>419</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>2</td>
+      <td>100000.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>420</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>3</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>421</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>3</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>422</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>3</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>423</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>3</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>424</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>3</td>
+      <td>0.0071968567300115215</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>425</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>3</td>
+      <td>0.037275937203149416</td>
+      <td>0.8666666666666667</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>426</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>3</td>
+      <td>0.19306977288832497</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>427</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>3</td>
+      <td>1.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>428</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>3</td>
+      <td>5.1794746792312125</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>429</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>3</td>
+      <td>26.826957952797272</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>430</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>3</td>
+      <td>138.9495494373139</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>431</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>3</td>
+      <td>719.6856730011528</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>5</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>432</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>3</td>
+      <td>3727.593720314938</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>433</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>3</td>
+      <td>19306.977288832535</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>434</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>3</td>
+      <td>100000.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>435</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>4</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>436</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>4</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>437</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>4</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>438</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>4</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>439</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>4</td>
+      <td>0.0071968567300115215</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>440</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>4</td>
+      <td>0.037275937203149416</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>441</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>4</td>
+      <td>0.19306977288832497</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>442</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>4</td>
+      <td>1.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>443</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>4</td>
+      <td>5.1794746792312125</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>444</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>4</td>
+      <td>26.826957952797272</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>445</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>4</td>
+      <td>138.9495494373139</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>446</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>4</td>
+      <td>719.6856730011528</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>6</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>447</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>4</td>
+      <td>3727.593720314938</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>448</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>4</td>
+      <td>19306.977288832535</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>449</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>4</td>
+      <td>100000.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>450</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>5</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>451</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>5</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>452</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>5</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>453</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>5</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>454</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>5</td>
+      <td>0.0071968567300115215</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>455</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>5</td>
+      <td>0.037275937203149416</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>456</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>5</td>
+      <td>0.19306977288832497</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>457</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>5</td>
+      <td>1.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>458</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>5</td>
+      <td>5.1794746792312125</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>459</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>5</td>
+      <td>26.826957952797272</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>460</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>5</td>
+      <td>138.9495494373139</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>461</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>5</td>
+      <td>719.6856730011528</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td rowspan="90"><b>6</b></td>
-      <td rowspan="15"><b>1</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>462</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>5</td>
+      <td>3727.593720314938</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>463</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>5</td>
+      <td>19306.977288832535</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>464</th>
+      <td>poly</td>
+      <td>0.037275937203149416</td>
+      <td>5</td>
+      <td>100000.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>465</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>1</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>466</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>1</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>467</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>1</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>468</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>1</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>469</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>1</td>
+      <td>0.0071968567300115215</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>470</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>1</td>
+      <td>0.037275937203149416</td>
+      <td>0.6888888888888889</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>471</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>1</td>
+      <td>0.19306977288832497</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>472</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>473</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>1</td>
+      <td>5.1794746792312125</td>
+      <td>0.9777777777777777</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>474</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>1</td>
+      <td>26.826957952797272</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>475</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>1</td>
+      <td>138.9495494373139</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>476</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>1</td>
+      <td>719.6856730011528</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>2</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>477</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>1</td>
+      <td>3727.593720314938</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>478</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>1</td>
+      <td>19306.977288832535</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>479</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>1</td>
+      <td>100000.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>480</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>2</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>481</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>2</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>482</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>2</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>483</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>2</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>484</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>2</td>
+      <td>0.0071968567300115215</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>485</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>2</td>
+      <td>0.037275937203149416</td>
+      <td>0.8666666666666667</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>486</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>2</td>
+      <td>0.19306977288832497</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>487</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>2</td>
+      <td>1.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>488</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>2</td>
+      <td>5.1794746792312125</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>489</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>2</td>
+      <td>26.826957952797272</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>490</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>2</td>
+      <td>138.9495494373139</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>491</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>2</td>
+      <td>719.6856730011528</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>3</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>492</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>2</td>
+      <td>3727.593720314938</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>493</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>2</td>
+      <td>19306.977288832535</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>494</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>2</td>
+      <td>100000.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>495</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>3</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>496</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>3</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>497</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>3</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>498</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>3</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>499</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>3</td>
+      <td>0.0071968567300115215</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>500</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>3</td>
+      <td>0.037275937203149416</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>501</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>3</td>
+      <td>0.19306977288832497</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>502</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>3</td>
+      <td>1.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>503</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>3</td>
+      <td>5.1794746792312125</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>504</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>3</td>
+      <td>26.826957952797272</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>505</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>3</td>
+      <td>138.9495494373139</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>506</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>3</td>
+      <td>719.6856730011528</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>4</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>507</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>3</td>
+      <td>3727.593720314938</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>508</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>3</td>
+      <td>19306.977288832535</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>509</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>3</td>
+      <td>100000.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>510</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>4</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>511</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>4</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>512</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>4</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>513</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>4</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>514</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>4</td>
+      <td>0.0071968567300115215</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>515</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>4</td>
+      <td>0.037275937203149416</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>516</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>4</td>
+      <td>0.19306977288832497</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>517</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>4</td>
+      <td>1.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>518</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>4</td>
+      <td>5.1794746792312125</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>519</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>4</td>
+      <td>26.826957952797272</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>520</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>4</td>
+      <td>138.9495494373139</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>521</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>4</td>
+      <td>719.6856730011528</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>5</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>522</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>4</td>
+      <td>3727.593720314938</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>523</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>4</td>
+      <td>19306.977288832535</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>524</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>4</td>
+      <td>100000.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>525</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>5</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>526</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>5</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>527</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>5</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>528</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>5</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>529</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>5</td>
+      <td>0.0071968567300115215</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>530</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>5</td>
+      <td>0.037275937203149416</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>531</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>5</td>
+      <td>0.19306977288832497</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>532</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>5</td>
+      <td>1.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>533</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>5</td>
+      <td>5.1794746792312125</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>534</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>5</td>
+      <td>26.826957952797272</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>535</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>5</td>
+      <td>138.9495494373139</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>536</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>5</td>
+      <td>719.6856730011528</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>6</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>537</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>5</td>
+      <td>3727.593720314938</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>538</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>5</td>
+      <td>19306.977288832535</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>539</th>
+      <td>poly</td>
+      <td>0.19306977288832497</td>
+      <td>5</td>
+      <td>100000.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>540</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>1</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>541</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>1</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>542</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>1</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>543</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>1</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>544</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>1</td>
+      <td>0.0071968567300115215</td>
+      <td>0.6888888888888889</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>545</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>1</td>
+      <td>0.037275937203149416</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>546</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>1</td>
+      <td>0.19306977288832497</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>547</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>0.9777777777777777</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>548</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>1</td>
+      <td>5.1794746792312125</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>549</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>1</td>
+      <td>26.826957952797272</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>550</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>1</td>
+      <td>138.9495494373139</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>551</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>1</td>
+      <td>719.6856730011528</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td rowspan="90"><b>7</b></td>
-      <td rowspan="15"><b>1</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>552</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>1</td>
+      <td>3727.593720314938</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>553</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>1</td>
+      <td>19306.977288832535</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>554</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>1</td>
+      <td>100000.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>555</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>2</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>556</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>2</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>557</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>2</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>558</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>2</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>559</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>2</td>
+      <td>0.0071968567300115215</td>
+      <td>0.8222222222222222</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>560</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>2</td>
+      <td>0.037275937203149416</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>561</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>2</td>
+      <td>0.19306977288832497</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>562</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>2</td>
+      <td>1.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>563</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>2</td>
+      <td>5.1794746792312125</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>564</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>2</td>
+      <td>26.826957952797272</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>565</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>2</td>
+      <td>138.9495494373139</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>566</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>2</td>
+      <td>719.6856730011528</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>2</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>567</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>2</td>
+      <td>3727.593720314938</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>568</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>2</td>
+      <td>19306.977288832535</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>569</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>2</td>
+      <td>100000.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>570</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>3</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>571</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>3</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>572</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>3</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>573</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>3</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>574</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>3</td>
+      <td>0.0071968567300115215</td>
+      <td>0.8</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>575</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>3</td>
+      <td>0.037275937203149416</td>
+      <td>0.9777777777777777</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>576</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>3</td>
+      <td>0.19306977288832497</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>577</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>3</td>
+      <td>1.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>578</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>3</td>
+      <td>5.1794746792312125</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>579</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>3</td>
+      <td>26.826957952797272</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>580</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>3</td>
+      <td>138.9495494373139</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>581</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>3</td>
+      <td>719.6856730011528</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>3</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>582</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>3</td>
+      <td>3727.593720314938</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>583</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>3</td>
+      <td>19306.977288832535</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>584</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>3</td>
+      <td>100000.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>585</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>4</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>586</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>4</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>587</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>4</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>588</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>4</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>589</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>4</td>
+      <td>0.0071968567300115215</td>
+      <td>0.7777777777777778</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>590</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>4</td>
+      <td>0.037275937203149416</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>591</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>4</td>
+      <td>0.19306977288832497</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>592</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>4</td>
+      <td>1.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>593</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>4</td>
+      <td>5.1794746792312125</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>594</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>4</td>
+      <td>26.826957952797272</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>595</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>4</td>
+      <td>138.9495494373139</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>596</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>4</td>
+      <td>719.6856730011528</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>4</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>597</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>4</td>
+      <td>3727.593720314938</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>598</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>4</td>
+      <td>19306.977288832535</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>599</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>4</td>
+      <td>100000.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>600</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>5</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>601</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>5</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>602</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>5</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>603</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>5</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>604</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>5</td>
+      <td>0.0071968567300115215</td>
+      <td>0.6444444444444445</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>605</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>5</td>
+      <td>0.037275937203149416</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>606</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>5</td>
+      <td>0.19306977288832497</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>607</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>5</td>
+      <td>1.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>608</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>5</td>
+      <td>5.1794746792312125</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>609</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>5</td>
+      <td>26.826957952797272</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>610</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>5</td>
+      <td>138.9495494373139</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>611</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>5</td>
+      <td>719.6856730011528</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>5</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>612</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>5</td>
+      <td>3727.593720314938</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>613</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>5</td>
+      <td>19306.977288832535</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>614</th>
+      <td>poly</td>
+      <td>1.0</td>
+      <td>5</td>
+      <td>100000.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>615</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>1</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>616</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>1</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>617</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>1</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>618</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>1</td>
+      <td>0.0013894954943731374</td>
+      <td>0.6888888888888889</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>619</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>1</td>
+      <td>0.0071968567300115215</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>620</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>1</td>
+      <td>0.037275937203149416</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>621</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>1</td>
+      <td>0.19306977288832497</td>
+      <td>0.9777777777777777</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>622</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>623</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>1</td>
+      <td>5.1794746792312125</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>624</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>1</td>
+      <td>26.826957952797272</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>625</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>1</td>
+      <td>138.9495494373139</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>626</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>1</td>
+      <td>719.6856730011528</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>6</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>627</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>1</td>
+      <td>3727.593720314938</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>628</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>1</td>
+      <td>19306.977288832535</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>629</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>1</td>
+      <td>100000.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>630</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>2</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>631</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>2</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>632</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>2</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>633</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>2</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>634</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>2</td>
+      <td>0.0071968567300115215</td>
+      <td>0.8666666666666667</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>635</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>2</td>
+      <td>0.037275937203149416</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>636</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>2</td>
+      <td>0.19306977288832497</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>637</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>2</td>
+      <td>1.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>638</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>2</td>
+      <td>5.1794746792312125</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>639</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>2</td>
+      <td>26.826957952797272</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>640</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>2</td>
+      <td>138.9495494373139</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>641</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>2</td>
+      <td>719.6856730011528</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td rowspan="90"><b>8</b></td>
-      <td rowspan="15"><b>1</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>642</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>2</td>
+      <td>3727.593720314938</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>643</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>2</td>
+      <td>19306.977288832535</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>644</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>2</td>
+      <td>100000.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>645</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>3</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>646</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>3</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>647</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>3</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>648</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>3</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>649</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>3</td>
+      <td>0.0071968567300115215</td>
+      <td>0.8666666666666667</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>650</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>3</td>
+      <td>0.037275937203149416</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>651</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>3</td>
+      <td>0.19306977288832497</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>652</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>3</td>
+      <td>1.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>653</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>3</td>
+      <td>5.1794746792312125</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>654</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>3</td>
+      <td>26.826957952797272</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>655</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>3</td>
+      <td>138.9495494373139</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>656</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>3</td>
+      <td>719.6856730011528</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>2</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>657</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>3</td>
+      <td>3727.593720314938</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>658</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>3</td>
+      <td>19306.977288832535</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>659</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>3</td>
+      <td>100000.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>660</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>4</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>661</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>4</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>662</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>4</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>663</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>4</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>664</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>4</td>
+      <td>0.0071968567300115215</td>
+      <td>0.8444444444444444</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>665</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>4</td>
+      <td>0.037275937203149416</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>666</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>4</td>
+      <td>0.19306977288832497</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>667</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>4</td>
+      <td>1.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>668</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>4</td>
+      <td>5.1794746792312125</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>669</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>4</td>
+      <td>26.826957952797272</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>670</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>4</td>
+      <td>138.9495494373139</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>671</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>4</td>
+      <td>719.6856730011528</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>3</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>672</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>4</td>
+      <td>3727.593720314938</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>673</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>4</td>
+      <td>19306.977288832535</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>674</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>4</td>
+      <td>100000.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>675</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>5</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>676</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>5</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>677</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>5</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>678</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>5</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>679</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>5</td>
+      <td>0.0071968567300115215</td>
+      <td>0.8222222222222222</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>680</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>5</td>
+      <td>0.037275937203149416</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>681</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>5</td>
+      <td>0.19306977288832497</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>682</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>5</td>
+      <td>1.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>683</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>5</td>
+      <td>5.1794746792312125</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>684</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>5</td>
+      <td>26.826957952797272</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>685</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>5</td>
+      <td>138.9495494373139</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>686</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>5</td>
+      <td>719.6856730011528</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>4</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>687</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>5</td>
+      <td>3727.593720314938</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>688</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>5</td>
+      <td>19306.977288832535</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>689</th>
+      <td>poly</td>
+      <td>5.1794746792312125</td>
+      <td>5</td>
+      <td>100000.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>690</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>1</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>691</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>1</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>692</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>1</td>
+      <td>0.0002682695795279727</td>
+      <td>0.6888888888888889</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>693</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>1</td>
+      <td>0.0013894954943731374</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>694</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>1</td>
+      <td>0.0071968567300115215</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>695</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>1</td>
+      <td>0.037275937203149416</td>
+      <td>0.9777777777777777</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>696</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>1</td>
+      <td>0.19306977288832497</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>697</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>698</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>1</td>
+      <td>5.1794746792312125</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>699</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>1</td>
+      <td>26.826957952797272</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>700</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>1</td>
+      <td>138.9495494373139</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>701</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>1</td>
+      <td>719.6856730011528</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>5</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>702</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>1</td>
+      <td>3727.593720314938</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>703</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>1</td>
+      <td>19306.977288832535</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>704</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>1</td>
+      <td>100000.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>705</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>2</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>706</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>2</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>707</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>2</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>708</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>2</td>
+      <td>0.0013894954943731374</td>
+      <td>0.8222222222222222</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>709</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>2</td>
+      <td>0.0071968567300115215</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>710</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>2</td>
+      <td>0.037275937203149416</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>711</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>2</td>
+      <td>0.19306977288832497</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>712</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>2</td>
+      <td>1.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>713</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>2</td>
+      <td>5.1794746792312125</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>714</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>2</td>
+      <td>26.826957952797272</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>715</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>2</td>
+      <td>138.9495494373139</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>716</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>2</td>
+      <td>719.6856730011528</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>6</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>717</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>2</td>
+      <td>3727.593720314938</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>718</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>2</td>
+      <td>19306.977288832535</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>719</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>2</td>
+      <td>100000.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>720</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>3</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>721</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>3</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>722</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>3</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>723</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>3</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>724</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>3</td>
+      <td>0.0071968567300115215</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>725</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>3</td>
+      <td>0.037275937203149416</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>726</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>3</td>
+      <td>0.19306977288832497</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>727</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>3</td>
+      <td>1.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>728</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>3</td>
+      <td>5.1794746792312125</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>729</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>3</td>
+      <td>26.826957952797272</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>730</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>3</td>
+      <td>138.9495494373139</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>731</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>3</td>
+      <td>719.6856730011528</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td rowspan="90"><b>9</b></td>
-      <td rowspan="15"><b>1</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>732</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>3</td>
+      <td>3727.593720314938</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>733</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>3</td>
+      <td>19306.977288832535</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>734</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>3</td>
+      <td>100000.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>735</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>4</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>736</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>4</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>737</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>4</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>738</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>4</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>739</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>4</td>
+      <td>0.0071968567300115215</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>740</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>4</td>
+      <td>0.037275937203149416</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>741</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>4</td>
+      <td>0.19306977288832497</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>742</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>4</td>
+      <td>1.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>743</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>4</td>
+      <td>5.1794746792312125</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>744</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>4</td>
+      <td>26.826957952797272</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>745</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>4</td>
+      <td>138.9495494373139</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>746</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>4</td>
+      <td>719.6856730011528</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>2</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>747</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>4</td>
+      <td>3727.593720314938</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>748</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>4</td>
+      <td>19306.977288832535</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>749</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>4</td>
+      <td>100000.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>750</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>5</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>751</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>5</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>752</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>5</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>753</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>5</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>754</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>5</td>
+      <td>0.0071968567300115215</td>
+      <td>0.8444444444444444</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>755</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>5</td>
+      <td>0.037275937203149416</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>756</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>5</td>
+      <td>0.19306977288832497</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>757</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>5</td>
+      <td>1.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>758</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>5</td>
+      <td>5.1794746792312125</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>759</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>5</td>
+      <td>26.826957952797272</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>760</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>5</td>
+      <td>138.9495494373139</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>761</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>5</td>
+      <td>719.6856730011528</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>3</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>762</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>5</td>
+      <td>3727.593720314938</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>763</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>5</td>
+      <td>19306.977288832535</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>764</th>
+      <td>poly</td>
+      <td>26.826957952797272</td>
+      <td>5</td>
+      <td>100000.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>765</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>1</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>766</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>1</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.6888888888888889</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>767</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>1</td>
+      <td>0.0002682695795279727</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>768</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>1</td>
+      <td>0.0013894954943731374</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>769</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>1</td>
+      <td>0.0071968567300115215</td>
+      <td>0.9777777777777777</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>770</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>1</td>
+      <td>0.037275937203149416</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>771</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>1</td>
+      <td>0.19306977288832497</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>772</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>773</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>1</td>
+      <td>5.1794746792312125</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>774</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>1</td>
+      <td>26.826957952797272</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>775</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>1</td>
+      <td>138.9495494373139</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>776</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>1</td>
+      <td>719.6856730011528</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>4</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>777</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>1</td>
+      <td>3727.593720314938</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>778</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>1</td>
+      <td>19306.977288832535</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>779</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>1</td>
+      <td>100000.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>780</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>2</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>781</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>2</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>782</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>2</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>783</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>2</td>
+      <td>0.0013894954943731374</td>
+      <td>0.8666666666666667</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>784</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>2</td>
+      <td>0.0071968567300115215</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>785</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>2</td>
+      <td>0.037275937203149416</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>786</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>2</td>
+      <td>0.19306977288832497</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>787</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>2</td>
+      <td>1.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>788</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>2</td>
+      <td>5.1794746792312125</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>789</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>2</td>
+      <td>26.826957952797272</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>790</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>2</td>
+      <td>138.9495494373139</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>791</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>2</td>
+      <td>719.6856730011528</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>5</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>792</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>2</td>
+      <td>3727.593720314938</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>793</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>2</td>
+      <td>19306.977288832535</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>794</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>2</td>
+      <td>100000.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>795</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>3</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>796</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>3</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>797</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>3</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>798</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>3</td>
+      <td>0.0013894954943731374</td>
+      <td>0.8</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>799</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>3</td>
+      <td>0.0071968567300115215</td>
+      <td>0.9777777777777777</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>800</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>3</td>
+      <td>0.037275937203149416</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>801</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>3</td>
+      <td>0.19306977288832497</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>802</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>3</td>
+      <td>1.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>803</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>3</td>
+      <td>5.1794746792312125</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>804</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>3</td>
+      <td>26.826957952797272</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>805</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>3</td>
+      <td>138.9495494373139</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>806</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>3</td>
+      <td>719.6856730011528</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>6</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>807</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>3</td>
+      <td>3727.593720314938</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>808</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>3</td>
+      <td>19306.977288832535</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>809</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>3</td>
+      <td>100000.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>810</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>4</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>811</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>4</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>812</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>4</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>813</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>4</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>814</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>4</td>
+      <td>0.0071968567300115215</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>815</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>4</td>
+      <td>0.037275937203149416</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>816</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>4</td>
+      <td>0.19306977288832497</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>817</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>4</td>
+      <td>1.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>818</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>4</td>
+      <td>5.1794746792312125</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>819</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>4</td>
+      <td>26.826957952797272</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>820</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>4</td>
+      <td>138.9495494373139</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>821</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>4</td>
+      <td>719.6856730011528</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td rowspan="90"><b>10</b></td>
-      <td rowspan="15"><b>1</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>822</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>4</td>
+      <td>3727.593720314938</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>823</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>4</td>
+      <td>19306.977288832535</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>824</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>4</td>
+      <td>100000.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>825</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>5</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>826</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>5</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>827</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>5</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>828</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>5</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>829</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>5</td>
+      <td>0.0071968567300115215</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>830</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>5</td>
+      <td>0.037275937203149416</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>831</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>5</td>
+      <td>0.19306977288832497</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>832</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>5</td>
+      <td>1.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>833</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>5</td>
+      <td>5.1794746792312125</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>834</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>5</td>
+      <td>26.826957952797272</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>835</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>5</td>
+      <td>138.9495494373139</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>836</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>5</td>
+      <td>719.6856730011528</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>2</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>837</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>5</td>
+      <td>3727.593720314938</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>838</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>5</td>
+      <td>19306.977288832535</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>839</th>
+      <td>poly</td>
+      <td>138.9495494373139</td>
+      <td>5</td>
+      <td>100000.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>840</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>1</td>
+      <td>1e-05</td>
+      <td>0.6888888888888889</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>841</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>1</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>842</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>1</td>
+      <td>0.0002682695795279727</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>843</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>1</td>
+      <td>0.0013894954943731374</td>
+      <td>0.9777777777777777</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>844</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>1</td>
+      <td>0.0071968567300115215</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>845</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>1</td>
+      <td>0.037275937203149416</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>846</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>1</td>
+      <td>0.19306977288832497</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>847</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>848</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>1</td>
+      <td>5.1794746792312125</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>849</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>1</td>
+      <td>26.826957952797272</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>850</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>1</td>
+      <td>138.9495494373139</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>851</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>1</td>
+      <td>719.6856730011528</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>3</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>852</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>1</td>
+      <td>3727.593720314938</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>853</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>1</td>
+      <td>19306.977288832535</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>854</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>1</td>
+      <td>100000.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>855</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>2</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>856</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>2</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>857</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>2</td>
+      <td>0.0002682695795279727</td>
+      <td>0.8222222222222222</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>858</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>2</td>
+      <td>0.0013894954943731374</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>859</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>2</td>
+      <td>0.0071968567300115215</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>860</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>2</td>
+      <td>0.037275937203149416</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>861</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>2</td>
+      <td>0.19306977288832497</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>862</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>2</td>
+      <td>1.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>863</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>2</td>
+      <td>5.1794746792312125</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>864</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>2</td>
+      <td>26.826957952797272</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>865</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>2</td>
+      <td>138.9495494373139</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>866</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>2</td>
+      <td>719.6856730011528</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>4</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>867</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>2</td>
+      <td>3727.593720314938</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>868</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>2</td>
+      <td>19306.977288832535</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>869</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>2</td>
+      <td>100000.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>870</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>3</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>871</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>3</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>872</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>3</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>873</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>3</td>
+      <td>0.0013894954943731374</td>
+      <td>0.8666666666666667</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>874</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>3</td>
+      <td>0.0071968567300115215</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>875</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>3</td>
+      <td>0.037275937203149416</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>876</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>3</td>
+      <td>0.19306977288832497</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>877</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>3</td>
+      <td>1.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>878</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>3</td>
+      <td>5.1794746792312125</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>879</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>3</td>
+      <td>26.826957952797272</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>880</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>3</td>
+      <td>138.9495494373139</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>881</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>3</td>
+      <td>719.6856730011528</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>5</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>882</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>3</td>
+      <td>3727.593720314938</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>883</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>3</td>
+      <td>19306.977288832535</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>884</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>3</td>
+      <td>100000.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>885</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>4</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>886</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>4</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>887</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>4</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>888</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>4</td>
+      <td>0.0013894954943731374</td>
+      <td>0.7777777777777778</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>889</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>4</td>
+      <td>0.0071968567300115215</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>890</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>4</td>
+      <td>0.037275937203149416</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>891</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>4</td>
+      <td>0.19306977288832497</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>892</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>4</td>
+      <td>1.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>893</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>4</td>
+      <td>5.1794746792312125</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>894</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>4</td>
+      <td>26.826957952797272</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>895</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>4</td>
+      <td>138.9495494373139</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>896</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>4</td>
+      <td>719.6856730011528</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>6</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>897</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>4</td>
+      <td>3727.593720314938</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>898</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>4</td>
+      <td>19306.977288832535</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>899</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>4</td>
+      <td>100000.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>900</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>5</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>901</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>5</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>902</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>5</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>903</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>5</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>904</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>5</td>
+      <td>0.0071968567300115215</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>905</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>5</td>
+      <td>0.037275937203149416</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>906</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>5</td>
+      <td>0.19306977288832497</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>907</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>5</td>
+      <td>1.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>908</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>5</td>
+      <td>5.1794746792312125</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>909</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>5</td>
+      <td>26.826957952797272</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>910</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>5</td>
+      <td>138.9495494373139</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>911</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>5</td>
+      <td>719.6856730011528</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td rowspan="90"><b>11</b></td>
-      <td rowspan="15"><b>1</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>912</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>5</td>
+      <td>3727.593720314938</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>913</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>5</td>
+      <td>19306.977288832535</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>914</th>
+      <td>poly</td>
+      <td>719.6856730011528</td>
+      <td>5</td>
+      <td>100000.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>915</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>1</td>
+      <td>1e-05</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>916</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>1</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>917</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>1</td>
+      <td>0.0002682695795279727</td>
+      <td>0.9777777777777777</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>918</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>1</td>
+      <td>0.0013894954943731374</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>919</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>1</td>
+      <td>0.0071968567300115215</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>920</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>1</td>
+      <td>0.037275937203149416</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>921</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>1</td>
+      <td>0.19306977288832497</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>922</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>923</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>1</td>
+      <td>5.1794746792312125</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>924</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>1</td>
+      <td>26.826957952797272</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>925</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>1</td>
+      <td>138.9495494373139</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>926</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>1</td>
+      <td>719.6856730011528</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>2</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>927</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>1</td>
+      <td>3727.593720314938</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>928</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>1</td>
+      <td>19306.977288832535</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>929</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>1</td>
+      <td>100000.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>930</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>2</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>931</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>2</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>932</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>2</td>
+      <td>0.0002682695795279727</td>
+      <td>0.8666666666666667</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>933</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>2</td>
+      <td>0.0013894954943731374</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>934</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>2</td>
+      <td>0.0071968567300115215</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>935</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>2</td>
+      <td>0.037275937203149416</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>936</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>2</td>
+      <td>0.19306977288832497</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>937</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>2</td>
+      <td>1.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>938</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>2</td>
+      <td>5.1794746792312125</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>939</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>2</td>
+      <td>26.826957952797272</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>940</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>2</td>
+      <td>138.9495494373139</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>941</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>2</td>
+      <td>719.6856730011528</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>3</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>942</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>2</td>
+      <td>3727.593720314938</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>943</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>2</td>
+      <td>19306.977288832535</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>944</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>2</td>
+      <td>100000.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>945</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>3</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>946</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>3</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>947</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>3</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>948</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>3</td>
+      <td>0.0013894954943731374</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>949</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>3</td>
+      <td>0.0071968567300115215</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>950</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>3</td>
+      <td>0.037275937203149416</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>951</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>3</td>
+      <td>0.19306977288832497</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>952</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>3</td>
+      <td>1.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>953</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>3</td>
+      <td>5.1794746792312125</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>954</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>3</td>
+      <td>26.826957952797272</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>955</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>3</td>
+      <td>138.9495494373139</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>956</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>3</td>
+      <td>719.6856730011528</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>4</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>957</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>3</td>
+      <td>3727.593720314938</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>958</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>3</td>
+      <td>19306.977288832535</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>959</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>3</td>
+      <td>100000.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>960</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>4</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>961</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>4</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>962</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>4</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>963</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>4</td>
+      <td>0.0013894954943731374</td>
+      <td>0.8444444444444444</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>964</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>4</td>
+      <td>0.0071968567300115215</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>965</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>4</td>
+      <td>0.037275937203149416</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>966</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>4</td>
+      <td>0.19306977288832497</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>967</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>4</td>
+      <td>1.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>968</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>4</td>
+      <td>5.1794746792312125</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>969</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>4</td>
+      <td>26.826957952797272</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>970</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>4</td>
+      <td>138.9495494373139</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>971</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>4</td>
+      <td>719.6856730011528</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>5</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>972</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>4</td>
+      <td>3727.593720314938</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>973</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>4</td>
+      <td>19306.977288832535</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>974</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>4</td>
+      <td>100000.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>975</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>5</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>976</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>5</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>977</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>5</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>978</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>5</td>
+      <td>0.0013894954943731374</td>
+      <td>0.6444444444444445</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>979</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>5</td>
+      <td>0.0071968567300115215</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>980</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>5</td>
+      <td>0.037275937203149416</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>981</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>5</td>
+      <td>0.19306977288832497</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>982</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>5</td>
+      <td>1.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>983</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>5</td>
+      <td>5.1794746792312125</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>984</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>5</td>
+      <td>26.826957952797272</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>985</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>5</td>
+      <td>138.9495494373139</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>986</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>5</td>
+      <td>719.6856730011528</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>6</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>987</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>5</td>
+      <td>3727.593720314938</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>988</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>5</td>
+      <td>19306.977288832535</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>989</th>
+      <td>poly</td>
+      <td>3727.593720314938</td>
+      <td>5</td>
+      <td>100000.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>990</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>1</td>
+      <td>1e-05</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>991</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>1</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.9777777777777777</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>992</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>1</td>
+      <td>0.0002682695795279727</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>993</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>1</td>
+      <td>0.0013894954943731374</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>994</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>1</td>
+      <td>0.0071968567300115215</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>995</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>1</td>
+      <td>0.037275937203149416</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>996</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>1</td>
+      <td>0.19306977288832497</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>997</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>998</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>1</td>
+      <td>5.1794746792312125</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>999</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>1</td>
+      <td>26.826957952797272</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1000</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>1</td>
+      <td>138.9495494373139</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1001</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>1</td>
+      <td>719.6856730011528</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td rowspan="90"><b>12</b></td>
-      <td rowspan="15"><b>1</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1002</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>1</td>
+      <td>3727.593720314938</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1003</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>1</td>
+      <td>19306.977288832535</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1004</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>1</td>
+      <td>100000.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1005</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>2</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1006</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>2</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.8222222222222222</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1007</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>2</td>
+      <td>0.0002682695795279727</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1008</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>2</td>
+      <td>0.0013894954943731374</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1009</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>2</td>
+      <td>0.0071968567300115215</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1010</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>2</td>
+      <td>0.037275937203149416</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1011</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>2</td>
+      <td>0.19306977288832497</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1012</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>2</td>
+      <td>1.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1013</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>2</td>
+      <td>5.1794746792312125</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1014</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>2</td>
+      <td>26.826957952797272</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1015</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>2</td>
+      <td>138.9495494373139</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1016</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>2</td>
+      <td>719.6856730011528</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>2</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1017</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>2</td>
+      <td>3727.593720314938</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1018</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>2</td>
+      <td>19306.977288832535</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1019</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>2</td>
+      <td>100000.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1020</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>3</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1021</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>3</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1022</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>3</td>
+      <td>0.0002682695795279727</td>
+      <td>0.8</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1023</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>3</td>
+      <td>0.0013894954943731374</td>
+      <td>0.9777777777777777</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1024</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>3</td>
+      <td>0.0071968567300115215</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1025</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>3</td>
+      <td>0.037275937203149416</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1026</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>3</td>
+      <td>0.19306977288832497</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1027</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>3</td>
+      <td>1.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1028</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>3</td>
+      <td>5.1794746792312125</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1029</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>3</td>
+      <td>26.826957952797272</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1030</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>3</td>
+      <td>138.9495494373139</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1031</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>3</td>
+      <td>719.6856730011528</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>3</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1032</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>3</td>
+      <td>3727.593720314938</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1033</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>3</td>
+      <td>19306.977288832535</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1034</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>3</td>
+      <td>100000.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1035</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>4</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1036</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>4</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1037</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>4</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1038</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>4</td>
+      <td>0.0013894954943731374</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1039</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>4</td>
+      <td>0.0071968567300115215</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1040</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>4</td>
+      <td>0.037275937203149416</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1041</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>4</td>
+      <td>0.19306977288832497</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1042</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>4</td>
+      <td>1.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1043</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>4</td>
+      <td>5.1794746792312125</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1044</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>4</td>
+      <td>26.826957952797272</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1045</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>4</td>
+      <td>138.9495494373139</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1046</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>4</td>
+      <td>719.6856730011528</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>4</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1047</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>4</td>
+      <td>3727.593720314938</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1048</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>4</td>
+      <td>19306.977288832535</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1049</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>4</td>
+      <td>100000.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1050</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>5</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1051</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>5</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1052</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>5</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1053</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>5</td>
+      <td>0.0013894954943731374</td>
+      <td>0.8222222222222222</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1054</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>5</td>
+      <td>0.0071968567300115215</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1055</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>5</td>
+      <td>0.037275937203149416</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1056</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>5</td>
+      <td>0.19306977288832497</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1057</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>5</td>
+      <td>1.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1058</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>5</td>
+      <td>5.1794746792312125</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1059</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>5</td>
+      <td>26.826957952797272</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1060</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>5</td>
+      <td>138.9495494373139</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1061</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>5</td>
+      <td>719.6856730011528</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>5</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1062</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>5</td>
+      <td>3727.593720314938</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1063</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>5</td>
+      <td>19306.977288832535</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1064</th>
+      <td>poly</td>
+      <td>19306.977288832535</td>
+      <td>5</td>
+      <td>100000.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1065</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>1</td>
+      <td>1e-05</td>
+      <td>0.9777777777777777</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1066</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>1</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1067</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>1</td>
+      <td>0.0002682695795279727</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1068</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>1</td>
+      <td>0.0013894954943731374</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1069</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>1</td>
+      <td>0.0071968567300115215</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1070</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>1</td>
+      <td>0.037275937203149416</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1071</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>1</td>
+      <td>0.19306977288832497</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1072</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>1</td>
+      <td>1.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1073</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>1</td>
+      <td>5.1794746792312125</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1074</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>1</td>
+      <td>26.826957952797272</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1075</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>1</td>
+      <td>138.9495494373139</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1076</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>1</td>
+      <td>719.6856730011528</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>6</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1077</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>1</td>
+      <td>3727.593720314938</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1078</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>1</td>
+      <td>19306.977288832535</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1079</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>1</td>
+      <td>100000.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1080</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>2</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1081</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>2</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.8666666666666667</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1082</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>2</td>
+      <td>0.0002682695795279727</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1083</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>2</td>
+      <td>0.0013894954943731374</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1084</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>2</td>
+      <td>0.0071968567300115215</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1085</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>2</td>
+      <td>0.037275937203149416</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1086</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>2</td>
+      <td>0.19306977288832497</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1087</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>2</td>
+      <td>1.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1088</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>2</td>
+      <td>5.1794746792312125</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1089</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>2</td>
+      <td>26.826957952797272</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1090</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>2</td>
+      <td>138.9495494373139</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1091</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>2</td>
+      <td>719.6856730011528</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td rowspan="90"><b>13</b></td>
-      <td rowspan="15"><b>1</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1092</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>2</td>
+      <td>3727.593720314938</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1093</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>2</td>
+      <td>19306.977288832535</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1094</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>2</td>
+      <td>100000.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1095</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>3</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1096</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>3</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1097</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>3</td>
+      <td>0.0002682695795279727</td>
+      <td>0.8666666666666667</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1098</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>3</td>
+      <td>0.0013894954943731374</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1099</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>3</td>
+      <td>0.0071968567300115215</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1100</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>3</td>
+      <td>0.037275937203149416</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1101</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>3</td>
+      <td>0.19306977288832497</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1102</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>3</td>
+      <td>1.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1103</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>3</td>
+      <td>5.1794746792312125</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1104</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>3</td>
+      <td>26.826957952797272</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1105</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>3</td>
+      <td>138.9495494373139</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1106</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>3</td>
+      <td>719.6856730011528</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>2</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1107</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>3</td>
+      <td>3727.593720314938</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1108</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>3</td>
+      <td>19306.977288832535</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1109</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>3</td>
+      <td>100000.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1110</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>4</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1111</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>4</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1112</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>4</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1113</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>4</td>
+      <td>0.0013894954943731374</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1114</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>4</td>
+      <td>0.0071968567300115215</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1115</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>4</td>
+      <td>0.037275937203149416</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1116</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>4</td>
+      <td>0.19306977288832497</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1117</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>4</td>
+      <td>1.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1118</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>4</td>
+      <td>5.1794746792312125</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1119</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>4</td>
+      <td>26.826957952797272</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1120</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>4</td>
+      <td>138.9495494373139</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1121</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>4</td>
+      <td>719.6856730011528</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>3</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1122</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>4</td>
+      <td>3727.593720314938</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1123</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>4</td>
+      <td>19306.977288832535</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1124</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>4</td>
+      <td>100000.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1125</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>5</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1126</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>5</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1127</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>5</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1128</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>5</td>
+      <td>0.0013894954943731374</td>
+      <td>0.8444444444444444</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1129</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>5</td>
+      <td>0.0071968567300115215</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1130</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>5</td>
+      <td>0.037275937203149416</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1131</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>5</td>
+      <td>0.19306977288832497</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1132</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>5</td>
+      <td>1.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1133</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>5</td>
+      <td>5.1794746792312125</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1134</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>5</td>
+      <td>26.826957952797272</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1135</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>5</td>
+      <td>138.9495494373139</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1136</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>5</td>
+      <td>719.6856730011528</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>4</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1137</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>5</td>
+      <td>3727.593720314938</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1138</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>5</td>
+      <td>19306.977288832535</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1139</th>
+      <td>poly</td>
+      <td>100000.0</td>
+      <td>5</td>
+      <td>100000.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1140</th>
+      <td>rbf</td>
+      <td>1e-05</td>
+      <td>N/A</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1141</th>
+      <td>rbf</td>
+      <td>1e-05</td>
+      <td>N/A</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1142</th>
+      <td>rbf</td>
+      <td>1e-05</td>
+      <td>N/A</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1143</th>
+      <td>rbf</td>
+      <td>1e-05</td>
+      <td>N/A</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1144</th>
+      <td>rbf</td>
+      <td>1e-05</td>
+      <td>N/A</td>
+      <td>0.0071968567300115215</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1145</th>
+      <td>rbf</td>
+      <td>1e-05</td>
+      <td>N/A</td>
+      <td>0.037275937203149416</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1146</th>
+      <td>rbf</td>
+      <td>1e-05</td>
+      <td>N/A</td>
+      <td>0.19306977288832497</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1147</th>
+      <td>rbf</td>
+      <td>1e-05</td>
+      <td>N/A</td>
+      <td>1.0</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1148</th>
+      <td>rbf</td>
+      <td>1e-05</td>
+      <td>N/A</td>
+      <td>5.1794746792312125</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1149</th>
+      <td>rbf</td>
+      <td>1e-05</td>
+      <td>N/A</td>
+      <td>26.826957952797272</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1150</th>
+      <td>rbf</td>
+      <td>1e-05</td>
+      <td>N/A</td>
+      <td>138.9495494373139</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1151</th>
+      <td>rbf</td>
+      <td>1e-05</td>
+      <td>N/A</td>
+      <td>719.6856730011528</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>5</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1152</th>
+      <td>rbf</td>
+      <td>1e-05</td>
+      <td>N/A</td>
+      <td>3727.593720314938</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1153</th>
+      <td>rbf</td>
+      <td>1e-05</td>
+      <td>N/A</td>
+      <td>19306.977288832535</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1154</th>
+      <td>rbf</td>
+      <td>1e-05</td>
+      <td>N/A</td>
+      <td>100000.0</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1155</th>
+      <td>rbf</td>
+      <td>5.1794746792312125e-05</td>
+      <td>N/A</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1156</th>
+      <td>rbf</td>
+      <td>5.1794746792312125e-05</td>
+      <td>N/A</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1157</th>
+      <td>rbf</td>
+      <td>5.1794746792312125e-05</td>
+      <td>N/A</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1158</th>
+      <td>rbf</td>
+      <td>5.1794746792312125e-05</td>
+      <td>N/A</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1159</th>
+      <td>rbf</td>
+      <td>5.1794746792312125e-05</td>
+      <td>N/A</td>
+      <td>0.0071968567300115215</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1160</th>
+      <td>rbf</td>
+      <td>5.1794746792312125e-05</td>
+      <td>N/A</td>
+      <td>0.037275937203149416</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1161</th>
+      <td>rbf</td>
+      <td>5.1794746792312125e-05</td>
+      <td>N/A</td>
+      <td>0.19306977288832497</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1162</th>
+      <td>rbf</td>
+      <td>5.1794746792312125e-05</td>
+      <td>N/A</td>
+      <td>1.0</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1163</th>
+      <td>rbf</td>
+      <td>5.1794746792312125e-05</td>
+      <td>N/A</td>
+      <td>5.1794746792312125</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1164</th>
+      <td>rbf</td>
+      <td>5.1794746792312125e-05</td>
+      <td>N/A</td>
+      <td>26.826957952797272</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1165</th>
+      <td>rbf</td>
+      <td>5.1794746792312125e-05</td>
+      <td>N/A</td>
+      <td>138.9495494373139</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1166</th>
+      <td>rbf</td>
+      <td>5.1794746792312125e-05</td>
+      <td>N/A</td>
+      <td>719.6856730011528</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>6</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1167</th>
+      <td>rbf</td>
+      <td>5.1794746792312125e-05</td>
+      <td>N/A</td>
+      <td>3727.593720314938</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1168</th>
+      <td>rbf</td>
+      <td>5.1794746792312125e-05</td>
+      <td>N/A</td>
+      <td>19306.977288832535</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1169</th>
+      <td>rbf</td>
+      <td>5.1794746792312125e-05</td>
+      <td>N/A</td>
+      <td>100000.0</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1170</th>
+      <td>rbf</td>
+      <td>0.0002682695795279727</td>
+      <td>N/A</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1171</th>
+      <td>rbf</td>
+      <td>0.0002682695795279727</td>
+      <td>N/A</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1172</th>
+      <td>rbf</td>
+      <td>0.0002682695795279727</td>
+      <td>N/A</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1173</th>
+      <td>rbf</td>
+      <td>0.0002682695795279727</td>
+      <td>N/A</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1174</th>
+      <td>rbf</td>
+      <td>0.0002682695795279727</td>
+      <td>N/A</td>
+      <td>0.0071968567300115215</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1175</th>
+      <td>rbf</td>
+      <td>0.0002682695795279727</td>
+      <td>N/A</td>
+      <td>0.037275937203149416</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1176</th>
+      <td>rbf</td>
+      <td>0.0002682695795279727</td>
+      <td>N/A</td>
+      <td>0.19306977288832497</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1177</th>
+      <td>rbf</td>
+      <td>0.0002682695795279727</td>
+      <td>N/A</td>
+      <td>1.0</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1178</th>
+      <td>rbf</td>
+      <td>0.0002682695795279727</td>
+      <td>N/A</td>
+      <td>5.1794746792312125</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1179</th>
+      <td>rbf</td>
+      <td>0.0002682695795279727</td>
+      <td>N/A</td>
+      <td>26.826957952797272</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1180</th>
+      <td>rbf</td>
+      <td>0.0002682695795279727</td>
+      <td>N/A</td>
+      <td>138.9495494373139</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1181</th>
+      <td>rbf</td>
+      <td>0.0002682695795279727</td>
+      <td>N/A</td>
+      <td>719.6856730011528</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td rowspan="90"><b>14</b></td>
-      <td rowspan="15"><b>1</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1182</th>
+      <td>rbf</td>
+      <td>0.0002682695795279727</td>
+      <td>N/A</td>
+      <td>3727.593720314938</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1183</th>
+      <td>rbf</td>
+      <td>0.0002682695795279727</td>
+      <td>N/A</td>
+      <td>19306.977288832535</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1184</th>
+      <td>rbf</td>
+      <td>0.0002682695795279727</td>
+      <td>N/A</td>
+      <td>100000.0</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1185</th>
+      <td>rbf</td>
+      <td>0.0013894954943731374</td>
+      <td>N/A</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1186</th>
+      <td>rbf</td>
+      <td>0.0013894954943731374</td>
+      <td>N/A</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1187</th>
+      <td>rbf</td>
+      <td>0.0013894954943731374</td>
+      <td>N/A</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1188</th>
+      <td>rbf</td>
+      <td>0.0013894954943731374</td>
+      <td>N/A</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1189</th>
+      <td>rbf</td>
+      <td>0.0013894954943731374</td>
+      <td>N/A</td>
+      <td>0.0071968567300115215</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1190</th>
+      <td>rbf</td>
+      <td>0.0013894954943731374</td>
+      <td>N/A</td>
+      <td>0.037275937203149416</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1191</th>
+      <td>rbf</td>
+      <td>0.0013894954943731374</td>
+      <td>N/A</td>
+      <td>0.19306977288832497</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1192</th>
+      <td>rbf</td>
+      <td>0.0013894954943731374</td>
+      <td>N/A</td>
+      <td>1.0</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1193</th>
+      <td>rbf</td>
+      <td>0.0013894954943731374</td>
+      <td>N/A</td>
+      <td>5.1794746792312125</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1194</th>
+      <td>rbf</td>
+      <td>0.0013894954943731374</td>
+      <td>N/A</td>
+      <td>26.826957952797272</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1195</th>
+      <td>rbf</td>
+      <td>0.0013894954943731374</td>
+      <td>N/A</td>
+      <td>138.9495494373139</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1196</th>
+      <td>rbf</td>
+      <td>0.0013894954943731374</td>
+      <td>N/A</td>
+      <td>719.6856730011528</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>2</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1197</th>
+      <td>rbf</td>
+      <td>0.0013894954943731374</td>
+      <td>N/A</td>
+      <td>3727.593720314938</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1198</th>
+      <td>rbf</td>
+      <td>0.0013894954943731374</td>
+      <td>N/A</td>
+      <td>19306.977288832535</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1199</th>
+      <td>rbf</td>
+      <td>0.0013894954943731374</td>
+      <td>N/A</td>
+      <td>100000.0</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1200</th>
+      <td>rbf</td>
+      <td>0.0071968567300115215</td>
+      <td>N/A</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1201</th>
+      <td>rbf</td>
+      <td>0.0071968567300115215</td>
+      <td>N/A</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1202</th>
+      <td>rbf</td>
+      <td>0.0071968567300115215</td>
+      <td>N/A</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1203</th>
+      <td>rbf</td>
+      <td>0.0071968567300115215</td>
+      <td>N/A</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1204</th>
+      <td>rbf</td>
+      <td>0.0071968567300115215</td>
+      <td>N/A</td>
+      <td>0.0071968567300115215</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1205</th>
+      <td>rbf</td>
+      <td>0.0071968567300115215</td>
+      <td>N/A</td>
+      <td>0.037275937203149416</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1206</th>
+      <td>rbf</td>
+      <td>0.0071968567300115215</td>
+      <td>N/A</td>
+      <td>0.19306977288832497</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1207</th>
+      <td>rbf</td>
+      <td>0.0071968567300115215</td>
+      <td>N/A</td>
+      <td>1.0</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1208</th>
+      <td>rbf</td>
+      <td>0.0071968567300115215</td>
+      <td>N/A</td>
+      <td>5.1794746792312125</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1209</th>
+      <td>rbf</td>
+      <td>0.0071968567300115215</td>
+      <td>N/A</td>
+      <td>26.826957952797272</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1210</th>
+      <td>rbf</td>
+      <td>0.0071968567300115215</td>
+      <td>N/A</td>
+      <td>138.9495494373139</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1211</th>
+      <td>rbf</td>
+      <td>0.0071968567300115215</td>
+      <td>N/A</td>
+      <td>719.6856730011528</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>3</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1212</th>
+      <td>rbf</td>
+      <td>0.0071968567300115215</td>
+      <td>N/A</td>
+      <td>3727.593720314938</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1213</th>
+      <td>rbf</td>
+      <td>0.0071968567300115215</td>
+      <td>N/A</td>
+      <td>19306.977288832535</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1214</th>
+      <td>rbf</td>
+      <td>0.0071968567300115215</td>
+      <td>N/A</td>
+      <td>100000.0</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1215</th>
+      <td>rbf</td>
+      <td>0.037275937203149416</td>
+      <td>N/A</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1216</th>
+      <td>rbf</td>
+      <td>0.037275937203149416</td>
+      <td>N/A</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1217</th>
+      <td>rbf</td>
+      <td>0.037275937203149416</td>
+      <td>N/A</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1218</th>
+      <td>rbf</td>
+      <td>0.037275937203149416</td>
+      <td>N/A</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1219</th>
+      <td>rbf</td>
+      <td>0.037275937203149416</td>
+      <td>N/A</td>
+      <td>0.0071968567300115215</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1220</th>
+      <td>rbf</td>
+      <td>0.037275937203149416</td>
+      <td>N/A</td>
+      <td>0.037275937203149416</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1221</th>
+      <td>rbf</td>
+      <td>0.037275937203149416</td>
+      <td>N/A</td>
+      <td>0.19306977288832497</td>
+      <td>0.6</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1222</th>
+      <td>rbf</td>
+      <td>0.037275937203149416</td>
+      <td>N/A</td>
+      <td>1.0</td>
+      <td>0.6888888888888889</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1223</th>
+      <td>rbf</td>
+      <td>0.037275937203149416</td>
+      <td>N/A</td>
+      <td>5.1794746792312125</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1224</th>
+      <td>rbf</td>
+      <td>0.037275937203149416</td>
+      <td>N/A</td>
+      <td>26.826957952797272</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1225</th>
+      <td>rbf</td>
+      <td>0.037275937203149416</td>
+      <td>N/A</td>
+      <td>138.9495494373139</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1226</th>
+      <td>rbf</td>
+      <td>0.037275937203149416</td>
+      <td>N/A</td>
+      <td>719.6856730011528</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>4</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1227</th>
+      <td>rbf</td>
+      <td>0.037275937203149416</td>
+      <td>N/A</td>
+      <td>3727.593720314938</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1228</th>
+      <td>rbf</td>
+      <td>0.037275937203149416</td>
+      <td>N/A</td>
+      <td>19306.977288832535</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1229</th>
+      <td>rbf</td>
+      <td>0.037275937203149416</td>
+      <td>N/A</td>
+      <td>100000.0</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1230</th>
+      <td>rbf</td>
+      <td>0.19306977288832497</td>
+      <td>N/A</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1231</th>
+      <td>rbf</td>
+      <td>0.19306977288832497</td>
+      <td>N/A</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1232</th>
+      <td>rbf</td>
+      <td>0.19306977288832497</td>
+      <td>N/A</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1233</th>
+      <td>rbf</td>
+      <td>0.19306977288832497</td>
+      <td>N/A</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1234</th>
+      <td>rbf</td>
+      <td>0.19306977288832497</td>
+      <td>N/A</td>
+      <td>0.0071968567300115215</td>
+      <td>0.6</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1235</th>
+      <td>rbf</td>
+      <td>0.19306977288832497</td>
+      <td>N/A</td>
+      <td>0.037275937203149416</td>
+      <td>0.8666666666666667</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1236</th>
+      <td>rbf</td>
+      <td>0.19306977288832497</td>
+      <td>N/A</td>
+      <td>0.19306977288832497</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1237</th>
+      <td>rbf</td>
+      <td>0.19306977288832497</td>
+      <td>N/A</td>
+      <td>1.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1238</th>
+      <td>rbf</td>
+      <td>0.19306977288832497</td>
+      <td>N/A</td>
+      <td>5.1794746792312125</td>
+      <td>0.9111111111111111</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1239</th>
+      <td>rbf</td>
+      <td>0.19306977288832497</td>
+      <td>N/A</td>
+      <td>26.826957952797272</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1240</th>
+      <td>rbf</td>
+      <td>0.19306977288832497</td>
+      <td>N/A</td>
+      <td>138.9495494373139</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1241</th>
+      <td>rbf</td>
+      <td>0.19306977288832497</td>
+      <td>N/A</td>
+      <td>719.6856730011528</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>5</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1242</th>
+      <td>rbf</td>
+      <td>0.19306977288832497</td>
+      <td>N/A</td>
+      <td>3727.593720314938</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1243</th>
+      <td>rbf</td>
+      <td>0.19306977288832497</td>
+      <td>N/A</td>
+      <td>19306.977288832535</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1244</th>
+      <td>rbf</td>
+      <td>0.19306977288832497</td>
+      <td>N/A</td>
+      <td>100000.0</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1245</th>
+      <td>rbf</td>
+      <td>1.0</td>
+      <td>N/A</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1246</th>
+      <td>rbf</td>
+      <td>1.0</td>
+      <td>N/A</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1247</th>
+      <td>rbf</td>
+      <td>1.0</td>
+      <td>N/A</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1248</th>
+      <td>rbf</td>
+      <td>1.0</td>
+      <td>N/A</td>
+      <td>0.0013894954943731374</td>
+      <td>0.6</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1249</th>
+      <td>rbf</td>
+      <td>1.0</td>
+      <td>N/A</td>
+      <td>0.0071968567300115215</td>
+      <td>0.8666666666666667</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1250</th>
+      <td>rbf</td>
+      <td>1.0</td>
+      <td>N/A</td>
+      <td>0.037275937203149416</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1251</th>
+      <td>rbf</td>
+      <td>1.0</td>
+      <td>N/A</td>
+      <td>0.19306977288832497</td>
+      <td>0.9777777777777777</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1252</th>
+      <td>rbf</td>
+      <td>1.0</td>
+      <td>N/A</td>
+      <td>1.0</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1253</th>
+      <td>rbf</td>
+      <td>1.0</td>
+      <td>N/A</td>
+      <td>5.1794746792312125</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1254</th>
+      <td>rbf</td>
+      <td>1.0</td>
+      <td>N/A</td>
+      <td>26.826957952797272</td>
+      <td>0.8444444444444444</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1255</th>
+      <td>rbf</td>
+      <td>1.0</td>
+      <td>N/A</td>
+      <td>138.9495494373139</td>
+      <td>0.4444444444444444</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1256</th>
+      <td>rbf</td>
+      <td>1.0</td>
+      <td>N/A</td>
+      <td>719.6856730011528</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>6</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1257</th>
+      <td>rbf</td>
+      <td>1.0</td>
+      <td>N/A</td>
+      <td>3727.593720314938</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1258</th>
+      <td>rbf</td>
+      <td>1.0</td>
+      <td>N/A</td>
+      <td>19306.977288832535</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1259</th>
+      <td>rbf</td>
+      <td>1.0</td>
+      <td>N/A</td>
+      <td>100000.0</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1260</th>
+      <td>rbf</td>
+      <td>5.1794746792312125</td>
+      <td>N/A</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1261</th>
+      <td>rbf</td>
+      <td>5.1794746792312125</td>
+      <td>N/A</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1262</th>
+      <td>rbf</td>
+      <td>5.1794746792312125</td>
+      <td>N/A</td>
+      <td>0.0002682695795279727</td>
+      <td>0.6</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1263</th>
+      <td>rbf</td>
+      <td>5.1794746792312125</td>
+      <td>N/A</td>
+      <td>0.0013894954943731374</td>
+      <td>0.8666666666666667</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1264</th>
+      <td>rbf</td>
+      <td>5.1794746792312125</td>
+      <td>N/A</td>
+      <td>0.0071968567300115215</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1265</th>
+      <td>rbf</td>
+      <td>5.1794746792312125</td>
+      <td>N/A</td>
+      <td>0.037275937203149416</td>
+      <td>0.9777777777777777</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1266</th>
+      <td>rbf</td>
+      <td>5.1794746792312125</td>
+      <td>N/A</td>
+      <td>0.19306977288832497</td>
+      <td>0.9777777777777777</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1267</th>
+      <td>rbf</td>
+      <td>5.1794746792312125</td>
+      <td>N/A</td>
+      <td>1.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1268</th>
+      <td>rbf</td>
+      <td>5.1794746792312125</td>
+      <td>N/A</td>
+      <td>5.1794746792312125</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1269</th>
+      <td>rbf</td>
+      <td>5.1794746792312125</td>
+      <td>N/A</td>
+      <td>26.826957952797272</td>
+      <td>0.8444444444444444</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1270</th>
+      <td>rbf</td>
+      <td>5.1794746792312125</td>
+      <td>N/A</td>
+      <td>138.9495494373139</td>
+      <td>0.4444444444444444</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1271</th>
+      <td>rbf</td>
+      <td>5.1794746792312125</td>
+      <td>N/A</td>
+      <td>719.6856730011528</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td rowspan="90"><b>15</b></td>
-      <td rowspan="15"><b>1</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1272</th>
+      <td>rbf</td>
+      <td>5.1794746792312125</td>
+      <td>N/A</td>
+      <td>3727.593720314938</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1273</th>
+      <td>rbf</td>
+      <td>5.1794746792312125</td>
+      <td>N/A</td>
+      <td>19306.977288832535</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1274</th>
+      <td>rbf</td>
+      <td>5.1794746792312125</td>
+      <td>N/A</td>
+      <td>100000.0</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1275</th>
+      <td>rbf</td>
+      <td>26.826957952797272</td>
+      <td>N/A</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1276</th>
+      <td>rbf</td>
+      <td>26.826957952797272</td>
+      <td>N/A</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.6</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1277</th>
+      <td>rbf</td>
+      <td>26.826957952797272</td>
+      <td>N/A</td>
+      <td>0.0002682695795279727</td>
+      <td>0.8666666666666667</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1278</th>
+      <td>rbf</td>
+      <td>26.826957952797272</td>
+      <td>N/A</td>
+      <td>0.0013894954943731374</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1279</th>
+      <td>rbf</td>
+      <td>26.826957952797272</td>
+      <td>N/A</td>
+      <td>0.0071968567300115215</td>
+      <td>0.9777777777777777</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1280</th>
+      <td>rbf</td>
+      <td>26.826957952797272</td>
+      <td>N/A</td>
+      <td>0.037275937203149416</td>
+      <td>0.9777777777777777</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1281</th>
+      <td>rbf</td>
+      <td>26.826957952797272</td>
+      <td>N/A</td>
+      <td>0.19306977288832497</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1282</th>
+      <td>rbf</td>
+      <td>26.826957952797272</td>
+      <td>N/A</td>
+      <td>1.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1283</th>
+      <td>rbf</td>
+      <td>26.826957952797272</td>
+      <td>N/A</td>
+      <td>5.1794746792312125</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1284</th>
+      <td>rbf</td>
+      <td>26.826957952797272</td>
+      <td>N/A</td>
+      <td>26.826957952797272</td>
+      <td>0.8444444444444444</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1285</th>
+      <td>rbf</td>
+      <td>26.826957952797272</td>
+      <td>N/A</td>
+      <td>138.9495494373139</td>
+      <td>0.4444444444444444</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1286</th>
+      <td>rbf</td>
+      <td>26.826957952797272</td>
+      <td>N/A</td>
+      <td>719.6856730011528</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>2</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1287</th>
+      <td>rbf</td>
+      <td>26.826957952797272</td>
+      <td>N/A</td>
+      <td>3727.593720314938</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1288</th>
+      <td>rbf</td>
+      <td>26.826957952797272</td>
+      <td>N/A</td>
+      <td>19306.977288832535</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1289</th>
+      <td>rbf</td>
+      <td>26.826957952797272</td>
+      <td>N/A</td>
+      <td>100000.0</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1290</th>
+      <td>rbf</td>
+      <td>138.9495494373139</td>
+      <td>N/A</td>
+      <td>1e-05</td>
+      <td>0.6</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1291</th>
+      <td>rbf</td>
+      <td>138.9495494373139</td>
+      <td>N/A</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.8666666666666667</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1292</th>
+      <td>rbf</td>
+      <td>138.9495494373139</td>
+      <td>N/A</td>
+      <td>0.0002682695795279727</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1293</th>
+      <td>rbf</td>
+      <td>138.9495494373139</td>
+      <td>N/A</td>
+      <td>0.0013894954943731374</td>
+      <td>0.9777777777777777</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1294</th>
+      <td>rbf</td>
+      <td>138.9495494373139</td>
+      <td>N/A</td>
+      <td>0.0071968567300115215</td>
+      <td>0.9777777777777777</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1295</th>
+      <td>rbf</td>
+      <td>138.9495494373139</td>
+      <td>N/A</td>
+      <td>0.037275937203149416</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1296</th>
+      <td>rbf</td>
+      <td>138.9495494373139</td>
+      <td>N/A</td>
+      <td>0.19306977288832497</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1297</th>
+      <td>rbf</td>
+      <td>138.9495494373139</td>
+      <td>N/A</td>
+      <td>1.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1298</th>
+      <td>rbf</td>
+      <td>138.9495494373139</td>
+      <td>N/A</td>
+      <td>5.1794746792312125</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1299</th>
+      <td>rbf</td>
+      <td>138.9495494373139</td>
+      <td>N/A</td>
+      <td>26.826957952797272</td>
+      <td>0.8444444444444444</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1300</th>
+      <td>rbf</td>
+      <td>138.9495494373139</td>
+      <td>N/A</td>
+      <td>138.9495494373139</td>
+      <td>0.4444444444444444</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1301</th>
+      <td>rbf</td>
+      <td>138.9495494373139</td>
+      <td>N/A</td>
+      <td>719.6856730011528</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>3</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1302</th>
+      <td>rbf</td>
+      <td>138.9495494373139</td>
+      <td>N/A</td>
+      <td>3727.593720314938</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1303</th>
+      <td>rbf</td>
+      <td>138.9495494373139</td>
+      <td>N/A</td>
+      <td>19306.977288832535</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1304</th>
+      <td>rbf</td>
+      <td>138.9495494373139</td>
+      <td>N/A</td>
+      <td>100000.0</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1305</th>
+      <td>rbf</td>
+      <td>719.6856730011528</td>
+      <td>N/A</td>
+      <td>1e-05</td>
+      <td>0.8666666666666667</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1306</th>
+      <td>rbf</td>
+      <td>719.6856730011528</td>
+      <td>N/A</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1307</th>
+      <td>rbf</td>
+      <td>719.6856730011528</td>
+      <td>N/A</td>
+      <td>0.0002682695795279727</td>
+      <td>0.9777777777777777</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1308</th>
+      <td>rbf</td>
+      <td>719.6856730011528</td>
+      <td>N/A</td>
+      <td>0.0013894954943731374</td>
+      <td>0.9777777777777777</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1309</th>
+      <td>rbf</td>
+      <td>719.6856730011528</td>
+      <td>N/A</td>
+      <td>0.0071968567300115215</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1310</th>
+      <td>rbf</td>
+      <td>719.6856730011528</td>
+      <td>N/A</td>
+      <td>0.037275937203149416</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1311</th>
+      <td>rbf</td>
+      <td>719.6856730011528</td>
+      <td>N/A</td>
+      <td>0.19306977288832497</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1312</th>
+      <td>rbf</td>
+      <td>719.6856730011528</td>
+      <td>N/A</td>
+      <td>1.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1313</th>
+      <td>rbf</td>
+      <td>719.6856730011528</td>
+      <td>N/A</td>
+      <td>5.1794746792312125</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1314</th>
+      <td>rbf</td>
+      <td>719.6856730011528</td>
+      <td>N/A</td>
+      <td>26.826957952797272</td>
+      <td>0.8444444444444444</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1315</th>
+      <td>rbf</td>
+      <td>719.6856730011528</td>
+      <td>N/A</td>
+      <td>138.9495494373139</td>
+      <td>0.4444444444444444</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1316</th>
+      <td>rbf</td>
+      <td>719.6856730011528</td>
+      <td>N/A</td>
+      <td>719.6856730011528</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>4</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1317</th>
+      <td>rbf</td>
+      <td>719.6856730011528</td>
+      <td>N/A</td>
+      <td>3727.593720314938</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1318</th>
+      <td>rbf</td>
+      <td>719.6856730011528</td>
+      <td>N/A</td>
+      <td>19306.977288832535</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1319</th>
+      <td>rbf</td>
+      <td>719.6856730011528</td>
+      <td>N/A</td>
+      <td>100000.0</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1320</th>
+      <td>rbf</td>
+      <td>3727.593720314938</td>
+      <td>N/A</td>
+      <td>1e-05</td>
+      <td>0.9555555555555556</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1321</th>
+      <td>rbf</td>
+      <td>3727.593720314938</td>
+      <td>N/A</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.9777777777777777</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1322</th>
+      <td>rbf</td>
+      <td>3727.593720314938</td>
+      <td>N/A</td>
+      <td>0.0002682695795279727</td>
+      <td>0.9777777777777777</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1323</th>
+      <td>rbf</td>
+      <td>3727.593720314938</td>
+      <td>N/A</td>
+      <td>0.0013894954943731374</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1324</th>
+      <td>rbf</td>
+      <td>3727.593720314938</td>
+      <td>N/A</td>
+      <td>0.0071968567300115215</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1325</th>
+      <td>rbf</td>
+      <td>3727.593720314938</td>
+      <td>N/A</td>
+      <td>0.037275937203149416</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1326</th>
+      <td>rbf</td>
+      <td>3727.593720314938</td>
+      <td>N/A</td>
+      <td>0.19306977288832497</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1327</th>
+      <td>rbf</td>
+      <td>3727.593720314938</td>
+      <td>N/A</td>
+      <td>1.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1328</th>
+      <td>rbf</td>
+      <td>3727.593720314938</td>
+      <td>N/A</td>
+      <td>5.1794746792312125</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1329</th>
+      <td>rbf</td>
+      <td>3727.593720314938</td>
+      <td>N/A</td>
+      <td>26.826957952797272</td>
+      <td>0.8444444444444444</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1330</th>
+      <td>rbf</td>
+      <td>3727.593720314938</td>
+      <td>N/A</td>
+      <td>138.9495494373139</td>
+      <td>0.4444444444444444</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1331</th>
+      <td>rbf</td>
+      <td>3727.593720314938</td>
+      <td>N/A</td>
+      <td>719.6856730011528</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>5</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1332</th>
+      <td>rbf</td>
+      <td>3727.593720314938</td>
+      <td>N/A</td>
+      <td>3727.593720314938</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1333</th>
+      <td>rbf</td>
+      <td>3727.593720314938</td>
+      <td>N/A</td>
+      <td>19306.977288832535</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1334</th>
+      <td>rbf</td>
+      <td>3727.593720314938</td>
+      <td>N/A</td>
+      <td>100000.0</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1335</th>
+      <td>rbf</td>
+      <td>19306.977288832535</td>
+      <td>N/A</td>
+      <td>1e-05</td>
+      <td>0.9777777777777777</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1336</th>
+      <td>rbf</td>
+      <td>19306.977288832535</td>
+      <td>N/A</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.9777777777777777</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1337</th>
+      <td>rbf</td>
+      <td>19306.977288832535</td>
+      <td>N/A</td>
+      <td>0.0002682695795279727</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1338</th>
+      <td>rbf</td>
+      <td>19306.977288832535</td>
+      <td>N/A</td>
+      <td>0.0013894954943731374</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1339</th>
+      <td>rbf</td>
+      <td>19306.977288832535</td>
+      <td>N/A</td>
+      <td>0.0071968567300115215</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1340</th>
+      <td>rbf</td>
+      <td>19306.977288832535</td>
+      <td>N/A</td>
+      <td>0.037275937203149416</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1341</th>
+      <td>rbf</td>
+      <td>19306.977288832535</td>
+      <td>N/A</td>
+      <td>0.19306977288832497</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1342</th>
+      <td>rbf</td>
+      <td>19306.977288832535</td>
+      <td>N/A</td>
+      <td>1.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1343</th>
+      <td>rbf</td>
+      <td>19306.977288832535</td>
+      <td>N/A</td>
+      <td>5.1794746792312125</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1344</th>
+      <td>rbf</td>
+      <td>19306.977288832535</td>
+      <td>N/A</td>
+      <td>26.826957952797272</td>
+      <td>0.8444444444444444</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1345</th>
+      <td>rbf</td>
+      <td>19306.977288832535</td>
+      <td>N/A</td>
+      <td>138.9495494373139</td>
+      <td>0.4444444444444444</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1346</th>
+      <td>rbf</td>
+      <td>19306.977288832535</td>
+      <td>N/A</td>
+      <td>719.6856730011528</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td rowspan="15"><b>6</b></td>
-      <td><b>1</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1347</th>
+      <td>rbf</td>
+      <td>19306.977288832535</td>
+      <td>N/A</td>
+      <td>3727.593720314938</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1348</th>
+      <td>rbf</td>
+      <td>19306.977288832535</td>
+      <td>N/A</td>
+      <td>19306.977288832535</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1349</th>
+      <td>rbf</td>
+      <td>19306.977288832535</td>
+      <td>N/A</td>
+      <td>100000.0</td>
+      <td>0.28888888888888886</td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1350</th>
+      <td>rbf</td>
+      <td>100000.0</td>
+      <td>N/A</td>
+      <td>1e-05</td>
+      <td>0.9777777777777777</td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1351</th>
+      <td>rbf</td>
+      <td>100000.0</td>
+      <td>N/A</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>6</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1352</th>
+      <td>rbf</td>
+      <td>100000.0</td>
+      <td>N/A</td>
+      <td>0.0002682695795279727</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>7</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1353</th>
+      <td>rbf</td>
+      <td>100000.0</td>
+      <td>N/A</td>
+      <td>0.0013894954943731374</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>8</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1354</th>
+      <td>rbf</td>
+      <td>100000.0</td>
+      <td>N/A</td>
+      <td>0.0071968567300115215</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>9</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1355</th>
+      <td>rbf</td>
+      <td>100000.0</td>
+      <td>N/A</td>
+      <td>0.037275937203149416</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>10</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1356</th>
+      <td>rbf</td>
+      <td>100000.0</td>
+      <td>N/A</td>
+      <td>0.19306977288832497</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>11</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1357</th>
+      <td>rbf</td>
+      <td>100000.0</td>
+      <td>N/A</td>
+      <td>1.0</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>12</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1358</th>
+      <td>rbf</td>
+      <td>100000.0</td>
+      <td>N/A</td>
+      <td>5.1794746792312125</td>
+      <td>0.9333333333333333</td>
     </tr>
     <tr>
-      <td><b>13</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1359</th>
+      <td>rbf</td>
+      <td>100000.0</td>
+      <td>N/A</td>
+      <td>26.826957952797272</td>
+      <td>0.8444444444444444</td>
     </tr>
     <tr>
-      <td><b>14</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1360</th>
+      <td>rbf</td>
+      <td>100000.0</td>
+      <td>N/A</td>
+      <td>138.9495494373139</td>
+      <td>0.4444444444444444</td>
     </tr>
     <tr>
-      <td><b>15</b></td>
-      <td></td>
-      <td></td>
-      <td></td>
-      <td></td>
+      <th>1361</th>
+      <td>rbf</td>
+      <td>100000.0</td>
+      <td>N/A</td>
+      <td>719.6856730011528</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1362</th>
+      <td>rbf</td>
+      <td>100000.0</td>
+      <td>N/A</td>
+      <td>3727.593720314938</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1363</th>
+      <td>rbf</td>
+      <td>100000.0</td>
+      <td>N/A</td>
+      <td>19306.977288832535</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1364</th>
+      <td>rbf</td>
+      <td>100000.0</td>
+      <td>N/A</td>
+      <td>100000.0</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1365</th>
+      <td>sigmoid</td>
+      <td>1e-05</td>
+      <td>N/A</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1366</th>
+      <td>sigmoid</td>
+      <td>1e-05</td>
+      <td>N/A</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1367</th>
+      <td>sigmoid</td>
+      <td>1e-05</td>
+      <td>N/A</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1368</th>
+      <td>sigmoid</td>
+      <td>1e-05</td>
+      <td>N/A</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1369</th>
+      <td>sigmoid</td>
+      <td>1e-05</td>
+      <td>N/A</td>
+      <td>0.0071968567300115215</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1370</th>
+      <td>sigmoid</td>
+      <td>1e-05</td>
+      <td>N/A</td>
+      <td>0.037275937203149416</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1371</th>
+      <td>sigmoid</td>
+      <td>1e-05</td>
+      <td>N/A</td>
+      <td>0.19306977288832497</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1372</th>
+      <td>sigmoid</td>
+      <td>1e-05</td>
+      <td>N/A</td>
+      <td>1.0</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1373</th>
+      <td>sigmoid</td>
+      <td>1e-05</td>
+      <td>N/A</td>
+      <td>5.1794746792312125</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1374</th>
+      <td>sigmoid</td>
+      <td>1e-05</td>
+      <td>N/A</td>
+      <td>26.826957952797272</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1375</th>
+      <td>sigmoid</td>
+      <td>1e-05</td>
+      <td>N/A</td>
+      <td>138.9495494373139</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1376</th>
+      <td>sigmoid</td>
+      <td>1e-05</td>
+      <td>N/A</td>
+      <td>719.6856730011528</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1377</th>
+      <td>sigmoid</td>
+      <td>1e-05</td>
+      <td>N/A</td>
+      <td>3727.593720314938</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1378</th>
+      <td>sigmoid</td>
+      <td>1e-05</td>
+      <td>N/A</td>
+      <td>19306.977288832535</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1379</th>
+      <td>sigmoid</td>
+      <td>1e-05</td>
+      <td>N/A</td>
+      <td>100000.0</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1380</th>
+      <td>sigmoid</td>
+      <td>5.1794746792312125e-05</td>
+      <td>N/A</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1381</th>
+      <td>sigmoid</td>
+      <td>5.1794746792312125e-05</td>
+      <td>N/A</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1382</th>
+      <td>sigmoid</td>
+      <td>5.1794746792312125e-05</td>
+      <td>N/A</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1383</th>
+      <td>sigmoid</td>
+      <td>5.1794746792312125e-05</td>
+      <td>N/A</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1384</th>
+      <td>sigmoid</td>
+      <td>5.1794746792312125e-05</td>
+      <td>N/A</td>
+      <td>0.0071968567300115215</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1385</th>
+      <td>sigmoid</td>
+      <td>5.1794746792312125e-05</td>
+      <td>N/A</td>
+      <td>0.037275937203149416</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1386</th>
+      <td>sigmoid</td>
+      <td>5.1794746792312125e-05</td>
+      <td>N/A</td>
+      <td>0.19306977288832497</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1387</th>
+      <td>sigmoid</td>
+      <td>5.1794746792312125e-05</td>
+      <td>N/A</td>
+      <td>1.0</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1388</th>
+      <td>sigmoid</td>
+      <td>5.1794746792312125e-05</td>
+      <td>N/A</td>
+      <td>5.1794746792312125</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1389</th>
+      <td>sigmoid</td>
+      <td>5.1794746792312125e-05</td>
+      <td>N/A</td>
+      <td>26.826957952797272</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1390</th>
+      <td>sigmoid</td>
+      <td>5.1794746792312125e-05</td>
+      <td>N/A</td>
+      <td>138.9495494373139</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1391</th>
+      <td>sigmoid</td>
+      <td>5.1794746792312125e-05</td>
+      <td>N/A</td>
+      <td>719.6856730011528</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1392</th>
+      <td>sigmoid</td>
+      <td>5.1794746792312125e-05</td>
+      <td>N/A</td>
+      <td>3727.593720314938</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1393</th>
+      <td>sigmoid</td>
+      <td>5.1794746792312125e-05</td>
+      <td>N/A</td>
+      <td>19306.977288832535</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1394</th>
+      <td>sigmoid</td>
+      <td>5.1794746792312125e-05</td>
+      <td>N/A</td>
+      <td>100000.0</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1395</th>
+      <td>sigmoid</td>
+      <td>0.0002682695795279727</td>
+      <td>N/A</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1396</th>
+      <td>sigmoid</td>
+      <td>0.0002682695795279727</td>
+      <td>N/A</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1397</th>
+      <td>sigmoid</td>
+      <td>0.0002682695795279727</td>
+      <td>N/A</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1398</th>
+      <td>sigmoid</td>
+      <td>0.0002682695795279727</td>
+      <td>N/A</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1399</th>
+      <td>sigmoid</td>
+      <td>0.0002682695795279727</td>
+      <td>N/A</td>
+      <td>0.0071968567300115215</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1400</th>
+      <td>sigmoid</td>
+      <td>0.0002682695795279727</td>
+      <td>N/A</td>
+      <td>0.037275937203149416</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1401</th>
+      <td>sigmoid</td>
+      <td>0.0002682695795279727</td>
+      <td>N/A</td>
+      <td>0.19306977288832497</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1402</th>
+      <td>sigmoid</td>
+      <td>0.0002682695795279727</td>
+      <td>N/A</td>
+      <td>1.0</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1403</th>
+      <td>sigmoid</td>
+      <td>0.0002682695795279727</td>
+      <td>N/A</td>
+      <td>5.1794746792312125</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1404</th>
+      <td>sigmoid</td>
+      <td>0.0002682695795279727</td>
+      <td>N/A</td>
+      <td>26.826957952797272</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1405</th>
+      <td>sigmoid</td>
+      <td>0.0002682695795279727</td>
+      <td>N/A</td>
+      <td>138.9495494373139</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1406</th>
+      <td>sigmoid</td>
+      <td>0.0002682695795279727</td>
+      <td>N/A</td>
+      <td>719.6856730011528</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1407</th>
+      <td>sigmoid</td>
+      <td>0.0002682695795279727</td>
+      <td>N/A</td>
+      <td>3727.593720314938</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1408</th>
+      <td>sigmoid</td>
+      <td>0.0002682695795279727</td>
+      <td>N/A</td>
+      <td>19306.977288832535</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1409</th>
+      <td>sigmoid</td>
+      <td>0.0002682695795279727</td>
+      <td>N/A</td>
+      <td>100000.0</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1410</th>
+      <td>sigmoid</td>
+      <td>0.0013894954943731374</td>
+      <td>N/A</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1411</th>
+      <td>sigmoid</td>
+      <td>0.0013894954943731374</td>
+      <td>N/A</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1412</th>
+      <td>sigmoid</td>
+      <td>0.0013894954943731374</td>
+      <td>N/A</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1413</th>
+      <td>sigmoid</td>
+      <td>0.0013894954943731374</td>
+      <td>N/A</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1414</th>
+      <td>sigmoid</td>
+      <td>0.0013894954943731374</td>
+      <td>N/A</td>
+      <td>0.0071968567300115215</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1415</th>
+      <td>sigmoid</td>
+      <td>0.0013894954943731374</td>
+      <td>N/A</td>
+      <td>0.037275937203149416</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1416</th>
+      <td>sigmoid</td>
+      <td>0.0013894954943731374</td>
+      <td>N/A</td>
+      <td>0.19306977288832497</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1417</th>
+      <td>sigmoid</td>
+      <td>0.0013894954943731374</td>
+      <td>N/A</td>
+      <td>1.0</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1418</th>
+      <td>sigmoid</td>
+      <td>0.0013894954943731374</td>
+      <td>N/A</td>
+      <td>5.1794746792312125</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1419</th>
+      <td>sigmoid</td>
+      <td>0.0013894954943731374</td>
+      <td>N/A</td>
+      <td>26.826957952797272</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1420</th>
+      <td>sigmoid</td>
+      <td>0.0013894954943731374</td>
+      <td>N/A</td>
+      <td>138.9495494373139</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1421</th>
+      <td>sigmoid</td>
+      <td>0.0013894954943731374</td>
+      <td>N/A</td>
+      <td>719.6856730011528</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1422</th>
+      <td>sigmoid</td>
+      <td>0.0013894954943731374</td>
+      <td>N/A</td>
+      <td>3727.593720314938</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1423</th>
+      <td>sigmoid</td>
+      <td>0.0013894954943731374</td>
+      <td>N/A</td>
+      <td>19306.977288832535</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1424</th>
+      <td>sigmoid</td>
+      <td>0.0013894954943731374</td>
+      <td>N/A</td>
+      <td>100000.0</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1425</th>
+      <td>sigmoid</td>
+      <td>0.0071968567300115215</td>
+      <td>N/A</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1426</th>
+      <td>sigmoid</td>
+      <td>0.0071968567300115215</td>
+      <td>N/A</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1427</th>
+      <td>sigmoid</td>
+      <td>0.0071968567300115215</td>
+      <td>N/A</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1428</th>
+      <td>sigmoid</td>
+      <td>0.0071968567300115215</td>
+      <td>N/A</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1429</th>
+      <td>sigmoid</td>
+      <td>0.0071968567300115215</td>
+      <td>N/A</td>
+      <td>0.0071968567300115215</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1430</th>
+      <td>sigmoid</td>
+      <td>0.0071968567300115215</td>
+      <td>N/A</td>
+      <td>0.037275937203149416</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1431</th>
+      <td>sigmoid</td>
+      <td>0.0071968567300115215</td>
+      <td>N/A</td>
+      <td>0.19306977288832497</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1432</th>
+      <td>sigmoid</td>
+      <td>0.0071968567300115215</td>
+      <td>N/A</td>
+      <td>1.0</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1433</th>
+      <td>sigmoid</td>
+      <td>0.0071968567300115215</td>
+      <td>N/A</td>
+      <td>5.1794746792312125</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1434</th>
+      <td>sigmoid</td>
+      <td>0.0071968567300115215</td>
+      <td>N/A</td>
+      <td>26.826957952797272</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1435</th>
+      <td>sigmoid</td>
+      <td>0.0071968567300115215</td>
+      <td>N/A</td>
+      <td>138.9495494373139</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1436</th>
+      <td>sigmoid</td>
+      <td>0.0071968567300115215</td>
+      <td>N/A</td>
+      <td>719.6856730011528</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1437</th>
+      <td>sigmoid</td>
+      <td>0.0071968567300115215</td>
+      <td>N/A</td>
+      <td>3727.593720314938</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1438</th>
+      <td>sigmoid</td>
+      <td>0.0071968567300115215</td>
+      <td>N/A</td>
+      <td>19306.977288832535</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1439</th>
+      <td>sigmoid</td>
+      <td>0.0071968567300115215</td>
+      <td>N/A</td>
+      <td>100000.0</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1440</th>
+      <td>sigmoid</td>
+      <td>0.037275937203149416</td>
+      <td>N/A</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1441</th>
+      <td>sigmoid</td>
+      <td>0.037275937203149416</td>
+      <td>N/A</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1442</th>
+      <td>sigmoid</td>
+      <td>0.037275937203149416</td>
+      <td>N/A</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1443</th>
+      <td>sigmoid</td>
+      <td>0.037275937203149416</td>
+      <td>N/A</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1444</th>
+      <td>sigmoid</td>
+      <td>0.037275937203149416</td>
+      <td>N/A</td>
+      <td>0.0071968567300115215</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1445</th>
+      <td>sigmoid</td>
+      <td>0.037275937203149416</td>
+      <td>N/A</td>
+      <td>0.037275937203149416</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1446</th>
+      <td>sigmoid</td>
+      <td>0.037275937203149416</td>
+      <td>N/A</td>
+      <td>0.19306977288832497</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1447</th>
+      <td>sigmoid</td>
+      <td>0.037275937203149416</td>
+      <td>N/A</td>
+      <td>1.0</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1448</th>
+      <td>sigmoid</td>
+      <td>0.037275937203149416</td>
+      <td>N/A</td>
+      <td>5.1794746792312125</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1449</th>
+      <td>sigmoid</td>
+      <td>0.037275937203149416</td>
+      <td>N/A</td>
+      <td>26.826957952797272</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1450</th>
+      <td>sigmoid</td>
+      <td>0.037275937203149416</td>
+      <td>N/A</td>
+      <td>138.9495494373139</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1451</th>
+      <td>sigmoid</td>
+      <td>0.037275937203149416</td>
+      <td>N/A</td>
+      <td>719.6856730011528</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1452</th>
+      <td>sigmoid</td>
+      <td>0.037275937203149416</td>
+      <td>N/A</td>
+      <td>3727.593720314938</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1453</th>
+      <td>sigmoid</td>
+      <td>0.037275937203149416</td>
+      <td>N/A</td>
+      <td>19306.977288832535</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1454</th>
+      <td>sigmoid</td>
+      <td>0.037275937203149416</td>
+      <td>N/A</td>
+      <td>100000.0</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1455</th>
+      <td>sigmoid</td>
+      <td>0.19306977288832497</td>
+      <td>N/A</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1456</th>
+      <td>sigmoid</td>
+      <td>0.19306977288832497</td>
+      <td>N/A</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1457</th>
+      <td>sigmoid</td>
+      <td>0.19306977288832497</td>
+      <td>N/A</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1458</th>
+      <td>sigmoid</td>
+      <td>0.19306977288832497</td>
+      <td>N/A</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1459</th>
+      <td>sigmoid</td>
+      <td>0.19306977288832497</td>
+      <td>N/A</td>
+      <td>0.0071968567300115215</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1460</th>
+      <td>sigmoid</td>
+      <td>0.19306977288832497</td>
+      <td>N/A</td>
+      <td>0.037275937203149416</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1461</th>
+      <td>sigmoid</td>
+      <td>0.19306977288832497</td>
+      <td>N/A</td>
+      <td>0.19306977288832497</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1462</th>
+      <td>sigmoid</td>
+      <td>0.19306977288832497</td>
+      <td>N/A</td>
+      <td>1.0</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1463</th>
+      <td>sigmoid</td>
+      <td>0.19306977288832497</td>
+      <td>N/A</td>
+      <td>5.1794746792312125</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1464</th>
+      <td>sigmoid</td>
+      <td>0.19306977288832497</td>
+      <td>N/A</td>
+      <td>26.826957952797272</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1465</th>
+      <td>sigmoid</td>
+      <td>0.19306977288832497</td>
+      <td>N/A</td>
+      <td>138.9495494373139</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1466</th>
+      <td>sigmoid</td>
+      <td>0.19306977288832497</td>
+      <td>N/A</td>
+      <td>719.6856730011528</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1467</th>
+      <td>sigmoid</td>
+      <td>0.19306977288832497</td>
+      <td>N/A</td>
+      <td>3727.593720314938</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1468</th>
+      <td>sigmoid</td>
+      <td>0.19306977288832497</td>
+      <td>N/A</td>
+      <td>19306.977288832535</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1469</th>
+      <td>sigmoid</td>
+      <td>0.19306977288832497</td>
+      <td>N/A</td>
+      <td>100000.0</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1470</th>
+      <td>sigmoid</td>
+      <td>1.0</td>
+      <td>N/A</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1471</th>
+      <td>sigmoid</td>
+      <td>1.0</td>
+      <td>N/A</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1472</th>
+      <td>sigmoid</td>
+      <td>1.0</td>
+      <td>N/A</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1473</th>
+      <td>sigmoid</td>
+      <td>1.0</td>
+      <td>N/A</td>
+      <td>0.0013894954943731374</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1474</th>
+      <td>sigmoid</td>
+      <td>1.0</td>
+      <td>N/A</td>
+      <td>0.0071968567300115215</td>
+      <td>0.6</td>
+    </tr>
+    <tr>
+      <th>1475</th>
+      <td>sigmoid</td>
+      <td>1.0</td>
+      <td>N/A</td>
+      <td>0.037275937203149416</td>
+      <td>0.3333333333333333</td>
+    </tr>
+    <tr>
+      <th>1476</th>
+      <td>sigmoid</td>
+      <td>1.0</td>
+      <td>N/A</td>
+      <td>0.19306977288832497</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1477</th>
+      <td>sigmoid</td>
+      <td>1.0</td>
+      <td>N/A</td>
+      <td>1.0</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1478</th>
+      <td>sigmoid</td>
+      <td>1.0</td>
+      <td>N/A</td>
+      <td>5.1794746792312125</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1479</th>
+      <td>sigmoid</td>
+      <td>1.0</td>
+      <td>N/A</td>
+      <td>26.826957952797272</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1480</th>
+      <td>sigmoid</td>
+      <td>1.0</td>
+      <td>N/A</td>
+      <td>138.9495494373139</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1481</th>
+      <td>sigmoid</td>
+      <td>1.0</td>
+      <td>N/A</td>
+      <td>719.6856730011528</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1482</th>
+      <td>sigmoid</td>
+      <td>1.0</td>
+      <td>N/A</td>
+      <td>3727.593720314938</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1483</th>
+      <td>sigmoid</td>
+      <td>1.0</td>
+      <td>N/A</td>
+      <td>19306.977288832535</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1484</th>
+      <td>sigmoid</td>
+      <td>1.0</td>
+      <td>N/A</td>
+      <td>100000.0</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1485</th>
+      <td>sigmoid</td>
+      <td>5.1794746792312125</td>
+      <td>N/A</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1486</th>
+      <td>sigmoid</td>
+      <td>5.1794746792312125</td>
+      <td>N/A</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1487</th>
+      <td>sigmoid</td>
+      <td>5.1794746792312125</td>
+      <td>N/A</td>
+      <td>0.0002682695795279727</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1488</th>
+      <td>sigmoid</td>
+      <td>5.1794746792312125</td>
+      <td>N/A</td>
+      <td>0.0013894954943731374</td>
+      <td>0.6666666666666666</td>
+    </tr>
+    <tr>
+      <th>1489</th>
+      <td>sigmoid</td>
+      <td>5.1794746792312125</td>
+      <td>N/A</td>
+      <td>0.0071968567300115215</td>
+      <td>0.9333333333333333</td>
+    </tr>
+    <tr>
+      <th>1490</th>
+      <td>sigmoid</td>
+      <td>5.1794746792312125</td>
+      <td>N/A</td>
+      <td>0.037275937203149416</td>
+      <td>0.1111111111111111</td>
+    </tr>
+    <tr>
+      <th>1491</th>
+      <td>sigmoid</td>
+      <td>5.1794746792312125</td>
+      <td>N/A</td>
+      <td>0.19306977288832497</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1492</th>
+      <td>sigmoid</td>
+      <td>5.1794746792312125</td>
+      <td>N/A</td>
+      <td>1.0</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1493</th>
+      <td>sigmoid</td>
+      <td>5.1794746792312125</td>
+      <td>N/A</td>
+      <td>5.1794746792312125</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1494</th>
+      <td>sigmoid</td>
+      <td>5.1794746792312125</td>
+      <td>N/A</td>
+      <td>26.826957952797272</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1495</th>
+      <td>sigmoid</td>
+      <td>5.1794746792312125</td>
+      <td>N/A</td>
+      <td>138.9495494373139</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1496</th>
+      <td>sigmoid</td>
+      <td>5.1794746792312125</td>
+      <td>N/A</td>
+      <td>719.6856730011528</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1497</th>
+      <td>sigmoid</td>
+      <td>5.1794746792312125</td>
+      <td>N/A</td>
+      <td>3727.593720314938</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1498</th>
+      <td>sigmoid</td>
+      <td>5.1794746792312125</td>
+      <td>N/A</td>
+      <td>19306.977288832535</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1499</th>
+      <td>sigmoid</td>
+      <td>5.1794746792312125</td>
+      <td>N/A</td>
+      <td>100000.0</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1500</th>
+      <td>sigmoid</td>
+      <td>26.826957952797272</td>
+      <td>N/A</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1501</th>
+      <td>sigmoid</td>
+      <td>26.826957952797272</td>
+      <td>N/A</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1502</th>
+      <td>sigmoid</td>
+      <td>26.826957952797272</td>
+      <td>N/A</td>
+      <td>0.0002682695795279727</td>
+      <td>0.6888888888888889</td>
+    </tr>
+    <tr>
+      <th>1503</th>
+      <td>sigmoid</td>
+      <td>26.826957952797272</td>
+      <td>N/A</td>
+      <td>0.0013894954943731374</td>
+      <td>0.9333333333333333</td>
+    </tr>
+    <tr>
+      <th>1504</th>
+      <td>sigmoid</td>
+      <td>26.826957952797272</td>
+      <td>N/A</td>
+      <td>0.0071968567300115215</td>
+      <td>0.9555555555555556</td>
+    </tr>
+    <tr>
+      <th>1505</th>
+      <td>sigmoid</td>
+      <td>26.826957952797272</td>
+      <td>N/A</td>
+      <td>0.037275937203149416</td>
+      <td>0.06666666666666667</td>
+    </tr>
+    <tr>
+      <th>1506</th>
+      <td>sigmoid</td>
+      <td>26.826957952797272</td>
+      <td>N/A</td>
+      <td>0.19306977288832497</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1507</th>
+      <td>sigmoid</td>
+      <td>26.826957952797272</td>
+      <td>N/A</td>
+      <td>1.0</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1508</th>
+      <td>sigmoid</td>
+      <td>26.826957952797272</td>
+      <td>N/A</td>
+      <td>5.1794746792312125</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1509</th>
+      <td>sigmoid</td>
+      <td>26.826957952797272</td>
+      <td>N/A</td>
+      <td>26.826957952797272</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1510</th>
+      <td>sigmoid</td>
+      <td>26.826957952797272</td>
+      <td>N/A</td>
+      <td>138.9495494373139</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1511</th>
+      <td>sigmoid</td>
+      <td>26.826957952797272</td>
+      <td>N/A</td>
+      <td>719.6856730011528</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1512</th>
+      <td>sigmoid</td>
+      <td>26.826957952797272</td>
+      <td>N/A</td>
+      <td>3727.593720314938</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1513</th>
+      <td>sigmoid</td>
+      <td>26.826957952797272</td>
+      <td>N/A</td>
+      <td>19306.977288832535</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1514</th>
+      <td>sigmoid</td>
+      <td>26.826957952797272</td>
+      <td>N/A</td>
+      <td>100000.0</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1515</th>
+      <td>sigmoid</td>
+      <td>138.9495494373139</td>
+      <td>N/A</td>
+      <td>1e-05</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1516</th>
+      <td>sigmoid</td>
+      <td>138.9495494373139</td>
+      <td>N/A</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.6888888888888889</td>
+    </tr>
+    <tr>
+      <th>1517</th>
+      <td>sigmoid</td>
+      <td>138.9495494373139</td>
+      <td>N/A</td>
+      <td>0.0002682695795279727</td>
+      <td>0.9333333333333333</td>
+    </tr>
+    <tr>
+      <th>1518</th>
+      <td>sigmoid</td>
+      <td>138.9495494373139</td>
+      <td>N/A</td>
+      <td>0.0013894954943731374</td>
+      <td>0.9555555555555556</td>
+    </tr>
+    <tr>
+      <th>1519</th>
+      <td>sigmoid</td>
+      <td>138.9495494373139</td>
+      <td>N/A</td>
+      <td>0.0071968567300115215</td>
+      <td>0.9555555555555556</td>
+    </tr>
+    <tr>
+      <th>1520</th>
+      <td>sigmoid</td>
+      <td>138.9495494373139</td>
+      <td>N/A</td>
+      <td>0.037275937203149416</td>
+      <td>0.06666666666666667</td>
+    </tr>
+    <tr>
+      <th>1521</th>
+      <td>sigmoid</td>
+      <td>138.9495494373139</td>
+      <td>N/A</td>
+      <td>0.19306977288832497</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1522</th>
+      <td>sigmoid</td>
+      <td>138.9495494373139</td>
+      <td>N/A</td>
+      <td>1.0</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1523</th>
+      <td>sigmoid</td>
+      <td>138.9495494373139</td>
+      <td>N/A</td>
+      <td>5.1794746792312125</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1524</th>
+      <td>sigmoid</td>
+      <td>138.9495494373139</td>
+      <td>N/A</td>
+      <td>26.826957952797272</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1525</th>
+      <td>sigmoid</td>
+      <td>138.9495494373139</td>
+      <td>N/A</td>
+      <td>138.9495494373139</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1526</th>
+      <td>sigmoid</td>
+      <td>138.9495494373139</td>
+      <td>N/A</td>
+      <td>719.6856730011528</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1527</th>
+      <td>sigmoid</td>
+      <td>138.9495494373139</td>
+      <td>N/A</td>
+      <td>3727.593720314938</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1528</th>
+      <td>sigmoid</td>
+      <td>138.9495494373139</td>
+      <td>N/A</td>
+      <td>19306.977288832535</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1529</th>
+      <td>sigmoid</td>
+      <td>138.9495494373139</td>
+      <td>N/A</td>
+      <td>100000.0</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1530</th>
+      <td>sigmoid</td>
+      <td>719.6856730011528</td>
+      <td>N/A</td>
+      <td>1e-05</td>
+      <td>0.6888888888888889</td>
+    </tr>
+    <tr>
+      <th>1531</th>
+      <td>sigmoid</td>
+      <td>719.6856730011528</td>
+      <td>N/A</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.9333333333333333</td>
+    </tr>
+    <tr>
+      <th>1532</th>
+      <td>sigmoid</td>
+      <td>719.6856730011528</td>
+      <td>N/A</td>
+      <td>0.0002682695795279727</td>
+      <td>0.9555555555555556</td>
+    </tr>
+    <tr>
+      <th>1533</th>
+      <td>sigmoid</td>
+      <td>719.6856730011528</td>
+      <td>N/A</td>
+      <td>0.0013894954943731374</td>
+      <td>0.9777777777777777</td>
+    </tr>
+    <tr>
+      <th>1534</th>
+      <td>sigmoid</td>
+      <td>719.6856730011528</td>
+      <td>N/A</td>
+      <td>0.0071968567300115215</td>
+      <td>0.9555555555555556</td>
+    </tr>
+    <tr>
+      <th>1535</th>
+      <td>sigmoid</td>
+      <td>719.6856730011528</td>
+      <td>N/A</td>
+      <td>0.037275937203149416</td>
+      <td>0.06666666666666667</td>
+    </tr>
+    <tr>
+      <th>1536</th>
+      <td>sigmoid</td>
+      <td>719.6856730011528</td>
+      <td>N/A</td>
+      <td>0.19306977288832497</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1537</th>
+      <td>sigmoid</td>
+      <td>719.6856730011528</td>
+      <td>N/A</td>
+      <td>1.0</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1538</th>
+      <td>sigmoid</td>
+      <td>719.6856730011528</td>
+      <td>N/A</td>
+      <td>5.1794746792312125</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1539</th>
+      <td>sigmoid</td>
+      <td>719.6856730011528</td>
+      <td>N/A</td>
+      <td>26.826957952797272</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1540</th>
+      <td>sigmoid</td>
+      <td>719.6856730011528</td>
+      <td>N/A</td>
+      <td>138.9495494373139</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1541</th>
+      <td>sigmoid</td>
+      <td>719.6856730011528</td>
+      <td>N/A</td>
+      <td>719.6856730011528</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1542</th>
+      <td>sigmoid</td>
+      <td>719.6856730011528</td>
+      <td>N/A</td>
+      <td>3727.593720314938</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1543</th>
+      <td>sigmoid</td>
+      <td>719.6856730011528</td>
+      <td>N/A</td>
+      <td>19306.977288832535</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1544</th>
+      <td>sigmoid</td>
+      <td>719.6856730011528</td>
+      <td>N/A</td>
+      <td>100000.0</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1545</th>
+      <td>sigmoid</td>
+      <td>3727.593720314938</td>
+      <td>N/A</td>
+      <td>1e-05</td>
+      <td>0.9333333333333333</td>
+    </tr>
+    <tr>
+      <th>1546</th>
+      <td>sigmoid</td>
+      <td>3727.593720314938</td>
+      <td>N/A</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.9555555555555556</td>
+    </tr>
+    <tr>
+      <th>1547</th>
+      <td>sigmoid</td>
+      <td>3727.593720314938</td>
+      <td>N/A</td>
+      <td>0.0002682695795279727</td>
+      <td>0.9777777777777777</td>
+    </tr>
+    <tr>
+      <th>1548</th>
+      <td>sigmoid</td>
+      <td>3727.593720314938</td>
+      <td>N/A</td>
+      <td>0.0013894954943731374</td>
+      <td>0.9555555555555556</td>
+    </tr>
+    <tr>
+      <th>1549</th>
+      <td>sigmoid</td>
+      <td>3727.593720314938</td>
+      <td>N/A</td>
+      <td>0.0071968567300115215</td>
+      <td>0.9333333333333333</td>
+    </tr>
+    <tr>
+      <th>1550</th>
+      <td>sigmoid</td>
+      <td>3727.593720314938</td>
+      <td>N/A</td>
+      <td>0.037275937203149416</td>
+      <td>0.06666666666666667</td>
+    </tr>
+    <tr>
+      <th>1551</th>
+      <td>sigmoid</td>
+      <td>3727.593720314938</td>
+      <td>N/A</td>
+      <td>0.19306977288832497</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1552</th>
+      <td>sigmoid</td>
+      <td>3727.593720314938</td>
+      <td>N/A</td>
+      <td>1.0</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1553</th>
+      <td>sigmoid</td>
+      <td>3727.593720314938</td>
+      <td>N/A</td>
+      <td>5.1794746792312125</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1554</th>
+      <td>sigmoid</td>
+      <td>3727.593720314938</td>
+      <td>N/A</td>
+      <td>26.826957952797272</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1555</th>
+      <td>sigmoid</td>
+      <td>3727.593720314938</td>
+      <td>N/A</td>
+      <td>138.9495494373139</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1556</th>
+      <td>sigmoid</td>
+      <td>3727.593720314938</td>
+      <td>N/A</td>
+      <td>719.6856730011528</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1557</th>
+      <td>sigmoid</td>
+      <td>3727.593720314938</td>
+      <td>N/A</td>
+      <td>3727.593720314938</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1558</th>
+      <td>sigmoid</td>
+      <td>3727.593720314938</td>
+      <td>N/A</td>
+      <td>19306.977288832535</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1559</th>
+      <td>sigmoid</td>
+      <td>3727.593720314938</td>
+      <td>N/A</td>
+      <td>100000.0</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1560</th>
+      <td>sigmoid</td>
+      <td>19306.977288832535</td>
+      <td>N/A</td>
+      <td>1e-05</td>
+      <td>0.9555555555555556</td>
+    </tr>
+    <tr>
+      <th>1561</th>
+      <td>sigmoid</td>
+      <td>19306.977288832535</td>
+      <td>N/A</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.9777777777777777</td>
+    </tr>
+    <tr>
+      <th>1562</th>
+      <td>sigmoid</td>
+      <td>19306.977288832535</td>
+      <td>N/A</td>
+      <td>0.0002682695795279727</td>
+      <td>0.9555555555555556</td>
+    </tr>
+    <tr>
+      <th>1563</th>
+      <td>sigmoid</td>
+      <td>19306.977288832535</td>
+      <td>N/A</td>
+      <td>0.0013894954943731374</td>
+      <td>0.9333333333333333</td>
+    </tr>
+    <tr>
+      <th>1564</th>
+      <td>sigmoid</td>
+      <td>19306.977288832535</td>
+      <td>N/A</td>
+      <td>0.0071968567300115215</td>
+      <td>0.9333333333333333</td>
+    </tr>
+    <tr>
+      <th>1565</th>
+      <td>sigmoid</td>
+      <td>19306.977288832535</td>
+      <td>N/A</td>
+      <td>0.037275937203149416</td>
+      <td>0.06666666666666667</td>
+    </tr>
+    <tr>
+      <th>1566</th>
+      <td>sigmoid</td>
+      <td>19306.977288832535</td>
+      <td>N/A</td>
+      <td>0.19306977288832497</td>
+      <td>0.08888888888888889</td>
+    </tr>
+    <tr>
+      <th>1567</th>
+      <td>sigmoid</td>
+      <td>19306.977288832535</td>
+      <td>N/A</td>
+      <td>1.0</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1568</th>
+      <td>sigmoid</td>
+      <td>19306.977288832535</td>
+      <td>N/A</td>
+      <td>5.1794746792312125</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1569</th>
+      <td>sigmoid</td>
+      <td>19306.977288832535</td>
+      <td>N/A</td>
+      <td>26.826957952797272</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1570</th>
+      <td>sigmoid</td>
+      <td>19306.977288832535</td>
+      <td>N/A</td>
+      <td>138.9495494373139</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1571</th>
+      <td>sigmoid</td>
+      <td>19306.977288832535</td>
+      <td>N/A</td>
+      <td>719.6856730011528</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1572</th>
+      <td>sigmoid</td>
+      <td>19306.977288832535</td>
+      <td>N/A</td>
+      <td>3727.593720314938</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1573</th>
+      <td>sigmoid</td>
+      <td>19306.977288832535</td>
+      <td>N/A</td>
+      <td>19306.977288832535</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1574</th>
+      <td>sigmoid</td>
+      <td>19306.977288832535</td>
+      <td>N/A</td>
+      <td>100000.0</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1575</th>
+      <td>sigmoid</td>
+      <td>100000.0</td>
+      <td>N/A</td>
+      <td>1e-05</td>
+      <td>0.9777777777777777</td>
+    </tr>
+    <tr>
+      <th>1576</th>
+      <td>sigmoid</td>
+      <td>100000.0</td>
+      <td>N/A</td>
+      <td>5.1794746792312125e-05</td>
+      <td>0.9555555555555556</td>
+    </tr>
+    <tr>
+      <th>1577</th>
+      <td>sigmoid</td>
+      <td>100000.0</td>
+      <td>N/A</td>
+      <td>0.0002682695795279727</td>
+      <td>0.9333333333333333</td>
+    </tr>
+    <tr>
+      <th>1578</th>
+      <td>sigmoid</td>
+      <td>100000.0</td>
+      <td>N/A</td>
+      <td>0.0013894954943731374</td>
+      <td>0.9333333333333333</td>
+    </tr>
+    <tr>
+      <th>1579</th>
+      <td>sigmoid</td>
+      <td>100000.0</td>
+      <td>N/A</td>
+      <td>0.0071968567300115215</td>
+      <td>0.9333333333333333</td>
+    </tr>
+    <tr>
+      <th>1580</th>
+      <td>sigmoid</td>
+      <td>100000.0</td>
+      <td>N/A</td>
+      <td>0.037275937203149416</td>
+      <td>0.06666666666666667</td>
+    </tr>
+    <tr>
+      <th>1581</th>
+      <td>sigmoid</td>
+      <td>100000.0</td>
+      <td>N/A</td>
+      <td>0.19306977288832497</td>
+      <td>0.1111111111111111</td>
+    </tr>
+    <tr>
+      <th>1582</th>
+      <td>sigmoid</td>
+      <td>100000.0</td>
+      <td>N/A</td>
+      <td>1.0</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1583</th>
+      <td>sigmoid</td>
+      <td>100000.0</td>
+      <td>N/A</td>
+      <td>5.1794746792312125</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1584</th>
+      <td>sigmoid</td>
+      <td>100000.0</td>
+      <td>N/A</td>
+      <td>26.826957952797272</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1585</th>
+      <td>sigmoid</td>
+      <td>100000.0</td>
+      <td>N/A</td>
+      <td>138.9495494373139</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1586</th>
+      <td>sigmoid</td>
+      <td>100000.0</td>
+      <td>N/A</td>
+      <td>719.6856730011528</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1587</th>
+      <td>sigmoid</td>
+      <td>100000.0</td>
+      <td>N/A</td>
+      <td>3727.593720314938</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1588</th>
+      <td>sigmoid</td>
+      <td>100000.0</td>
+      <td>N/A</td>
+      <td>19306.977288832535</td>
+      <td>0.28888888888888886</td>
+    </tr>
+    <tr>
+      <th>1589</th>
+      <td>sigmoid</td>
+      <td>100000.0</td>
+      <td>N/A</td>
+      <td>100000.0</td>
+      <td>0.28888888888888886</td>
     </tr>
   </tbody>
 </table>
