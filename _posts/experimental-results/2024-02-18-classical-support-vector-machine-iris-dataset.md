@@ -39,9 +39,9 @@ js:
     <tr>
       <th></th>
       <th>Kernel</th>
-      <th>C</th>
-      <th>Degree</th>
-      <th>Gamma</th>
+      <th>C<sup>&sect;</sup></th>
+      <th>Degree<sup>&dagger;</sup></th>
+      <th>Gamma<sup>&Dagger;</sup></th>
       <th>Accuracy</th>
     </tr>
   </thead>
@@ -9168,7 +9168,7 @@ js:
     </tr>
     <tr>
       <th>1140</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00001</td>
       <td>N/A</td>
       <td>0.00001</td>
@@ -9176,7 +9176,7 @@ js:
     </tr>
     <tr>
       <th>1141</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00001</td>
       <td>N/A</td>
       <td>0.00005</td>
@@ -9184,7 +9184,7 @@ js:
     </tr>
     <tr>
       <th>1142</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00001</td>
       <td>N/A</td>
       <td>0.00027</td>
@@ -9192,7 +9192,7 @@ js:
     </tr>
     <tr>
       <th>1143</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00001</td>
       <td>N/A</td>
       <td>0.00139</td>
@@ -9200,7 +9200,7 @@ js:
     </tr>
     <tr>
       <th>1144</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00001</td>
       <td>N/A</td>
       <td>0.00720</td>
@@ -9208,7 +9208,7 @@ js:
     </tr>
     <tr>
       <th>1145</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00001</td>
       <td>N/A</td>
       <td>0.03728</td>
@@ -9216,7 +9216,7 @@ js:
     </tr>
     <tr>
       <th>1146</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00001</td>
       <td>N/A</td>
       <td>0.19307</td>
@@ -9224,7 +9224,7 @@ js:
     </tr>
     <tr>
       <th>1147</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00001</td>
       <td>N/A</td>
       <td>1.0</td>
@@ -9232,7 +9232,7 @@ js:
     </tr>
     <tr>
       <th>1148</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00001</td>
       <td>N/A</td>
       <td>5.17947</td>
@@ -9240,7 +9240,7 @@ js:
     </tr>
     <tr>
       <th>1149</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00001</td>
       <td>N/A</td>
       <td>26.82696</td>
@@ -9248,7 +9248,7 @@ js:
     </tr>
     <tr>
       <th>1150</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00001</td>
       <td>N/A</td>
       <td>138.94955</td>
@@ -9256,7 +9256,7 @@ js:
     </tr>
     <tr>
       <th>1151</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00001</td>
       <td>N/A</td>
       <td>719.68567</td>
@@ -9264,7 +9264,7 @@ js:
     </tr>
     <tr>
       <th>1152</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00001</td>
       <td>N/A</td>
       <td>3727.59372</td>
@@ -9272,7 +9272,7 @@ js:
     </tr>
     <tr>
       <th>1153</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00001</td>
       <td>N/A</td>
       <td>19306.97729</td>
@@ -9280,7 +9280,7 @@ js:
     </tr>
     <tr>
       <th>1154</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00001</td>
       <td>N/A</td>
       <td>100000.0</td>
@@ -9288,7 +9288,7 @@ js:
     </tr>
     <tr>
       <th>1155</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00005</td>
       <td>N/A</td>
       <td>0.00001</td>
@@ -9296,7 +9296,7 @@ js:
     </tr>
     <tr>
       <th>1156</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00005</td>
       <td>N/A</td>
       <td>0.00005</td>
@@ -9304,7 +9304,7 @@ js:
     </tr>
     <tr>
       <th>1157</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00005</td>
       <td>N/A</td>
       <td>0.00027</td>
@@ -9312,7 +9312,7 @@ js:
     </tr>
     <tr>
       <th>1158</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00005</td>
       <td>N/A</td>
       <td>0.00139</td>
@@ -9320,7 +9320,7 @@ js:
     </tr>
     <tr>
       <th>1159</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00005</td>
       <td>N/A</td>
       <td>0.00720</td>
@@ -9328,7 +9328,7 @@ js:
     </tr>
     <tr>
       <th>1160</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00005</td>
       <td>N/A</td>
       <td>0.03728</td>
@@ -9336,7 +9336,7 @@ js:
     </tr>
     <tr>
       <th>1161</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00005</td>
       <td>N/A</td>
       <td>0.19307</td>
@@ -9344,7 +9344,7 @@ js:
     </tr>
     <tr>
       <th>1162</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00005</td>
       <td>N/A</td>
       <td>1.0</td>
@@ -9352,7 +9352,7 @@ js:
     </tr>
     <tr>
       <th>1163</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00005</td>
       <td>N/A</td>
       <td>5.17947</td>
@@ -9360,7 +9360,7 @@ js:
     </tr>
     <tr>
       <th>1164</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00005</td>
       <td>N/A</td>
       <td>26.82696</td>
@@ -9368,7 +9368,7 @@ js:
     </tr>
     <tr>
       <th>1165</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00005</td>
       <td>N/A</td>
       <td>138.94955</td>
@@ -9376,7 +9376,7 @@ js:
     </tr>
     <tr>
       <th>1166</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00005</td>
       <td>N/A</td>
       <td>719.68567</td>
@@ -9384,7 +9384,7 @@ js:
     </tr>
     <tr>
       <th>1167</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00005</td>
       <td>N/A</td>
       <td>3727.59372</td>
@@ -9392,7 +9392,7 @@ js:
     </tr>
     <tr>
       <th>1168</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00005</td>
       <td>N/A</td>
       <td>19306.97729</td>
@@ -9400,7 +9400,7 @@ js:
     </tr>
     <tr>
       <th>1169</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00005</td>
       <td>N/A</td>
       <td>100000.0</td>
@@ -9408,7 +9408,7 @@ js:
     </tr>
     <tr>
       <th>1170</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00027</td>
       <td>N/A</td>
       <td>0.00001</td>
@@ -9416,7 +9416,7 @@ js:
     </tr>
     <tr>
       <th>1171</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00027</td>
       <td>N/A</td>
       <td>0.00005</td>
@@ -9424,7 +9424,7 @@ js:
     </tr>
     <tr>
       <th>1172</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00027</td>
       <td>N/A</td>
       <td>0.00027</td>
@@ -9432,7 +9432,7 @@ js:
     </tr>
     <tr>
       <th>1173</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00027</td>
       <td>N/A</td>
       <td>0.00139</td>
@@ -9440,7 +9440,7 @@ js:
     </tr>
     <tr>
       <th>1174</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00027</td>
       <td>N/A</td>
       <td>0.00720</td>
@@ -9448,7 +9448,7 @@ js:
     </tr>
     <tr>
       <th>1175</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00027</td>
       <td>N/A</td>
       <td>0.03728</td>
@@ -9456,7 +9456,7 @@ js:
     </tr>
     <tr>
       <th>1176</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00027</td>
       <td>N/A</td>
       <td>0.19307</td>
@@ -9464,7 +9464,7 @@ js:
     </tr>
     <tr>
       <th>1177</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00027</td>
       <td>N/A</td>
       <td>1.0</td>
@@ -9472,7 +9472,7 @@ js:
     </tr>
     <tr>
       <th>1178</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00027</td>
       <td>N/A</td>
       <td>5.17947</td>
@@ -9480,7 +9480,7 @@ js:
     </tr>
     <tr>
       <th>1179</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00027</td>
       <td>N/A</td>
       <td>26.82696</td>
@@ -9488,7 +9488,7 @@ js:
     </tr>
     <tr>
       <th>1180</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00027</td>
       <td>N/A</td>
       <td>138.94955</td>
@@ -9496,7 +9496,7 @@ js:
     </tr>
     <tr>
       <th>1181</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00027</td>
       <td>N/A</td>
       <td>719.68567</td>
@@ -9504,7 +9504,7 @@ js:
     </tr>
     <tr>
       <th>1182</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00027</td>
       <td>N/A</td>
       <td>3727.59372</td>
@@ -9512,7 +9512,7 @@ js:
     </tr>
     <tr>
       <th>1183</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00027</td>
       <td>N/A</td>
       <td>19306.97729</td>
@@ -9520,7 +9520,7 @@ js:
     </tr>
     <tr>
       <th>1184</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00027</td>
       <td>N/A</td>
       <td>100000.0</td>
@@ -9528,7 +9528,7 @@ js:
     </tr>
     <tr>
       <th>1185</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00139</td>
       <td>N/A</td>
       <td>0.00001</td>
@@ -9536,7 +9536,7 @@ js:
     </tr>
     <tr>
       <th>1186</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00139</td>
       <td>N/A</td>
       <td>0.00005</td>
@@ -9544,7 +9544,7 @@ js:
     </tr>
     <tr>
       <th>1187</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00139</td>
       <td>N/A</td>
       <td>0.00027</td>
@@ -9552,7 +9552,7 @@ js:
     </tr>
     <tr>
       <th>1188</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00139</td>
       <td>N/A</td>
       <td>0.00139</td>
@@ -9560,7 +9560,7 @@ js:
     </tr>
     <tr>
       <th>1189</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00139</td>
       <td>N/A</td>
       <td>0.00720</td>
@@ -9568,7 +9568,7 @@ js:
     </tr>
     <tr>
       <th>1190</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00139</td>
       <td>N/A</td>
       <td>0.03728</td>
@@ -9576,7 +9576,7 @@ js:
     </tr>
     <tr>
       <th>1191</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00139</td>
       <td>N/A</td>
       <td>0.19307</td>
@@ -9584,7 +9584,7 @@ js:
     </tr>
     <tr>
       <th>1192</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00139</td>
       <td>N/A</td>
       <td>1.0</td>
@@ -9592,7 +9592,7 @@ js:
     </tr>
     <tr>
       <th>1193</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00139</td>
       <td>N/A</td>
       <td>5.17947</td>
@@ -9600,7 +9600,7 @@ js:
     </tr>
     <tr>
       <th>1194</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00139</td>
       <td>N/A</td>
       <td>26.82696</td>
@@ -9608,7 +9608,7 @@ js:
     </tr>
     <tr>
       <th>1195</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00139</td>
       <td>N/A</td>
       <td>138.94955</td>
@@ -9616,7 +9616,7 @@ js:
     </tr>
     <tr>
       <th>1196</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00139</td>
       <td>N/A</td>
       <td>719.68567</td>
@@ -9624,7 +9624,7 @@ js:
     </tr>
     <tr>
       <th>1197</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00139</td>
       <td>N/A</td>
       <td>3727.59372</td>
@@ -9632,7 +9632,7 @@ js:
     </tr>
     <tr>
       <th>1198</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00139</td>
       <td>N/A</td>
       <td>19306.97729</td>
@@ -9640,7 +9640,7 @@ js:
     </tr>
     <tr>
       <th>1199</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00139</td>
       <td>N/A</td>
       <td>100000.0</td>
@@ -9648,7 +9648,7 @@ js:
     </tr>
     <tr>
       <th>1200</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00720</td>
       <td>N/A</td>
       <td>0.00001</td>
@@ -9656,7 +9656,7 @@ js:
     </tr>
     <tr>
       <th>1201</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00720</td>
       <td>N/A</td>
       <td>0.00005</td>
@@ -9664,7 +9664,7 @@ js:
     </tr>
     <tr>
       <th>1202</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00720</td>
       <td>N/A</td>
       <td>0.00027</td>
@@ -9672,7 +9672,7 @@ js:
     </tr>
     <tr>
       <th>1203</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00720</td>
       <td>N/A</td>
       <td>0.00139</td>
@@ -9680,7 +9680,7 @@ js:
     </tr>
     <tr>
       <th>1204</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00720</td>
       <td>N/A</td>
       <td>0.00720</td>
@@ -9688,7 +9688,7 @@ js:
     </tr>
     <tr>
       <th>1205</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00720</td>
       <td>N/A</td>
       <td>0.03728</td>
@@ -9696,7 +9696,7 @@ js:
     </tr>
     <tr>
       <th>1206</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00720</td>
       <td>N/A</td>
       <td>0.19307</td>
@@ -9704,7 +9704,7 @@ js:
     </tr>
     <tr>
       <th>1207</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00720</td>
       <td>N/A</td>
       <td>1.0</td>
@@ -9712,7 +9712,7 @@ js:
     </tr>
     <tr>
       <th>1208</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00720</td>
       <td>N/A</td>
       <td>5.17947</td>
@@ -9720,7 +9720,7 @@ js:
     </tr>
     <tr>
       <th>1209</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00720</td>
       <td>N/A</td>
       <td>26.82696</td>
@@ -9728,7 +9728,7 @@ js:
     </tr>
     <tr>
       <th>1210</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00720</td>
       <td>N/A</td>
       <td>138.94955</td>
@@ -9736,7 +9736,7 @@ js:
     </tr>
     <tr>
       <th>1211</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00720</td>
       <td>N/A</td>
       <td>719.68567</td>
@@ -9744,7 +9744,7 @@ js:
     </tr>
     <tr>
       <th>1212</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00720</td>
       <td>N/A</td>
       <td>3727.59372</td>
@@ -9752,7 +9752,7 @@ js:
     </tr>
     <tr>
       <th>1213</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00720</td>
       <td>N/A</td>
       <td>19306.97729</td>
@@ -9760,7 +9760,7 @@ js:
     </tr>
     <tr>
       <th>1214</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.00720</td>
       <td>N/A</td>
       <td>100000.0</td>
@@ -9768,7 +9768,7 @@ js:
     </tr>
     <tr>
       <th>1215</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.03728</td>
       <td>N/A</td>
       <td>0.00001</td>
@@ -9776,7 +9776,7 @@ js:
     </tr>
     <tr>
       <th>1216</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.03728</td>
       <td>N/A</td>
       <td>0.00005</td>
@@ -9784,7 +9784,7 @@ js:
     </tr>
     <tr>
       <th>1217</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.03728</td>
       <td>N/A</td>
       <td>0.00027</td>
@@ -9792,7 +9792,7 @@ js:
     </tr>
     <tr>
       <th>1218</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.03728</td>
       <td>N/A</td>
       <td>0.00139</td>
@@ -9800,7 +9800,7 @@ js:
     </tr>
     <tr>
       <th>1219</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.03728</td>
       <td>N/A</td>
       <td>0.00720</td>
@@ -9808,7 +9808,7 @@ js:
     </tr>
     <tr>
       <th>1220</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.03728</td>
       <td>N/A</td>
       <td>0.03728</td>
@@ -9816,7 +9816,7 @@ js:
     </tr>
     <tr>
       <th>1221</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.03728</td>
       <td>N/A</td>
       <td>0.19307</td>
@@ -9824,7 +9824,7 @@ js:
     </tr>
     <tr>
       <th>1222</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.03728</td>
       <td>N/A</td>
       <td>1.0</td>
@@ -9832,7 +9832,7 @@ js:
     </tr>
     <tr>
       <th>1223</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.03728</td>
       <td>N/A</td>
       <td>5.17947</td>
@@ -9840,7 +9840,7 @@ js:
     </tr>
     <tr>
       <th>1224</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.03728</td>
       <td>N/A</td>
       <td>26.82696</td>
@@ -9848,7 +9848,7 @@ js:
     </tr>
     <tr>
       <th>1225</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.03728</td>
       <td>N/A</td>
       <td>138.94955</td>
@@ -9856,7 +9856,7 @@ js:
     </tr>
     <tr>
       <th>1226</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.03728</td>
       <td>N/A</td>
       <td>719.68567</td>
@@ -9864,7 +9864,7 @@ js:
     </tr>
     <tr>
       <th>1227</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.03728</td>
       <td>N/A</td>
       <td>3727.59372</td>
@@ -9872,7 +9872,7 @@ js:
     </tr>
     <tr>
       <th>1228</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.03728</td>
       <td>N/A</td>
       <td>19306.97729</td>
@@ -9880,7 +9880,7 @@ js:
     </tr>
     <tr>
       <th>1229</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.03728</td>
       <td>N/A</td>
       <td>100000.0</td>
@@ -9888,7 +9888,7 @@ js:
     </tr>
     <tr>
       <th>1230</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.19307</td>
       <td>N/A</td>
       <td>0.00001</td>
@@ -9896,7 +9896,7 @@ js:
     </tr>
     <tr>
       <th>1231</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.19307</td>
       <td>N/A</td>
       <td>0.00005</td>
@@ -9904,7 +9904,7 @@ js:
     </tr>
     <tr>
       <th>1232</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.19307</td>
       <td>N/A</td>
       <td>0.00027</td>
@@ -9912,7 +9912,7 @@ js:
     </tr>
     <tr>
       <th>1233</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.19307</td>
       <td>N/A</td>
       <td>0.00139</td>
@@ -9920,7 +9920,7 @@ js:
     </tr>
     <tr>
       <th>1234</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.19307</td>
       <td>N/A</td>
       <td>0.00720</td>
@@ -9928,7 +9928,7 @@ js:
     </tr>
     <tr>
       <th>1235</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.19307</td>
       <td>N/A</td>
       <td>0.03728</td>
@@ -9936,7 +9936,7 @@ js:
     </tr>
     <tr>
       <th>1236</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.19307</td>
       <td>N/A</td>
       <td>0.19307</td>
@@ -9944,7 +9944,7 @@ js:
     </tr>
     <tr>
       <th>1237</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.19307</td>
       <td>N/A</td>
       <td>1.0</td>
@@ -9952,7 +9952,7 @@ js:
     </tr>
     <tr>
       <th>1238</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.19307</td>
       <td>N/A</td>
       <td>5.17947</td>
@@ -9960,7 +9960,7 @@ js:
     </tr>
     <tr>
       <th>1239</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.19307</td>
       <td>N/A</td>
       <td>26.82696</td>
@@ -9968,7 +9968,7 @@ js:
     </tr>
     <tr>
       <th>1240</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.19307</td>
       <td>N/A</td>
       <td>138.94955</td>
@@ -9976,7 +9976,7 @@ js:
     </tr>
     <tr>
       <th>1241</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.19307</td>
       <td>N/A</td>
       <td>719.68567</td>
@@ -9984,7 +9984,7 @@ js:
     </tr>
     <tr>
       <th>1242</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.19307</td>
       <td>N/A</td>
       <td>3727.59372</td>
@@ -9992,7 +9992,7 @@ js:
     </tr>
     <tr>
       <th>1243</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.19307</td>
       <td>N/A</td>
       <td>19306.97729</td>
@@ -10000,7 +10000,7 @@ js:
     </tr>
     <tr>
       <th>1244</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>0.19307</td>
       <td>N/A</td>
       <td>100000.0</td>
@@ -10008,7 +10008,7 @@ js:
     </tr>
     <tr>
       <th>1245</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>1.0</td>
       <td>N/A</td>
       <td>0.00001</td>
@@ -10016,7 +10016,7 @@ js:
     </tr>
     <tr>
       <th>1246</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>1.0</td>
       <td>N/A</td>
       <td>0.00005</td>
@@ -10024,7 +10024,7 @@ js:
     </tr>
     <tr>
       <th>1247</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>1.0</td>
       <td>N/A</td>
       <td>0.00027</td>
@@ -10032,7 +10032,7 @@ js:
     </tr>
     <tr>
       <th>1248</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>1.0</td>
       <td>N/A</td>
       <td>0.00139</td>
@@ -10040,7 +10040,7 @@ js:
     </tr>
     <tr>
       <th>1249</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>1.0</td>
       <td>N/A</td>
       <td>0.00720</td>
@@ -10048,7 +10048,7 @@ js:
     </tr>
     <tr>
       <th>1250</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>1.0</td>
       <td>N/A</td>
       <td>0.03728</td>
@@ -10056,7 +10056,7 @@ js:
     </tr>
     <tr>
       <th>1251</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>1.0</td>
       <td>N/A</td>
       <td>0.19307</td>
@@ -10064,7 +10064,7 @@ js:
     </tr>
     <tr>
       <th>1252</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>1.0</td>
       <td>N/A</td>
       <td>1.0</td>
@@ -10072,7 +10072,7 @@ js:
     </tr>
     <tr>
       <th>1253</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>1.0</td>
       <td>N/A</td>
       <td>5.17947</td>
@@ -10080,7 +10080,7 @@ js:
     </tr>
     <tr>
       <th>1254</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>1.0</td>
       <td>N/A</td>
       <td>26.82696</td>
@@ -10088,7 +10088,7 @@ js:
     </tr>
     <tr>
       <th>1255</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>1.0</td>
       <td>N/A</td>
       <td>138.94955</td>
@@ -10096,7 +10096,7 @@ js:
     </tr>
     <tr>
       <th>1256</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>1.0</td>
       <td>N/A</td>
       <td>719.68567</td>
@@ -10104,7 +10104,7 @@ js:
     </tr>
     <tr>
       <th>1257</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>1.0</td>
       <td>N/A</td>
       <td>3727.59372</td>
@@ -10112,7 +10112,7 @@ js:
     </tr>
     <tr>
       <th>1258</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>1.0</td>
       <td>N/A</td>
       <td>19306.97729</td>
@@ -10120,7 +10120,7 @@ js:
     </tr>
     <tr>
       <th>1259</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>1.0</td>
       <td>N/A</td>
       <td>100000.0</td>
@@ -10128,7 +10128,7 @@ js:
     </tr>
     <tr>
       <th>1260</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>5.17947</td>
       <td>N/A</td>
       <td>0.00001</td>
@@ -10136,7 +10136,7 @@ js:
     </tr>
     <tr>
       <th>1261</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>5.17947</td>
       <td>N/A</td>
       <td>0.00005</td>
@@ -10144,7 +10144,7 @@ js:
     </tr>
     <tr>
       <th>1262</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>5.17947</td>
       <td>N/A</td>
       <td>0.00027</td>
@@ -10152,7 +10152,7 @@ js:
     </tr>
     <tr>
       <th>1263</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>5.17947</td>
       <td>N/A</td>
       <td>0.00139</td>
@@ -10160,7 +10160,7 @@ js:
     </tr>
     <tr>
       <th>1264</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>5.17947</td>
       <td>N/A</td>
       <td>0.00720</td>
@@ -10168,7 +10168,7 @@ js:
     </tr>
     <tr>
       <th>1265</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>5.17947</td>
       <td>N/A</td>
       <td>0.03728</td>
@@ -10176,7 +10176,7 @@ js:
     </tr>
     <tr>
       <th>1266</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>5.17947</td>
       <td>N/A</td>
       <td>0.19307</td>
@@ -10184,7 +10184,7 @@ js:
     </tr>
     <tr>
       <th>1267</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>5.17947</td>
       <td>N/A</td>
       <td>1.0</td>
@@ -10192,7 +10192,7 @@ js:
     </tr>
     <tr>
       <th>1268</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>5.17947</td>
       <td>N/A</td>
       <td>5.17947</td>
@@ -10200,7 +10200,7 @@ js:
     </tr>
     <tr>
       <th>1269</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>5.17947</td>
       <td>N/A</td>
       <td>26.82696</td>
@@ -10208,7 +10208,7 @@ js:
     </tr>
     <tr>
       <th>1270</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>5.17947</td>
       <td>N/A</td>
       <td>138.94955</td>
@@ -10216,7 +10216,7 @@ js:
     </tr>
     <tr>
       <th>1271</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>5.17947</td>
       <td>N/A</td>
       <td>719.68567</td>
@@ -10224,7 +10224,7 @@ js:
     </tr>
     <tr>
       <th>1272</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>5.17947</td>
       <td>N/A</td>
       <td>3727.59372</td>
@@ -10232,7 +10232,7 @@ js:
     </tr>
     <tr>
       <th>1273</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>5.17947</td>
       <td>N/A</td>
       <td>19306.97729</td>
@@ -10240,7 +10240,7 @@ js:
     </tr>
     <tr>
       <th>1274</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>5.17947</td>
       <td>N/A</td>
       <td>100000.0</td>
@@ -10248,7 +10248,7 @@ js:
     </tr>
     <tr>
       <th>1275</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>26.82696</td>
       <td>N/A</td>
       <td>0.00001</td>
@@ -10256,7 +10256,7 @@ js:
     </tr>
     <tr>
       <th>1276</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>26.82696</td>
       <td>N/A</td>
       <td>0.00005</td>
@@ -10264,7 +10264,7 @@ js:
     </tr>
     <tr>
       <th>1277</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>26.82696</td>
       <td>N/A</td>
       <td>0.00027</td>
@@ -10272,7 +10272,7 @@ js:
     </tr>
     <tr>
       <th>1278</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>26.82696</td>
       <td>N/A</td>
       <td>0.00139</td>
@@ -10280,7 +10280,7 @@ js:
     </tr>
     <tr>
       <th>1279</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>26.82696</td>
       <td>N/A</td>
       <td>0.00720</td>
@@ -10288,7 +10288,7 @@ js:
     </tr>
     <tr>
       <th>1280</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>26.82696</td>
       <td>N/A</td>
       <td>0.03728</td>
@@ -10296,7 +10296,7 @@ js:
     </tr>
     <tr>
       <th>1281</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>26.82696</td>
       <td>N/A</td>
       <td>0.19307</td>
@@ -10304,7 +10304,7 @@ js:
     </tr>
     <tr>
       <th>1282</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>26.82696</td>
       <td>N/A</td>
       <td>1.0</td>
@@ -10312,7 +10312,7 @@ js:
     </tr>
     <tr>
       <th>1283</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>26.82696</td>
       <td>N/A</td>
       <td>5.17947</td>
@@ -10320,7 +10320,7 @@ js:
     </tr>
     <tr>
       <th>1284</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>26.82696</td>
       <td>N/A</td>
       <td>26.82696</td>
@@ -10328,7 +10328,7 @@ js:
     </tr>
     <tr>
       <th>1285</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>26.82696</td>
       <td>N/A</td>
       <td>138.94955</td>
@@ -10336,7 +10336,7 @@ js:
     </tr>
     <tr>
       <th>1286</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>26.82696</td>
       <td>N/A</td>
       <td>719.68567</td>
@@ -10344,7 +10344,7 @@ js:
     </tr>
     <tr>
       <th>1287</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>26.82696</td>
       <td>N/A</td>
       <td>3727.59372</td>
@@ -10352,7 +10352,7 @@ js:
     </tr>
     <tr>
       <th>1288</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>26.82696</td>
       <td>N/A</td>
       <td>19306.97729</td>
@@ -10360,7 +10360,7 @@ js:
     </tr>
     <tr>
       <th>1289</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>26.82696</td>
       <td>N/A</td>
       <td>100000.0</td>
@@ -10368,7 +10368,7 @@ js:
     </tr>
     <tr>
       <th>1290</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>138.94955</td>
       <td>N/A</td>
       <td>0.00001</td>
@@ -10376,7 +10376,7 @@ js:
     </tr>
     <tr>
       <th>1291</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>138.94955</td>
       <td>N/A</td>
       <td>0.00005</td>
@@ -10384,7 +10384,7 @@ js:
     </tr>
     <tr>
       <th>1292</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>138.94955</td>
       <td>N/A</td>
       <td>0.00027</td>
@@ -10392,7 +10392,7 @@ js:
     </tr>
     <tr>
       <th>1293</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>138.94955</td>
       <td>N/A</td>
       <td>0.00139</td>
@@ -10400,7 +10400,7 @@ js:
     </tr>
     <tr>
       <th>1294</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>138.94955</td>
       <td>N/A</td>
       <td>0.00720</td>
@@ -10408,7 +10408,7 @@ js:
     </tr>
     <tr>
       <th>1295</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>138.94955</td>
       <td>N/A</td>
       <td>0.03728</td>
@@ -10416,7 +10416,7 @@ js:
     </tr>
     <tr>
       <th>1296</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>138.94955</td>
       <td>N/A</td>
       <td>0.19307</td>
@@ -10424,7 +10424,7 @@ js:
     </tr>
     <tr>
       <th>1297</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>138.94955</td>
       <td>N/A</td>
       <td>1.0</td>
@@ -10432,7 +10432,7 @@ js:
     </tr>
     <tr>
       <th>1298</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>138.94955</td>
       <td>N/A</td>
       <td>5.17947</td>
@@ -10440,7 +10440,7 @@ js:
     </tr>
     <tr>
       <th>1299</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>138.94955</td>
       <td>N/A</td>
       <td>26.82696</td>
@@ -10448,7 +10448,7 @@ js:
     </tr>
     <tr>
       <th>1300</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>138.94955</td>
       <td>N/A</td>
       <td>138.94955</td>
@@ -10456,7 +10456,7 @@ js:
     </tr>
     <tr>
       <th>1301</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>138.94955</td>
       <td>N/A</td>
       <td>719.68567</td>
@@ -10464,7 +10464,7 @@ js:
     </tr>
     <tr>
       <th>1302</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>138.94955</td>
       <td>N/A</td>
       <td>3727.59372</td>
@@ -10472,7 +10472,7 @@ js:
     </tr>
     <tr>
       <th>1303</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>138.94955</td>
       <td>N/A</td>
       <td>19306.97729</td>
@@ -10480,7 +10480,7 @@ js:
     </tr>
     <tr>
       <th>1304</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>138.94955</td>
       <td>N/A</td>
       <td>100000.0</td>
@@ -10488,7 +10488,7 @@ js:
     </tr>
     <tr>
       <th>1305</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>719.68567</td>
       <td>N/A</td>
       <td>0.00001</td>
@@ -10496,7 +10496,7 @@ js:
     </tr>
     <tr>
       <th>1306</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>719.68567</td>
       <td>N/A</td>
       <td>0.00005</td>
@@ -10504,7 +10504,7 @@ js:
     </tr>
     <tr>
       <th>1307</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>719.68567</td>
       <td>N/A</td>
       <td>0.00027</td>
@@ -10512,7 +10512,7 @@ js:
     </tr>
     <tr>
       <th>1308</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>719.68567</td>
       <td>N/A</td>
       <td>0.00139</td>
@@ -10520,7 +10520,7 @@ js:
     </tr>
     <tr>
       <th>1309</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>719.68567</td>
       <td>N/A</td>
       <td>0.00720</td>
@@ -10528,7 +10528,7 @@ js:
     </tr>
     <tr>
       <th>1310</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>719.68567</td>
       <td>N/A</td>
       <td>0.03728</td>
@@ -10536,7 +10536,7 @@ js:
     </tr>
     <tr>
       <th>1311</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>719.68567</td>
       <td>N/A</td>
       <td>0.19307</td>
@@ -10544,7 +10544,7 @@ js:
     </tr>
     <tr>
       <th>1312</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>719.68567</td>
       <td>N/A</td>
       <td>1.0</td>
@@ -10552,7 +10552,7 @@ js:
     </tr>
     <tr>
       <th>1313</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>719.68567</td>
       <td>N/A</td>
       <td>5.17947</td>
@@ -10560,7 +10560,7 @@ js:
     </tr>
     <tr>
       <th>1314</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>719.68567</td>
       <td>N/A</td>
       <td>26.82696</td>
@@ -10568,7 +10568,7 @@ js:
     </tr>
     <tr>
       <th>1315</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>719.68567</td>
       <td>N/A</td>
       <td>138.94955</td>
@@ -10576,7 +10576,7 @@ js:
     </tr>
     <tr>
       <th>1316</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>719.68567</td>
       <td>N/A</td>
       <td>719.68567</td>
@@ -10584,7 +10584,7 @@ js:
     </tr>
     <tr>
       <th>1317</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>719.68567</td>
       <td>N/A</td>
       <td>3727.59372</td>
@@ -10592,7 +10592,7 @@ js:
     </tr>
     <tr>
       <th>1318</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>719.68567</td>
       <td>N/A</td>
       <td>19306.97729</td>
@@ -10600,7 +10600,7 @@ js:
     </tr>
     <tr>
       <th>1319</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>719.68567</td>
       <td>N/A</td>
       <td>100000.0</td>
@@ -10608,7 +10608,7 @@ js:
     </tr>
     <tr>
       <th>1320</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>3727.59372</td>
       <td>N/A</td>
       <td>0.00001</td>
@@ -10616,7 +10616,7 @@ js:
     </tr>
     <tr>
       <th>1321</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>3727.59372</td>
       <td>N/A</td>
       <td>0.00005</td>
@@ -10624,7 +10624,7 @@ js:
     </tr>
     <tr>
       <th>1322</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>3727.59372</td>
       <td>N/A</td>
       <td>0.00027</td>
@@ -10632,7 +10632,7 @@ js:
     </tr>
     <tr>
       <th>1323</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>3727.59372</td>
       <td>N/A</td>
       <td>0.00139</td>
@@ -10640,7 +10640,7 @@ js:
     </tr>
     <tr>
       <th>1324</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>3727.59372</td>
       <td>N/A</td>
       <td>0.00720</td>
@@ -10648,7 +10648,7 @@ js:
     </tr>
     <tr>
       <th>1325</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>3727.59372</td>
       <td>N/A</td>
       <td>0.03728</td>
@@ -10656,7 +10656,7 @@ js:
     </tr>
     <tr>
       <th>1326</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>3727.59372</td>
       <td>N/A</td>
       <td>0.19307</td>
@@ -10664,7 +10664,7 @@ js:
     </tr>
     <tr>
       <th>1327</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>3727.59372</td>
       <td>N/A</td>
       <td>1.0</td>
@@ -10672,7 +10672,7 @@ js:
     </tr>
     <tr>
       <th>1328</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>3727.59372</td>
       <td>N/A</td>
       <td>5.17947</td>
@@ -10680,7 +10680,7 @@ js:
     </tr>
     <tr>
       <th>1329</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>3727.59372</td>
       <td>N/A</td>
       <td>26.82696</td>
@@ -10688,7 +10688,7 @@ js:
     </tr>
     <tr>
       <th>1330</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>3727.59372</td>
       <td>N/A</td>
       <td>138.94955</td>
@@ -10696,7 +10696,7 @@ js:
     </tr>
     <tr>
       <th>1331</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>3727.59372</td>
       <td>N/A</td>
       <td>719.68567</td>
@@ -10704,7 +10704,7 @@ js:
     </tr>
     <tr>
       <th>1332</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>3727.59372</td>
       <td>N/A</td>
       <td>3727.59372</td>
@@ -10712,7 +10712,7 @@ js:
     </tr>
     <tr>
       <th>1333</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>3727.59372</td>
       <td>N/A</td>
       <td>19306.97729</td>
@@ -10720,7 +10720,7 @@ js:
     </tr>
     <tr>
       <th>1334</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>3727.59372</td>
       <td>N/A</td>
       <td>100000.0</td>
@@ -10728,7 +10728,7 @@ js:
     </tr>
     <tr>
       <th>1335</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>19306.97729</td>
       <td>N/A</td>
       <td>0.00001</td>
@@ -10736,7 +10736,7 @@ js:
     </tr>
     <tr>
       <th>1336</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>19306.97729</td>
       <td>N/A</td>
       <td>0.00005</td>
@@ -10744,7 +10744,7 @@ js:
     </tr>
     <tr>
       <th>1337</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>19306.97729</td>
       <td>N/A</td>
       <td>0.00027</td>
@@ -10752,7 +10752,7 @@ js:
     </tr>
     <tr>
       <th>1338</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>19306.97729</td>
       <td>N/A</td>
       <td>0.00139</td>
@@ -10760,7 +10760,7 @@ js:
     </tr>
     <tr>
       <th>1339</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>19306.97729</td>
       <td>N/A</td>
       <td>0.00720</td>
@@ -10768,7 +10768,7 @@ js:
     </tr>
     <tr>
       <th>1340</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>19306.97729</td>
       <td>N/A</td>
       <td>0.03728</td>
@@ -10776,7 +10776,7 @@ js:
     </tr>
     <tr>
       <th>1341</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>19306.97729</td>
       <td>N/A</td>
       <td>0.19307</td>
@@ -10784,7 +10784,7 @@ js:
     </tr>
     <tr>
       <th>1342</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>19306.97729</td>
       <td>N/A</td>
       <td>1.0</td>
@@ -10792,7 +10792,7 @@ js:
     </tr>
     <tr>
       <th>1343</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>19306.97729</td>
       <td>N/A</td>
       <td>5.17947</td>
@@ -10800,7 +10800,7 @@ js:
     </tr>
     <tr>
       <th>1344</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>19306.97729</td>
       <td>N/A</td>
       <td>26.82696</td>
@@ -10808,7 +10808,7 @@ js:
     </tr>
     <tr>
       <th>1345</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>19306.97729</td>
       <td>N/A</td>
       <td>138.94955</td>
@@ -10816,7 +10816,7 @@ js:
     </tr>
     <tr>
       <th>1346</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>19306.97729</td>
       <td>N/A</td>
       <td>719.68567</td>
@@ -10824,7 +10824,7 @@ js:
     </tr>
     <tr>
       <th>1347</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>19306.97729</td>
       <td>N/A</td>
       <td>3727.59372</td>
@@ -10832,7 +10832,7 @@ js:
     </tr>
     <tr>
       <th>1348</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>19306.97729</td>
       <td>N/A</td>
       <td>19306.97729</td>
@@ -10840,7 +10840,7 @@ js:
     </tr>
     <tr>
       <th>1349</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>19306.97729</td>
       <td>N/A</td>
       <td>100000.0</td>
@@ -10848,7 +10848,7 @@ js:
     </tr>
     <tr>
       <th>1350</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>100000.0</td>
       <td>N/A</td>
       <td>0.00001</td>
@@ -10856,7 +10856,7 @@ js:
     </tr>
     <tr>
       <th>1351</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>100000.0</td>
       <td>N/A</td>
       <td>0.00005</td>
@@ -10864,7 +10864,7 @@ js:
     </tr>
     <tr>
       <th>1352</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>100000.0</td>
       <td>N/A</td>
       <td>0.00027</td>
@@ -10872,7 +10872,7 @@ js:
     </tr>
     <tr>
       <th>1353</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>100000.0</td>
       <td>N/A</td>
       <td>0.00139</td>
@@ -10880,7 +10880,7 @@ js:
     </tr>
     <tr>
       <th>1354</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>100000.0</td>
       <td>N/A</td>
       <td>0.00720</td>
@@ -10888,7 +10888,7 @@ js:
     </tr>
     <tr>
       <th>1355</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>100000.0</td>
       <td>N/A</td>
       <td>0.03728</td>
@@ -10896,7 +10896,7 @@ js:
     </tr>
     <tr>
       <th>1356</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>100000.0</td>
       <td>N/A</td>
       <td>0.19307</td>
@@ -10904,7 +10904,7 @@ js:
     </tr>
     <tr>
       <th>1357</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>100000.0</td>
       <td>N/A</td>
       <td>1.0</td>
@@ -10912,7 +10912,7 @@ js:
     </tr>
     <tr>
       <th>1358</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>100000.0</td>
       <td>N/A</td>
       <td>5.17947</td>
@@ -10920,7 +10920,7 @@ js:
     </tr>
     <tr>
       <th>1359</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>100000.0</td>
       <td>N/A</td>
       <td>26.82696</td>
@@ -10928,7 +10928,7 @@ js:
     </tr>
     <tr>
       <th>1360</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>100000.0</td>
       <td>N/A</td>
       <td>138.94955</td>
@@ -10936,7 +10936,7 @@ js:
     </tr>
     <tr>
       <th>1361</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>100000.0</td>
       <td>N/A</td>
       <td>719.68567</td>
@@ -10944,7 +10944,7 @@ js:
     </tr>
     <tr>
       <th>1362</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>100000.0</td>
       <td>N/A</td>
       <td>3727.59372</td>
@@ -10952,7 +10952,7 @@ js:
     </tr>
     <tr>
       <th>1363</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>100000.0</td>
       <td>N/A</td>
       <td>19306.97729</td>
@@ -10960,7 +10960,7 @@ js:
     </tr>
     <tr>
       <th>1364</th>
-      <td>rbf</td>
+      <td>rbf<sup>&yen;</sup></td>
       <td>100000.0</td>
       <td>N/A</td>
       <td>100000.0</td>
