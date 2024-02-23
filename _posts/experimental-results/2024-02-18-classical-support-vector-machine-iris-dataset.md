@@ -34,14 +34,14 @@ js:
   <li> The results... </li>
 </ul>
 
-<table border="1" class="dataframe">
+<table border="1" class="dataframe" style="text-align: center;">
   <thead>
-    <tr style="text-align: right;">
+    <tr>
       <th></th>
       <th>Kernel</th>
       <th>C</th>
-      <th>degree</th>
-      <th>gamma</th>
+      <th>Degree</th>
+      <th>Gamma</th>
       <th>Accuracy</th>
     </tr>
   </thead>
