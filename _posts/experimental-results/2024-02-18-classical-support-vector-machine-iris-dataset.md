@@ -41,7 +41,7 @@ js:
 <script>
   function sortTable(n) {
     var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
-    table = document.getElementById("myTable2");
+    table = document.getElementById("classical-svm-iris-dataset-exp-results");
     switching = true;
     // Set the sorting direction to ascending:
     dir = "asc";
