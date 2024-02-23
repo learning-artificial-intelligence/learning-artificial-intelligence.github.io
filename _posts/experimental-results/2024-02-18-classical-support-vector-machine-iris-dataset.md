@@ -56,105 +56,105 @@ js:
       <td rowspan="1350"><b>gamma</b><sup>&Dagger;</sup></td>
       <td><b>1 &times; 10<sup>-5</sup></b></td>
       <td></td>
-      <td></td>
+      <td>0.28889</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td><b>5.17947468 &times; 10<sup>-5</sup></b></td>
       <td></td>
-      <td></td>
+      <td>0.28889</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td><b>2.6826958 &times; 10<sup>-4</sup></b></td>
       <td></td>
-      <td></td>
+      <td>0.28889</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td><b>1.38949549 &times; 10<sup>-3</sup></b></td>
       <td></td>
-      <td></td>
+      <td>0.28889</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td><b>7.19685673 &times; 10<sup>-3</sup></b></td>
       <td></td>
-      <td></td>
+      <td>0.28889</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td><b>3.72759372 &times; 10<sup>-2</sup></b></td>
       <td></td>
-      <td></td>
+      <td>0.28889</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td><b>1.93069773 &times; 10<sup>-1</sup></b></td>
       <td></td>
-      <td></td>
+      <td>0.28889</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td><b>1</b></td>
       <td></td>
-      <td></td>
+      <td>0.28889</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td><b>5.17947468</b></td>
       <td></td>
-      <td></td>
+      <td>0.28889</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td><b>2.6826958 &times; 10</b></td>
       <td></td>
-      <td></td>
+      <td>0.28889</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td><b>1.38949549 &times; 10<sup>2</sup></b></td>
       <td></td>
-      <td></td>
+      <td>0.28889</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td><b>7.19685673 &times; 10<sup>2</sup></b></td>
       <td></td>
-      <td></td>
+      <td>0.68889</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td><b>3.72759372 &times; 10<sup>3</sup></b></td>
       <td></td>
-      <td></td>
+      <td>0.93333</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td><b>1.93069773 &times; 10<sup>4</sup></b></td>
       <td></td>
-      <td></td>
+      <td>0.95556</td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td><b>1 &times; 10<sup>5</sup></b></td>
       <td></td>
-      <td></td>
+      <td>0.97778</td>
       <td></td>
       <td></td>
     </tr>
