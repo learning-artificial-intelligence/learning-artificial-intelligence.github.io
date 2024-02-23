@@ -11,6 +11,33 @@ canonical: https://learning-artificial-intelligence.github.io/
 css:
 js:
 ---
+<script type="text/javascript" language="javascript" src="tablefilter/tablefilter.js"></script>
+<script>
+  var filtersConfig = {
+        base_path: "tablefilter/",
+        col_1: "none",
+        col_2: "select",
+        col_3: "select",
+        col_4: "select",
+        col_5: "select",
+        col_6: "select",
+        alternate_rows: true,
+        rows_counter: true,
+        btn_reset: true,
+        loader: true,
+        status_bar: true,
+        no_results_message: true,
+        extensions:[{
+            name: "sort"
+        }]
+    };
+    
+  var tableFilter = 
+      new TableFilter("classical-svm-iris-dataset-exp-results",
+                      filtersConfig);
+
+  tableFilter.init();
+</script>
 
 {% include JB/setup %}
 
@@ -34,7 +61,7 @@ js:
   <li> The results... </li>
 </ul>
 
-<table border="1" class="tg">
+<table id="classical-svm-iris-dataset-exp-results" border="1" class="tg">
   <thead>
     <tr>
       <th></th>
