@@ -42,7 +42,7 @@ js:
       <th>C<sup>&sect;</sup></th>
       <th>Degree<sup>&dagger;</sup></th>
       <th>Gamma<sup>&Dagger;</sup></th>
-      <th>Accuracy</th>
+      <th>Accuracy<sup>&para;</sup></th>
     </tr>
   </thead>
   <tbody>
@@ -12782,7 +12782,8 @@ js:
   <li> &yen; - The '<b>rbf</b>' kernel stands for <b>Radial Basis Function (RBF)</b> kernel. </li>
   <li> &sect; - This hyperparameter represents the <b>Regularization Factor/Parameter</b>. </li>
   <li> &dagger; - This hyperparameter represents the <b>Polynomial Degree</b> for '<b>poly</b>' kernel. </li>
-  <li> &Dagger; - This hyperparameter represents the <b>Kernel Coefficient</b> for '<b>rbf</b>', '<b>poly</b>', and '<b>sigmoid</b>' kernels. This hyperparameter is also denoted by the Greek letter &gamma;. </li>
+  <li> &Dagger; - This hyperparameter represents the (<u>non-linear</u>) <b>Kernel Coefficient</b> for '<b>rbf</b>', '<b>poly</b>', and '<b>sigmoid</b>' kernels. This hyperparameter is also denoted by the Greek letter &gamma;. </li>
+  <li> &para; - The higher <b>Accuracy</b> values are highlighted in <span style="color:#17A589"><b>green</b></span> and the lowest <b>Accuracy</b> values are highlighted in <span style="color:#C0392B"><b>red</b></span>. </li>
 </ul>
 
 <hr>
