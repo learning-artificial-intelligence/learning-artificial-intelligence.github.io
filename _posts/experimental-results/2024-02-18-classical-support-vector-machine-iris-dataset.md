@@ -34,9 +34,9 @@ js:
   <li> The results... </li>
 </ul>
 
-<table border="1" class="dataframe" style="text-align: center;">
+<table border="1" class="tg">
   <thead>
-    <tr style="text-align: center;">
+    <tr>
       <th></th>
       <th>Kernel</th>
       <th>C</th>
