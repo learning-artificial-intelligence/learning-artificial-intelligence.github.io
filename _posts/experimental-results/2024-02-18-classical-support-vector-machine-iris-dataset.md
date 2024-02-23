@@ -108,7 +108,7 @@ js:
       <td>1.0</td>
       <td>N/A</td>
       <td>N/A</td>
-      <td><span style="color:#00FF00"><b>0.97778</b></span></td>
+      <td><span style="color:#17A589"><b>0.97778</b></span></td>
     </tr>
     <tr>
       <th>8</th>
@@ -284,7 +284,7 @@ js:
       <td>0.00001</td>
       <td>1</td>
       <td>100000.0</td>
-      <td><span style="color:#00FF00"><b>0.97778</b></span></td>
+      <td><span style="color:#17A589"><b>0.97778</b></span></td>
     </tr>
     <tr>
       <th>30</th>
@@ -876,7 +876,7 @@ js:
       <td>0.00005</td>
       <td>1</td>
       <td>19306.97729</td>
-      <td><span style="color:#00FF00"><b>0.97778</b></span></td>
+      <td><span style="color:#17A589"><b>0.97778</b></span></td>
     </tr>
     <tr>
       <th>104</th>
@@ -1068,7 +1068,7 @@ js:
       <td>0.00005</td>
       <td>3</td>
       <td>1.0</td>
-      <td><span style="color:#00FF00"><b>0.97778</b></span></td>
+      <td><span style="color:#17A589"><b>0.97778</b></span></td>
     </tr>
     <tr>
       <th>128</th>
@@ -1468,7 +1468,7 @@ js:
       <td>0.00027</td>
       <td>1</td>
       <td>3727.59372</td>
-      <td><span style="color:#00FF00"><b>0.97778</b></span></td>
+      <td><span style="color:#17A589"><b>0.97778</b></span></td>
     </tr>
     <tr>
       <th>178</th>
@@ -2060,7 +2060,7 @@ js:
       <td>0.00139</td>
       <td>1</td>
       <td>719.68567</td>
-      <td><span style="color:#00FF00"><b>0.97778</b></span></td>
+      <td><span style="color:#17A589"><b>0.97778</b></span></td>
     </tr>
     <tr>
       <th>252</th>
@@ -2652,7 +2652,7 @@ js:
       <td>0.00720</td>
       <td>1</td>
       <td>138.94955</td>
-      <td><span style="color:#00FF00"><b>0.97778</b></span></td>
+      <td><span style="color:#17A589"><b>0.97778</b></span></td>
     </tr>
     <tr>
       <th>326</th>
@@ -2860,7 +2860,7 @@ js:
       <td>0.00720</td>
       <td>3</td>
       <td>0.19307</td>
-      <td><span style="color:#00FF00"><b>0.97778</b></span></td>
+      <td><span style="color:#17A589"><b>0.97778</b></span></td>
     </tr>
     <tr>
       <th>352</th>
@@ -3244,7 +3244,7 @@ js:
       <td>0.03728</td>
       <td>1</td>
       <td>26.82696</td>
-      <td><span style="color:#00FF00"><b>0.97778</b></span></td>
+      <td><span style="color:#17A589"><b>0.97778</b></span></td>
     </tr>
     <tr>
       <th>400</th>
@@ -3836,7 +3836,7 @@ js:
       <td>0.19307</td>
       <td>1</td>
       <td>5.17947</td>
-      <td><span style="color:#00FF00"><b>0.97778</b></span></td>
+      <td><span style="color:#17A589"><b>0.97778</b></span></td>
     </tr>
     <tr>
       <th>474</th>
@@ -4428,7 +4428,7 @@ js:
       <td>1.0</td>
       <td>1</td>
       <td>1.0</td>
-      <td><span style="color:#00FF00"><b>0.97778</b></span></td>
+      <td><span style="color:#17A589"><b>0.97778</b></span></td>
     </tr>
     <tr>
       <th>548</th>
@@ -4652,7 +4652,7 @@ js:
       <td>1.0</td>
       <td>3</td>
       <td>0.03728</td>
-      <td><span style="color:#00FF00"><b>0.97778</b></span></td>
+      <td><span style="color:#17A589"><b>0.97778</b></span></td>
     </tr>
     <tr>
       <th>576</th>
@@ -5020,7 +5020,7 @@ js:
       <td>5.17947</td>
       <td>1</td>
       <td>0.19307</td>
-      <td><span style="color:#00FF00"><b>0.97778</b></span></td>
+      <td><span style="color:#17A589"><b>0.97778</b></span></td>
     </tr>
     <tr>
       <th>622</th>
@@ -5612,7 +5612,7 @@ js:
       <td>26.82696</td>
       <td>1</td>
       <td>0.03728</td>
-      <td><span style="color:#00FF00"><b>0.97778</b></span></td>
+      <td><span style="color:#17A589"><b>0.97778</b></span></td>
     </tr>
     <tr>
       <th>696</th>
@@ -6204,7 +6204,7 @@ js:
       <td>138.94955</td>
       <td>1</td>
       <td>0.00720</td>
-      <td><span style="color:#00FF00"><b>0.97778</b></span></td>
+      <td><span style="color:#17A589"><b>0.97778</b></span></td>
     </tr>
     <tr>
       <th>770</th>
@@ -6444,7 +6444,7 @@ js:
       <td>138.94955</td>
       <td>3</td>
       <td>0.00720</td>
-      <td><span style="color:#00FF00"><b>0.97778</b></span></td>
+      <td><span style="color:#17A589"><b>0.97778</b></span></td>
     </tr>
     <tr>
       <th>800</th>
@@ -6796,7 +6796,7 @@ js:
       <td>719.68567</td>
       <td>1</td>
       <td>0.00139</td>
-      <td><span style="color:#00FF00"><b>0.97778</b></span></td>
+      <td><span style="color:#17A589"><b>0.97778</b></span></td>
     </tr>
     <tr>
       <th>844</th>
@@ -7388,7 +7388,7 @@ js:
       <td>3727.59372</td>
       <td>1</td>
       <td>0.00027</td>
-      <td><span style="color:#00FF00"><b>0.97778</b></span></td>
+      <td><span style="color:#17A589"><b>0.97778</b></span></td>
     </tr>
     <tr>
       <th>918</th>
@@ -7980,7 +7980,7 @@ js:
       <td>19306.97729</td>
       <td>1</td>
       <td>0.00005</td>
-      <td><span style="color:#00FF00"><b>0.97778</b></span></td>
+      <td><span style="color:#17A589"><b>0.97778</b></span></td>
     </tr>
     <tr>
       <th>992</th>
@@ -8236,7 +8236,7 @@ js:
       <td>19306.97729</td>
       <td>3</td>
       <td>0.00139</td>
-      <td><span style="color:#00FF00"><b>0.97778</b></span></td>
+      <td><span style="color:#17A589"><b>0.97778</b></span></td>
     </tr>
     <tr>
       <th>1024</th>
@@ -8572,7 +8572,7 @@ js:
       <td>100000.0</td>
       <td>1</td>
       <td>0.00001</td>
-      <td><span style="color:#00FF00"><b>0.97778</b></span></td>
+      <td><span style="color:#17A589"><b>0.97778</b></span></td>
     </tr>
     <tr>
       <th>1066</th>
@@ -10060,7 +10060,7 @@ js:
       <td>1.0</td>
       <td>N/A</td>
       <td>0.19307</td>
-      <td><span style="color:#00FF00"><b>0.97778</b></span></td>
+      <td><span style="color:#17A589"><b>0.97778</b></span></td>
     </tr>
     <tr>
       <th>1252</th>
@@ -10172,7 +10172,7 @@ js:
       <td>5.17947</td>
       <td>N/A</td>
       <td>0.03728</td>
-      <td><span style="color:#00FF00"><b>0.97778</b></span></td>
+      <td><span style="color:#17A589"><b>0.97778</b></span></td>
     </tr>
     <tr>
       <th>1266</th>
@@ -10180,7 +10180,7 @@ js:
       <td>5.17947</td>
       <td>N/A</td>
       <td>0.19307</td>
-      <td><span style="color:#00FF00"><b>0.97778</b></span></td>
+      <td><span style="color:#17A589"><b>0.97778</b></span></td>
     </tr>
     <tr>
       <th>1267</th>
@@ -10284,7 +10284,7 @@ js:
       <td>26.82696</td>
       <td>N/A</td>
       <td>0.00720</td>
-      <td><span style="color:#00FF00"><b>0.97778</b></span></td>
+      <td><span style="color:#17A589"><b>0.97778</b></span></td>
     </tr>
     <tr>
       <th>1280</th>
@@ -10292,7 +10292,7 @@ js:
       <td>26.82696</td>
       <td>N/A</td>
       <td>0.03728</td>
-      <td><span style="color:#00FF00"><b>0.97778</b></span></td>
+      <td><span style="color:#17A589"><b>0.97778</b></span></td>
     </tr>
     <tr>
       <th>1281</th>
@@ -10396,7 +10396,7 @@ js:
       <td>138.94955</td>
       <td>N/A</td>
       <td>0.00139</td>
-      <td><span style="color:#00FF00"><b>0.97778</b></span></td>
+      <td><span style="color:#17A589"><b>0.97778</b></span></td>
     </tr>
     <tr>
       <th>1294</th>
@@ -10404,7 +10404,7 @@ js:
       <td>138.94955</td>
       <td>N/A</td>
       <td>0.00720</td>
-      <td><span style="color:#00FF00"><b>0.97778</b></span></td>
+      <td><span style="color:#17A589"><b>0.97778</b></span></td>
     </tr>
     <tr>
       <th>1295</th>
@@ -10508,7 +10508,7 @@ js:
       <td>719.68567</td>
       <td>N/A</td>
       <td>0.00027</td>
-      <td><span style="color:#00FF00"><b>0.97778</b></span></td>
+      <td><span style="color:#17A589"><b>0.97778</b></span></td>
     </tr>
     <tr>
       <th>1308</th>
@@ -10516,7 +10516,7 @@ js:
       <td>719.68567</td>
       <td>N/A</td>
       <td>0.00139</td>
-      <td><span style="color:#00FF00"><b>0.97778</b></span></td>
+      <td><span style="color:#17A589"><b>0.97778</b></span></td>
     </tr>
     <tr>
       <th>1309</th>
@@ -10620,7 +10620,7 @@ js:
       <td>3727.59372</td>
       <td>N/A</td>
       <td>0.00005</td>
-      <td><span style="color:#00FF00"><b>0.97778</b></span></td>
+      <td><span style="color:#17A589"><b>0.97778</b></span></td>
     </tr>
     <tr>
       <th>1322</th>
@@ -10628,7 +10628,7 @@ js:
       <td>3727.59372</td>
       <td>N/A</td>
       <td>0.00027</td>
-      <td><span style="color:#00FF00"><b>0.97778</b></span></td>
+      <td><span style="color:#17A589"><b>0.97778</b></span></td>
     </tr>
     <tr>
       <th>1323</th>
@@ -10732,7 +10732,7 @@ js:
       <td>19306.97729</td>
       <td>N/A</td>
       <td>0.00001</td>
-      <td><span style="color:#00FF00"><b>0.97778</b></span></td>
+      <td><span style="color:#17A589"><b>0.97778</b></span></td>
     </tr>
     <tr>
       <th>1336</th>
@@ -10740,7 +10740,7 @@ js:
       <td>19306.97729</td>
       <td>N/A</td>
       <td>0.00005</td>
-      <td><span style="color:#00FF00"><b>0.97778</b></span></td>
+      <td><span style="color:#17A589"><b>0.97778</b></span></td>
     </tr>
     <tr>
       <th>1337</th>
@@ -10852,7 +10852,7 @@ js:
       <td>100000.0</td>
       <td>N/A</td>
       <td>0.00001</td>
-      <td><span style="color:#00FF00"><b>0.97778</b></span></td>
+      <td><span style="color:#17A589"><b>0.97778</b></span></td>
     </tr>
     <tr>
       <th>1351</th>
@@ -12316,7 +12316,7 @@ js:
       <td>719.68567</td>
       <td>N/A</td>
       <td>0.00139</td>
-      <td><span style="color:#00FF00"><b>0.97778</b></span></td>
+      <td><span style="color:#17A589"><b>0.97778</b></span></td>
     </tr>
     <tr>
       <th>1534</th>
@@ -12428,7 +12428,7 @@ js:
       <td>3727.59372</td>
       <td>N/A</td>
       <td>0.00027</td>
-      <td><span style="color:#00FF00"><b>0.97778</b></span></td>
+      <td><span style="color:#17A589"><b>0.97778</b></span></td>
     </tr>
     <tr>
       <th>1548</th>
@@ -12540,7 +12540,7 @@ js:
       <td>19306.97729</td>
       <td>N/A</td>
       <td>0.00005</td>
-      <td><span style="color:#00FF00"><b>0.97778</b></span></td>
+      <td><span style="color:#17A589"><b>0.97778</b></span></td>
     </tr>
     <tr>
       <th>1562</th>
@@ -12652,7 +12652,7 @@ js:
       <td>100000.0</td>
       <td>N/A</td>
       <td>0.00001</td>
-      <td><span style="color:#00FF00"><b>0.97778</b></span></td>
+      <td><span style="color:#17A589"><b>0.97778</b></span></td>
     </tr>
     <tr>
       <th>1576</th>
