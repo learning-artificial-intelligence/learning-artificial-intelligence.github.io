@@ -50,109 +50,109 @@ js:
   <tbody>
     <tr>
       <td rowspan="1350"><b>C</b><sup>&sect;</sup></td>
-      <td rowspan="90"><b>0.00001</b></td>
+      <td rowspan="90"><b>1 &times; 10<sup>-5</b></td>
       <td rowspan="1350"><b>degree</b><sup>&dagger;</sup></td>
       <td rowspan="15"><b>1</b></td>
       <td rowspan="1350"><b>gamma</b><sup>&Dagger;</sup></td>
-      <td><b>0.00001</b></td>
+      <td><b>1 &times; 10<sup>-5</sup></b></td>
       <td></td>
       <td></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <td><b>2</b></td>
+      <td><b>5.17947468 &times; 10<sup>-5</sup></b></td>
       <td></td>
       <td></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <td><b>3</b></td>
+      <td><b>2.6826958 &times; 10<sup>-4</sup></b></td>
       <td></td>
       <td></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <td><b>4</b></td>
+      <td><b>1.38949549 &times; 10<sup>-3</sup></b></td>
       <td></td>
       <td></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <td><b>5</b></td>
+      <td><b>7.19685673 &times; 10<sup>-3</sup></b></td>
       <td></td>
       <td></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <td><b>6</b></td>
+      <td><b>3.72759372 &times; 10<sup>-2</sup></b></td>
       <td></td>
       <td></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <td><b>7</b></td>
+      <td><b>1.93069773 &times; 10<sup>-1</sup></b></td>
       <td></td>
       <td></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <td><b>8</b></td>
+      <td><b>1</b></td>
       <td></td>
       <td></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <td><b>9</b></td>
+      <td><b>5.17947468</b></td>
       <td></td>
       <td></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <td><b>10</b></td>
+      <td><b>2.6826958 &times; 10</b></td>
       <td></td>
       <td></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <td><b>11</b></td>
+      <td><b>1.38949549 &times; 10<sup>2</sup></b></td>
       <td></td>
       <td></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <td><b>12</b></td>
+      <td><b>7.19685673 &times; 10<sup>2</sup></b></td>
       <td></td>
       <td></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <td><b>13</b></td>
+      <td><b>3.72759372 &times; 10<sup>3</sup></b></td>
       <td></td>
       <td></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <td><b>14</b></td>
+      <td><b>1.93069773 &times; 10<sup>4</sup></b></td>
       <td></td>
       <td></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
-      <td><b>15</b></td>
+      <td><b>1 &times; 10<sup>5</sup></b></td>
       <td></td>
       <td></td>
       <td></td>
