@@ -12092,7 +12092,7 @@ js:
       <td>26.82696</td>
       <td>N/A</td>
       <td>0.03728</td>
-      <td>0.06667</td>
+      <td><span style="#C0392B"><b>0.06667</b></span></td>
     </tr>
     <tr>
       <th>1506</th>
@@ -12212,7 +12212,7 @@ js:
       <td>138.94955</td>
       <td>N/A</td>
       <td>0.03728</td>
-      <td>0.06667</td>
+      <td><span style="#C0392B"><b>0.06667</b></span></td>
     </tr>
     <tr>
       <th>1521</th>
@@ -12332,7 +12332,7 @@ js:
       <td>719.68567</td>
       <td>N/A</td>
       <td>0.03728</td>
-      <td>0.06667</td>
+      <td><span style="#C0392B"><b>0.06667</b></span></td>
     </tr>
     <tr>
       <th>1536</th>
@@ -12452,7 +12452,7 @@ js:
       <td>3727.59372</td>
       <td>N/A</td>
       <td>0.03728</td>
-      <td>0.06667</td>
+      <td><span style="#C0392B"><b>0.06667</b></span></td>
     </tr>
     <tr>
       <th>1551</th>
@@ -12572,7 +12572,7 @@ js:
       <td>19306.97729</td>
       <td>N/A</td>
       <td>0.03728</td>
-      <td>0.06667</td>
+      <td><span style="#C0392B"><b>0.06667</b></span></td>
     </tr>
     <tr>
       <th>1566</th>
@@ -12692,7 +12692,7 @@ js:
       <td>100000.0</td>
       <td>N/A</td>
       <td>0.03728</td>
-      <td>0.06667</td>
+      <td><span style="#C0392B"><b>0.06667</b></span></td>
     </tr>
     <tr>
       <th>1581</th>
