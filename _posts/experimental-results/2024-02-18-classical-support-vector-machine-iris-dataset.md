@@ -12,7 +12,7 @@ css:
 js:
 ---
 <script type="text/javascript" language="javascript" src="tablefilter/tablefilter.js"></script>
-<script>
+<script language="javascript" type="text/javascript">
   var filtersConfig = {
         base_path: "tablefilter/",
         col_1: "none",
