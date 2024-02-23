@@ -14,7 +14,7 @@ js:
 <script type="text/javascript" language="javascript" src="tablefilter/tablefilter.js"></script>
 <script language="javascript" type="text/javascript">
   var filtersConfig = {
-        base_path: "tablefilter/",
+        base_path: "tablefilter/tablefilter.js",
         col_1: "none",
         col_2: "select",
         col_3: "select",
