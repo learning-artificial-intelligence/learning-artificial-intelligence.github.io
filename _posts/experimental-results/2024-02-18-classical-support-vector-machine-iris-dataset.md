@@ -50,11 +50,11 @@ js:
   <tbody>
     <tr>
       <td rowspan="1350"><b>C</b><sup>&sect;</sup></td>
-      <td rowspan="90"><b>1</b></td>
+      <td rowspan="90"><b>0.00001</b></td>
       <td rowspan="1350"><b>degree</b><sup>&dagger;</sup></td>
       <td rowspan="15"><b>1</b></td>
       <td rowspan="1350"><b>gamma</b><sup>&Dagger;</sup></td>
-      <td><b>1</b></td>
+      <td><b>0.00001</b></td>
       <td></td>
       <td></td>
       <td></td>
@@ -6197,6 +6197,13 @@ js:
     </tr>
     <tr>
       <td><b>14</b></td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td><b>15</b></td>
       <td></td>
       <td></td>
       <td></td>
