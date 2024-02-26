@@ -12,7 +12,7 @@ css:
 js:
 ---
 <script type="text/javascript" language="javascript" src="https://github.com/learning-artificial-intelligence/learning-artificial-intelligence.github.io/blob/main/_posts/experimental-results/tablefilter/tablefilter.js"></script>
-<script language="javascript" type="text/javascript">
+<script>
   var filtersConfig = {
         base_path: "tablefilter/",
         col_1: "none",
