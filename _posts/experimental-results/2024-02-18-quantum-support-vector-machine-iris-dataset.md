@@ -114,7 +114,7 @@ js:
 <h2> Experimental Results </h2>
 
 <ul>
-  <li> The results... </li>
+  <li> The experimental results will be available soon... </li>
 </ul>
 
 

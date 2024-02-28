@@ -114,7 +114,7 @@ js:
 <h2> Experimental Results </h2>
 
 <ul>
-  <li> The results... </li>
+  <li> The experimental results... </li>
 </ul>
 
 <table id="classical-svm-iris-dataset-exp-results" border="1" class="tg">
