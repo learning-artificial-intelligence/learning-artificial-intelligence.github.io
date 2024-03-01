@@ -113,15 +113,18 @@ js:
 
 <h2> Experimental Results </h2>
 
+<ul>
+  <li> The experimental results will be available soon... </li>
+</ul>
+
 
 <hr>
 
 
 <h3> Local Optimizers </h3>
 
-<ul>
-  <li> The experimental results will be available soon... </li>
-</ul>
+
+<hr>
 
 
 <h4> ADAptive Moment (ADAM) </h4>
@@ -240,6 +243,9 @@ js:
 
 
 <h3> Global Optimizers </h3>
+
+
+<hr>
 
 
 <h4> Controlled Random Search (CRS) </h4>
