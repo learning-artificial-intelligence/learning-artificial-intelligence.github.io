@@ -182,7 +182,7 @@ js:
 <h4> DIviding RECTangles Locally-biased RANDndomized (DIRECT-L-RAND) </h4>
 
 
-<h4> Evolutionary Strategy - Carlos Henrique (ESCH) </h4>
+<h4> Evolutionary Strategy-Carlos Henrique (ESCH) </h4>
 
 
 <h4> Improved Stochastic Ranking Evolution Strategy (ISRES) </h4>
