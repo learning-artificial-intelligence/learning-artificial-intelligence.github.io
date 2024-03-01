@@ -113,61 +113,130 @@ js:
 
 <h2> Experimental Results </h2>
 
+
+<hr>
+
+
+<h3> Local Optimizers </h3>
+
 <ul>
   <li> The experimental results will be available soon... </li>
 </ul>
 
 
-<h3> Local Optimizers </h3>
-
-
 <h4> ADAptive Moment (ADAM) </h4>
+
+<ul>
+  <li> The experimental results will be available soon... </li>
+</ul>
 
 
 <h4> AccuMulated Squared GRADient (AMSGRAD) </h4>
 
+<ul>
+  <li> The experimental results will be available soon... </li>
+</ul>
+
 
 <h4> Conjugate Gradient (CG) </h4>
+
+<ul>
+  <li> The experimental results will be available soon... </li>
+</ul>
 
 
 <h4> Constrained Optimization By Linear Approximation (COBYLA) </h4>
 
+<ul>
+  <li> The experimental results will be available soon... </li>
+</ul>
+
 
 <h4> Limited-memory - Broyden-Fletcher-Goldfarb-Shanno - Bound (L-BFGS-B) </h4>
+
+<ul>
+  <li> The experimental results will be available soon... </li>
+</ul>
 
 
 <h4> Gaussian-Smoothed Line Search (GSLS) </h4>
 
+<ul>
+  <li> The experimental results will be available soon... </li>
+</ul>
+
 
 <h4> Gradient Descent (GD) </h4>
+
+<ul>
+  <li> The experimental results will be available soon... </li>
+</ul>
 
 
 <h4> Nakanishi-Fujii-Todo (NFT) </h4>
 
+<ul>
+  <li> The experimental results will be available soon... </li>
+</ul>
+
 
 <h4> Nelder Mead (NM) </h4>
+
+<ul>
+  <li> The experimental results will be available soon... </li>
+</ul>
 
 
 <h4> Parallelized - limited-memory - Broyden-Fletcher-Goldfarb-Shanno (P-BFGS) </h4>
 
+<ul>
+  <li> The experimental results will be available soon... </li>
+</ul>
+
 
 <h4> Powell </h4>
+
+<ul>
+  <li> The experimental results will be available soon... </li>
+</ul>
 
 
 <h4> Sequential Least SQuares Programming (SLSQP) </h4>
 
+<ul>
+  <li> The experimental results will be available soon... </li>
+</ul>
+
 
 <h4> Simultaneous Perturbation Stochastic Approximation (SPSA) </h4>
+
+<ul>
+  <li> The experimental results will be available soon... </li>
+</ul>
 
 
 <h4> Quantum Natural - Simultaneous Perturbation Stochastic Approximation (QNSPSA) </h4>
 
+<ul>
+  <li> The experimental results will be available soon... </li>
+</ul>
+
 
 <h4> Truncated Newton Conjugate (TNC) </h4>
+
+<ul>
+  <li> The experimental results will be available soon... </li>
+</ul>
 
 
 <h4> (Continuous) Univariate Marginal Distribution Algorithm (UMDA) </h4>
 
+<ul>
+  <li> The experimental results will be available soon... </li>
+</ul>
+
+
+<hr>
 
 
 <h3> Global Optimizers </h3>
@@ -175,17 +244,40 @@ js:
 
 <h4> Controlled Random Search (CRS) </h4>
 
+<ul>
+  <li> The experimental results will be available soon... </li>
+</ul>
+
 
 <h4> DIviding RECTangles Locally-biased (DIRECT-L) </h4>
+
+<ul>
+  <li> The experimental results will be available soon... </li>
+</ul>
 
 
 <h4> DIviding RECTangles Locally-biased RANDndomized (DIRECT-L-RAND) </h4>
 
+<ul>
+  <li> The experimental results will be available soon... </li>
+</ul>
+
 
 <h4> Evolutionary Strategy-Carlos Henrique (ESCH) </h4>
 
+<ul>
+  <li> The experimental results will be available soon... </li>
+</ul>
+
 
 <h4> Improved Stochastic Ranking Evolution Strategy (ISRES) </h4>
+
+<ul>
+  <li> The experimental results will be available soon... </li>
+</ul>
+
+
+<hr>
 
 
 
