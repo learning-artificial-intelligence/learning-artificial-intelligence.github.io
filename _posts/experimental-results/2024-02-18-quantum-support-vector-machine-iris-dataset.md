@@ -123,7 +123,7 @@ js:
       <th onclick="sortTable(0)">No.</th>
       <th onclick="sortTable(1)">Paulis<sup>&yen;</sup></th>
       <th onclick="sortTable(2)">Entanglement<sup>&sect;</sup></th>
-      <th onclick="sortTable(3)">Reps<sup>&dagger;</sup></th>
+      <th onclick="sortTable(3)">Reps.<sup>&dagger;</sup></th>
       <th onclick="sortTable(4)">Alpha<sup>&Dagger;</sup></th>
       <th onclick="sortTable(5)">Accuracy<sup>&para;</sup></th>
     </tr>
