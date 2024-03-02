@@ -67538,7 +67538,7 @@ js:
 <ul>
   <li> &yen; - This hyperparameter represents the <b>Pauli Operators Sequences' Combination</b>. </li>
   <li> &sect; - This hyperparameter represents the <b>Quantum Entanglement Structure</b>. </li>
-  <li> &dagger; - This hyperparameter represents the <b>Quantum Circuit Repetitions</b>. </li>
+  <li> &dagger; - This hyperparameter represents the <b>Number of Quantum Circuit Repetitions</b>. </li>
   <li> &Dagger; - This hyperparameter represents the <b>Pauli Rotation Factor</b>. This hyperparameter is also denoted by the Greek letter &alpha;. </li>
   <li> &para; - The higher <b>Accuracy</b> values are highlighted in <span style="color:#17A589"><b>green</b></span> and the lowest <b>Accuracy</b> values are highlighted in <span style="color:#C0392B"><b>red</b></span>. </li>
 </ul>
