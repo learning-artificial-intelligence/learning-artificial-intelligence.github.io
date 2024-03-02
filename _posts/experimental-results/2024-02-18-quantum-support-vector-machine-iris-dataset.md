@@ -121,10 +121,10 @@ js:
   <thead>
     <tr style="text-align: right;">
       <th onclick="sortTable(0)">No.</th>
-      <th onclick="sortTable(1)">Pauli Operators Sequences Combination</th>
-      <th onclick="sortTable(2)">Quantum Entanglement Structure</th>
-      <th onclick="sortTable(3)">Quantum Circuit Repetitions<sup>&dagger;</sup></th>
-      <th onclick="sortTable(4)">Pauli Rotation Factor<sup>&Dagger;</sup></th>
+      <th onclick="sortTable(1)">Paulis<sup>&yen;</sup></th>
+      <th onclick="sortTable(2)">Entanglement<sup>&sect;</sup></th>
+      <th onclick="sortTable(3)">Reps<sup>&dagger;</sup></th>
+      <th onclick="sortTable(4)">Alpha<sup>&Dagger;</sup></th>
       <th onclick="sortTable(5)">Accuracy<sup>&para;</sup></th>
     </tr>
   </thead>
@@ -67536,7 +67536,11 @@ js:
 <br />
 <b> Footnote(s): </b>
 <ul>
-  <li>TODO</li>
+  <li> &yen; - This hyperparameter represents the <b>Pauli Operators Sequences' Combination</b>. </li>
+  <li> &sect; - This hyperparameter represents the <b>Quantum Entanglement Structure</b>. </li>
+  <li> &dagger; - This hyperparameter represents the <b>Quantum Circuit Repetitions</b>. </li>
+  <li> &Dagger; - This hyperparameter represents the <b>Pauli Rotation Factor</b>. This hyperparameter is also denoted by the Greek letter &alpha;. </li>
+  <li> &para; - The higher <b>Accuracy</b> values are highlighted in <span style="color:#17A589"><b>green</b></span> and the lowest <b>Accuracy</b> values are highlighted in <span style="color:#C0392B"><b>red</b></span>. </li>
 </ul>
 
 <hr>
