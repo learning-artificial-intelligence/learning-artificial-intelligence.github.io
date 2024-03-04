@@ -127,112 +127,112 @@ js:
 <hr>
 
 
-<h4> ADAptive Moment (ADAM) </h4>
+<h5> ADAptive Moment (ADAM) </h5>
 
 <ul>
   <li> The experimental results will be available soon... </li>
 </ul>
 
 
-<h4> AccuMulated Squared GRADient (AMSGRAD) </h4>
+<h5> AccuMulated Squared GRADient (AMSGRAD) </h5>
 
 <ul>
   <li> The experimental results will be available soon... </li>
 </ul>
 
 
-<h4> Conjugate Gradient (CG) </h4>
+<h5> Conjugate Gradient (CG) </h5>
 
 <ul>
   <li> The experimental results will be available soon... </li>
 </ul>
 
 
-<h4> Constrained Optimization By Linear Approximation (COBYLA) </h4>
+<h5> Constrained Optimization By Linear Approximation (COBYLA) </h5>
 
 <ul>
   <li> The experimental results will be available soon... </li>
 </ul>
 
 
-<h4> Limited-memory - Broyden-Fletcher-Goldfarb-Shanno - Bound (L-BFGS-B) </h4>
+<h5> Limited-memory - Broyden-Fletcher-Goldfarb-Shanno - Bound (L-BFGS-B) </h5>
 
 <ul>
   <li> The experimental results will be available soon... </li>
 </ul>
 
 
-<h4> Gaussian-Smoothed Line Search (GSLS) </h4>
+<h5> Gaussian-Smoothed Line Search (GSLS) </h5>
 
 <ul>
   <li> The experimental results will be available soon... </li>
 </ul>
 
 
-<h4> Gradient Descent (GD) </h4>
+<h5> Gradient Descent (GD) </h5>
 
 <ul>
   <li> The experimental results will be available soon... </li>
 </ul>
 
 
-<h4> Nakanishi-Fujii-Todo (NFT) </h4>
+<h5> Nakanishi-Fujii-Todo (NFT) </h5>
 
 <ul>
   <li> The experimental results will be available soon... </li>
 </ul>
 
 
-<h4> Nelder Mead (NM) </h4>
+<h5> Nelder Mead (NM) </h5>
 
 <ul>
   <li> The experimental results will be available soon... </li>
 </ul>
 
 
-<h4> Parallelized - limited-memory - Broyden-Fletcher-Goldfarb-Shanno (P-BFGS) </h4>
+<h5> Parallelized - limited-memory - Broyden-Fletcher-Goldfarb-Shanno (P-BFGS) </h5>
 
 <ul>
   <li> The experimental results will be available soon... </li>
 </ul>
 
 
-<h4> Powell </h4>
+<h5> Powell </h5>
 
 <ul>
   <li> The experimental results will be available soon... </li>
 </ul>
 
 
-<h4> Sequential Least SQuares Programming (SLSQP) </h4>
+<h5> Sequential Least SQuares Programming (SLSQP) </h5>
 
 <ul>
   <li> The experimental results will be available soon... </li>
 </ul>
 
 
-<h4> Simultaneous Perturbation Stochastic Approximation (SPSA) </h4>
+<h5> Simultaneous Perturbation Stochastic Approximation (SPSA) </h5>
 
 <ul>
   <li> The experimental results will be available soon... </li>
 </ul>
 
 
-<h4> Quantum Natural - Simultaneous Perturbation Stochastic Approximation (QNSPSA) </h4>
+<h5> Quantum Natural - Simultaneous Perturbation Stochastic Approximation (QNSPSA) </h5>
 
 <ul>
   <li> The experimental results will be available soon... </li>
 </ul>
 
 
-<h4> Truncated Newton Conjugate (TNC) </h4>
+<h5> Truncated Newton Conjugate (TNC) </h5>
 
 <ul>
   <li> The experimental results will be available soon... </li>
 </ul>
 
 
-<h4> (Continuous) Univariate Marginal Distribution Algorithm (UMDA) </h4>
+<h5> (Continuous) Univariate Marginal Distribution Algorithm (UMDA) </h5>
 
 <ul>
   <li> The experimental results will be available soon... </li>
@@ -248,35 +248,35 @@ js:
 <hr>
 
 
-<h4> Controlled Random Search (CRS) </h4>
+<h5> Controlled Random Search (CRS) </h5>
 
 <ul>
   <li> The experimental results will be available soon... </li>
 </ul>
 
 
-<h4> DIviding RECTangles Locally-biased (DIRECT-L) </h4>
+<h5> DIviding RECTangles Locally-biased (DIRECT-L) </h5>
 
 <ul>
   <li> The experimental results will be available soon... </li>
 </ul>
 
 
-<h4> DIviding RECTangles Locally-biased RANDndomized (DIRECT-L-RAND) </h4>
+<h5> DIviding RECTangles Locally-biased RANDndomized (DIRECT-L-RAND) </h5>
 
 <ul>
   <li> The experimental results will be available soon... </li>
 </ul>
 
 
-<h4> Evolutionary Strategy-Carlos Henrique (ESCH) </h4>
+<h5> Evolutionary Strategy-Carlos Henrique (ESCH) </h5>
 
 <ul>
   <li> The experimental results will be available soon... </li>
 </ul>
 
 
-<h4> Improved Stochastic Ranking Evolution Strategy (ISRES) </h4>
+<h5> Improved Stochastic Ranking Evolution Strategy (ISRES) </h5>
 
 <ul>
   <li> The experimental results will be available soon... </li>
