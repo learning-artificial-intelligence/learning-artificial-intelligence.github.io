@@ -99,7 +99,7 @@ js:
 
 <hr>
 
-<h1> Experimental Results for Quantum (Enhanced) Support Vector Machine (QSVM) with Quantum Kernel Training (QKT) on IRIS Dataset </h1>
+<h1> Experimental Results for Quantum (Enhanced) Support Vector Machine (QSVM) with Quantum Kernel Training (QKT)/Quantum Kernel Alignment (QKA) on IRIS Dataset </h1>
 
 <hr>
 
