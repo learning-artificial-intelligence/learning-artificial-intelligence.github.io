@@ -119,7 +119,7 @@ js:
 
 <table id="quantum-svm-iris-dataset-exp-results" border="1" class="tg">
   <thead>
-    <tr style="text-align: right;">
+    <tr style="text-align: center;">
       <th onclick="sortTable(0)">No.</th>
       <th onclick="sortTable(1)">Paulis<sup>&yen;</sup></th>
       <th onclick="sortTable(2)">Entanglement<sup>&sect;</sup></th>
