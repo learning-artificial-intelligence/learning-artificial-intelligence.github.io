@@ -67528,7 +67528,7 @@ js:
 <br />
 <b> Note(s): </b>
 <ul>
-  <li> For these results, was used the <b>Quantum Support Vector Classifier (QSVC)</b> from <a href="https://www.ibm.com/quantum/qiskit"><b>Qiskit</b></a> library, namely through the <a href="https://qiskit-community.github.io/qiskit-machine-learning/index.html"><b>Qiskit Machine Learning</b></a> module. For more information, see the following link:</li>
+  <li> For these results, it was used the <b>Quantum Support Vector Classifier (QSVC)</b> from <a href="https://www.ibm.com/quantum/qiskit"><b>Qiskit</b></a> library, namely through the <a href="https://qiskit-community.github.io/qiskit-machine-learning/index.html"><b>Qiskit Machine Learning</b></a> module. For more information, see the following link:</li>
   <ul>
     <li> <a href="https://qiskit-community.github.io/qiskit-machine-learning/stubs/qiskit_machine_learning.algorithms.QSVC.html">https://qiskit-community.github.io/qiskit-machine-learning/stubs/qiskit_machine_learning.algorithms.QSVC.html</a> </li>
   </ul>

@@ -605,9 +605,17 @@ js:
 <br />
 <b> Note(s): </b>
 <ul>
-  <li> For these results, was used the <b>Quantum Support Vector Classifier (QSVC)</b> from <a href="https://www.ibm.com/quantum/qiskit"><b>Qiskit</b></a> library, namely through the <a href="https://qiskit-community.github.io/qiskit-machine-learning/index.html"><b>Qiskit Machine Learning</b></a> module. For more information, see the following link:</li>
+  <li> For these results, it was used the <b>Quantum Support Vector Classifier (QSVC)</b> from <a href="https://www.ibm.com/quantum/qiskit"><b>Qiskit</b></a> library, namely through the <a href="https://qiskit-community.github.io/qiskit-machine-learning/index.html"><b>Qiskit Machine Learning</b></a> module. For more information, see the following link: </li>
   <ul>
     <li> <a href="https://qiskit-community.github.io/qiskit-machine-learning/stubs/qiskit_machine_learning.algorithms.QSVC.html">https://qiskit-community.github.io/qiskit-machine-learning/stubs/qiskit_machine_learning.algorithms.QSVC.html</a> </li>
+  </ul>
+  <li> Additionally, was also used the <b>Quantum Kernel Trainer</b> for the <b>Quantum Kernel Training (QKT)</b>/<b>Quantum Kernel Alignment (QKA)</b> complementar task, namely through the <a href="https://qiskit-community.github.io/qiskit-machine-learning/index.html"><b>Qiskit Machine Learning</b></a> module. For more information, see the following link: </li>
+  <ul>
+    <li> <a href="https://qiskit-community.github.io/qiskit-machine-learning/stubs/qiskit_machine_learning.kernels.algorithms.QuantumKernelTrainer.html">https://qiskit-community.github.io/qiskit-machine-learning/stubs/qiskit_machine_learning.kernels.algorithms.QuantumKernelTrainer.html</a> </li>
+  </ul>
+  <li> For the optimization algorithm chosen for the <b>Quantum Kernel Trainer</b>, it was used the <b>ADAptive Moment (ADAM)</b> optimizer. For more information, see the following links: </li>
+  <ul>
+    <li> <a href="https://qiskit-community.github.io/qiskit-algorithms/stubs/qiskit_algorithms.optimizers.ADAM.html">https://qiskit-community.github.io/qiskit-algorithms/stubs/qiskit_algorithms.optimizers.ADAM.html</a> </li>
   </ul>
 </ul>
 <br />
