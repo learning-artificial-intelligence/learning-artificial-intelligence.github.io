@@ -20,7 +20,6 @@ js:
         col_3: "select",
         col_4: "select",
         col_5: "select",
-        col_6: "select",
         alternate_rows: true,
         rows_counter: true,
         btn_reset: true,
@@ -33,7 +32,7 @@ js:
     };
     
   var tableFilter = 
-      new TableFilter("quantum-svm-iris-dataset-exp-results",
+      new TableFilter("quantum-svm-qkt-qka-adam-optimizer-iris-dataset-exp-results",
                       filtersConfig);
 
   tableFilter.init();
@@ -41,7 +40,7 @@ js:
 <script>
   function sortTable(n) {
     var table, rows, switching, i, x, y, shouldSwitch, dir, switchcount = 0;
-    table = document.getElementById("quantum-svm-iris-dataset-exp-results");
+    table = document.getElementById("quantum-svm-qkt-qka-adam-optimizer-iris-dataset-exp-results");
     switching = true;
     // Set the sorting direction to ascending:
     dir = "asc";
@@ -133,7 +132,7 @@ js:
   <li> The experimental results... </li>
 </ul>
 
-<table id="quantum-svm-iris-dataset-exp-results" border="1" class="tg">
+<table id="quantum-svm-qkt-qka-adam-optimizer-iris-dataset-exp-results" border="1" class="tg">
   <thead>
     <tr style="text-align: center;">
       <th onclick="sortTable(0)">No.</th>
@@ -233,7 +232,7 @@ js:
       <td>20</td>
       <td>1e-08</td>
       <td>1.0</td>
-      <td>1.00000</td>
+      <td><span style="color:#17A589"><b>1.00000</b></span></td>
     </tr>
     <tr>
       <th>13</th>
@@ -324,7 +323,7 @@ js:
       <td>20</td>
       <td>1e-07</td>
       <td>1.0</td>
-      <td>1.00000</td>
+      <td><span style="color:#17A589"><b>1.00000</b></span></td>
     </tr>
     <tr>
       <th>26</th>
@@ -415,7 +414,7 @@ js:
       <td>20</td>
       <td>1e-06</td>
       <td>1.0</td>
-      <td>1.00000</td>
+      <td><span style="color:#17A589"><b>1.00000</b></span></td>
     </tr>
     <tr>
       <th>39</th>
@@ -506,7 +505,7 @@ js:
       <td>20</td>
       <td>1e-05</td>
       <td>1.0</td>
-      <td>1.00000</td>
+      <td><span style="color:#17A589"><b>1.00000</b></span></td>
     </tr>
     <tr>
       <th>52</th>
@@ -597,10 +596,28 @@ js:
       <td>20</td>
       <td>0.0001</td>
       <td>1.0</td>
-      <td>1.00000</td>
+      <td><span style="color:#17A589"><b>1.00000</b></span></td>
     </tr>
   </tbody>
 </table>
+
+
+<br />
+<b> Note(s): </b>
+<ul>
+  <li> For these results, was used the <b>Quantum Support Vector Classifier (QSVC)</b> from <a href="https://www.ibm.com/quantum/qiskit"><b>Qiskit</b></a> library, namely through the <a href="https://qiskit-community.github.io/qiskit-machine-learning/index.html"><b>Qiskit Machine Learning</b></a> module. For more information, see the following link:</li>
+  <ul>
+    <li> <a href="https://qiskit-community.github.io/qiskit-machine-learning/stubs/qiskit_machine_learning.algorithms.QSVC.html">https://qiskit-community.github.io/qiskit-machine-learning/stubs/qiskit_machine_learning.algorithms.QSVC.html</a> </li>
+  </ul>
+</ul>
+<br />
+<b> Footnote(s): </b>
+<ul>
+  <li> &yen; - This hyperparameter represents the <b>Maximum Number of Iterations</b> of the optimizer. </li>
+  <li> &sect; - This hyperparameter represents the <b>Tolerance Error</b> of the optimizer. </li>
+  <li> &dagger; - This hyperparameter represents the <b>Learning Rate</b> of the optimizer. </li>
+  <li> &Dagger; - The higher <b>Accuracy</b> values are highlighted in <span style="color:#17A589"><b>green</b></span> and the lowest <b>Accuracy</b> values are highlighted in <span style="color:#C0392B"><b>red</b></span>. </li>
+</ul>
 
 
 <h5> AccuMulated Squared GRADient (AMSGRAD) </h5>
