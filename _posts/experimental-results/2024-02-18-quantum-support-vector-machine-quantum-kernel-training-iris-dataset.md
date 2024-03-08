@@ -620,6 +620,9 @@ js:
 </ul>
 
 
+<hr>
+
+
 <h5> AccuMulated Squared GRADient (AMSGRAD) </h5>
 
 <ul>
